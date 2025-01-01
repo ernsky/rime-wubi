@@ -38,4 +38,4 @@
 7. 可实现五笔连打，以及同英语混输。
 
 # 86版五笔字根改版表
-![86版五笔字根改版表](https://github.com/ernsky/tuku/blob/main/image/WallPaper-005-3120x2080.png)
+![86版五笔字根改版表]([https://github.com/ernsky/tuku/blob/main/image/WallPaper-005-3120x2080.png](https://github.com/ernsky/tuku/blob/01407ccfa2add1b3782bd338bc339b9aa2748e47/image/WallPaper-005-3120x2080.png))
