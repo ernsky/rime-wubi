@@ -17,16 +17,16 @@
 授權條款：見 [LICENSE](LICENSE)
 
 # 参考
-[beavailable](https://github.com/beavailable/better-wubi)
-[在线配色方案](https://fxliang.github.io/RimeSeeMe/)
-[雾淞拼音](https://github.com/iDvel/rime-ice)
-[四叶草拼音方案](https://github.com/fkxxyz/rime-cloverpinyin)
-[极点五笔方案](https://github.com/KyleBing/rime-wubi86-jidian)
-[空山明月方案](http://98wb.ysepan.com/)
-[新世纪词库集成](https://06wb.github.io/Tables/index.html)——里面收集了很多资源
-[白霜拼音](https://github.com/gaboolic/rime-frost)
-[小鹤双拼](https://github.com/boomker/rime-fast-xhup)——这个里面有手动加词语法
-[输入方案排名](https://github.com/ayaka14732/awesome-rime)
+1. [beavailable](https://github.com/beavailable/better-wubi) ——采用这个编码规则。
+2. [在线配色方案](https://fxliang.github.io/RimeSeeMe/)
+3. [雾淞拼音](https://github.com/iDvel/rime-ice)
+4. [四叶草拼音方案](https://github.com/fkxxyz/rime-cloverpinyin)
+5. [极点五笔方案](https://github.com/KyleBing/rime-wubi86-jidian)
+6. [空山明月方案](http://98wb.ysepan.com/)
+7. [新世纪词库集成](https://06wb.github.io/Tables/index.html) ——里面收集了很多资源
+8. [白霜拼音](https://github.com/gaboolic/rime-frost)
+9. [小鹤双拼](https://github.com/boomker/rime-fast-xhup) ——这个里面有手动加词语法
+10. [输入方案排名](https://github.com/ayaka14732/awesome-rime)
 
 # 用法
 1. 可快速输入Markdown主要代码。如标题、代码、引用……，若要调整，在symbols.yaml文件里，当然，一些快捷的符号，都在这里，可翻看翻看，很好用。这项在wubi86.user里面修改。
