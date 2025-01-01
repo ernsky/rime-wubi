@@ -43,8 +43,8 @@ engine:
     - punct_translator
     - reverse_lookup_translator
     - table_translator
-    - lua_translator@*wubi86_date_translator                 # 日期、时间、星期
-    - lua_translator@*wubi86_number_translator               # 大写字母
+    - lua_translator@*date_translator                 # 日期、时间、星期
+    - lua_translator@*number_translator               # 大写字母
     - table_translator@*long_word_filter                     # 长词优先
     - table_translator@*is_in_user_dict                      # 英文输入
     - table_translator@custom_phrase                         # 自定义短语 custom_phrase.txt
@@ -56,8 +56,8 @@ engine:
     - lua_filter@*pin_cand_filter                            # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）
     - lua_filter@*long_word_filter                           # 长词优先（顺序要求：长词优先 > Emoji）
 #    - lua_filter@*cold_word_drop_filter                     # 词条隐藏、降频
-#    - lua_filter@*wubi86_single_char_first_filter           # 单字优先
-#    - lua_filter@*wubi86_single_char_only                   # 纯单字
+#    - lua_filter@*single_char_first_filter           # 单字优先
+#    - lua_filter@*single_char_only                   # 纯单字
 
 
 translator:
