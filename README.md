@@ -36,3 +36,6 @@
 5. 五笔和拼音，启动时，全部改为了英文状态。
 6. 输入riqi、sjian、week可快速输入当前日期和时间。
 7. 可实现五笔连打，以及同英语混输。
+
+# 86版五笔字根改版表
+![86版五笔字根改版表](https://github.com/ernsky/tuku/blob/main/image/WallPaper-005-3120x2080.png)
