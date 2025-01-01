@@ -84,8 +84,8 @@ engine:
     - punct_translator                           #  配合`punct_segmentor`转换标点符号
     - reverse_lookup_translator
     - table_translator                           #  码表翻译器，用于仓颉、五笔等基于码表的输入方案
-    - lua_translator@*wubi86_date_translator     # 日期、时间、星期
-    - lua_translator@*wubi86_number_translator   # 大写字母
+    - lua_translator@*date_translator     # 日期、时间、星期
+    - lua_translator@*number_translator   # 大写字母
     - history_translator@repeat_last_input       # 重复上一次输入，对应下面的 repeat_last_input
     - table_translator@melt_eng                  # 英文输入
     - lua_translator@*long_phrase_first          # 长词优先
@@ -96,8 +96,8 @@ engine:
     - lua_filter@*autocap_filter                 # 英文自动大写
     - lua_filter@*en_spacer                      # 启用时中文状态下输入英文单词后面自动追加空格
     - lua_filter@*long_word_filter               # 长词优先
-#    - lua_filter@*wubi86_single_char_first_filter  # 单字优先
-#    - lua_filter@*wubi86_single_char_only        # 纯单字
+#    - lua_filter@*single_char_first_filter  # 单字优先
+#    - lua_filter@*single_char_only        # 纯单字
 
 speller:
   auto_select: true                        #  自動上屛
@@ -239,4 +239,3 @@ repeat_last_input:
   input: z
   size: 1
   initial_quality: 1.5
-
