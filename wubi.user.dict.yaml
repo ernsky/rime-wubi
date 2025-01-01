@@ -1,0 +1,9447 @@
+# Rime dictionary: wubi.extended
+# encoding: utf-8
+---
+name: wubi.user    # 用户词库
+version: "2024-12-19"
+sort: by_weight    # original原始词序，by_weight按字重
+dict_grouped: true # 词库管理应用识别：标记该码表为分组模式
+columns:
+  - text
+  - code
+  - weight
+  - stem
+...
+## -增补----------先加到这里，后面再分类			
+温漂	ijis	33384	
+滴滴	iuiu	36798	
+韩元	fjfq	35454	
+## -隐私信息-			
+
+## -人名-			
+明斯基	jaad	50000	
+尹锡悦	vqnu	99	
+诺贝尔	ymqi	39258	
+马斯克	cadq	25786	
+王阳明	gbje	34888	
+周恩来	mlgo	42850	
+诸葛亮	yayp	41295	
+朱自清	rtig	32791	
+李小龙	sidx	39255	
+埃德温	ftij	27820	
+卡洛斯	hiad	36552	
+胡锦涛	dqid	42399	
+柯南	ssfm	40751	
+习近平	nrgu	36116	
+艾伦	aqww	37281	
+秦始皇	dvrg	40403	
+图灵	ltvo	31377	
+皮卡丘	hhrg	37155	
+鲍威尔	pdqi	28586	
+摩根	yssv	37591	
+黑格尔	lsqi	35570	
+费尔巴哈	xqck	19989	
+马哲	cnrr	34269	
+达尔文	dqyy	37314	
+苏东坡	aafh	37914	
+巴菲特	carh	40446	
+特朗普	ryuo	25724	
+林毅夫	sufw	34266	
+董明珠	ajgr	32694	
+王自如	gtvk	25724	
+小沈阳	iibj	41715	
+朱军	ripl	39000	
+白岩松	rmsw	34844	
+宋小宝	pipg	23687	
+拜登	rdog	33288	
+郭德纲	ytxm	41530	
+于谦	sgyu	36944	
+岳云鹏	rfee	34710	
+雷军	klpl	32732	
+周星驰	mjcb	40914	
+刘亦菲	yyaj	40614	
+王朔	ggub	37580	
+马思纯	clxg	25847	
+哈里斯	kjad	35812	
+樊振东	srai	14889	
+张继科	xxtu	34785	
+王楚钦	gsqq	12000	
+陈梦	bass	30476	
+孙颖莎	bxai	12000	
+许昕	ytjr	34478	
+丁宁	sgps	36699	
+朱雨玲	rkgw	12000	
+张怡宁	xnps	36304	
+刘国梁	yliv	36566	
+孔令辉	bwiq	34288	
+邓亚萍	cgai	35481	
+全红婵	wxvu	12000	
+李佳琦	swgd	18016	
+谢春花	ydaw	18016	
+王贰浪	gaiy	12000	
+王筝	ggtq	40174	
+阿悄	bsni	12000	
+薛之谦	apyu	32780	
+张碧晨	xgjd	14889	
+那英	vfam	38194	
+王菲	ggaj	44494	
+庆庆	ydyd	33539	
+周杰伦	msww	43378	
+陈粒	baou	517	
+解忧邵帅	qnvj	12000	
+龙梅子	dsbb	31513	
+张峰奇	xmds	26396	
+莫艳琳	adgs	31913	
+陈雪凝	bkux	12000	
+李荣浩	sair	22781	
+陈慧娴	bdvu	33890	
+郑源	udid	29882	
+华晨宇	wjps	14889	
+邓紫棋	chsa	29387	
+张蔷	xtaf	28654	
+王心凌	gnuf	37477	
+蔡依林	awss	40688	
+孙燕姿	bauq	39167	
+莫叫姐姐	akvv	12000	
+徐怀钰	tnqg	36363	
+姫神	vapy	12000	
+李玟	sbgy	35028	
+韩红	fjxa	37232	
+五月天	gegd	36403	
+毛不易	tdjq	12000	
+刘烨溦	yoim	12000	
+凤凰传奇	mmwd	32633	
+张杰	xtso	40771	
+周韵	mfuj	34530	
+姜文	ugyy	38266	
+姜武	ugga	33787	
+舒淇	wfia	39161	
+赵薇	fhat	42948	
+葛尤	ajdn	12000	
+甄子丹	sbmy	39737	
+李连杰	slso	40582	
+姚晨	vqjd	39182	
+王洛丹	gimy	12000	
+孙红雷	bxkl	38742	
+沙溢	iiiu	33571	
+张艺谋	xaya	41840	
+郭达	ybdp	29034	
+费翔	xjud	33198	
+周冬雨	mtkg	30759	
+宋丹丹	pmmy	36128	
+秦岚	dwmm	35134	
+于和伟	stwf	30404	
+王子文	gbyy	26899	
+范伟	aiwf	38454	
+倪妮	wevn	29262	
+奈斯	dfad	31066	
+子非鱼	bjpt	26346	
+## -外国国地名-			
+首尔	utqi	38577	
+阿联酋	bbus	37570	
+孟加拉	blru	36165	
+德意志	tufn	37504	
+加沙	lkii	38819	
+凡尔赛	mqpf	32754	
+## -组织名-			
+基督教	ahfb	36738	
+优衣库	wyyl	43199	
+巴克莱	cdag	33384	
+英伟达	awdp	30355	
+优衣库	wyyl	43199	
+融创	gkwb	38476	
+德邦	tfdt	38149	
+德克士	tdfg	37453	
+人保	wwwk	35546	
+## -Markdown-			
+[^]:	efiy	25001	脚注
+<!--  -->	iyto	25002	注释
+![]()	tp	25003	图片
+[]()	lj	25004	链接
+``	dm	25005	行内代码
+```	co	25006	代码块
+- [ ]	td	25007	待办
+****	qd	25008	强调
+> [!note] 笔记	note	25009	笔记
+> [!info] 提示信息	info	25010	信息
+> [!abstract] 真理	abs	25011	信息
+> [!summary] 总结	sum	25012	信息
+> [!tldr] 信息	tldr	25013	信息
+> [!todo] 待办事项	todo	25014	待办
+> [!tip] 提示	tip	25015	提示
+> [!hint] 信息	hint	25016	信息
+> [!important] 要点	imp	25017	要点
+> [!success] 成功	suc	25018	成功
+> [!check] 检查	che	25019	检查
+> [!done] 已完成	done	25020	完成
+> [!question] 疑问	que	25021	问题
+> [!help] 求助	help	25022	求助
+> [!faq] 回复	faq	25023	问答
+> [!warning] 警告	war	25024	警告
+> [!caution] 警示	cau	25025	警示
+> [!attention] 注意	att	25026	注意
+> [!failure] 失败	fai	25027	失败
+> [!fail] 失败	fail	25028	失败
+> [!missing] 丢失	mis	25029	丢失
+> [!danger] 危险	dan	25030	危险
+> [!error] 错误	err	25031	错误
+> [!bug] bug	bug	25032	bug
+> [!example] 示例	exa	25033	例子
+> [!quote] 引文	quo	25034	问题
+> [!cite] 引用	cite	25035	引用
+## -符号-			
+%	djwv	49769	百分之…
+Ø	fhtc	10000	
+㎥	mmm	9999	
+㎩	papa	9998	
+|	hcxg	9997	竖线
+｜	jcuf	9996	竖线
+§	abj	9995	章节
+¨	hkou	9994	点
+°	oooo	9993	度
+±	ghqm	9992	正负
+×	tuxv	9991	乘
+÷	bwty	9990	除
+‖	jcuf	9989	竖
+‥	hkou	9988	点
+…	hkou	9987	点
+‰	twpp	9986	千分之
+※	cdft	9985	参考
+€	aqfq	9984	欧元
+℃	oc	9983	摄氏度
+℉	ffll	9982	华氏度
+№	noll	9981	数号
+℡	tell	9980	电话
+←	tuud	9979	箭头
+↑	tuud	9978	箭头
+→	tuud	9977	箭头
+↓	tuud	9976	箭头
+↖	tuud	9975	箭头
+↗	tuud	9974	箭头
+↘	tuud	9973	箭头
+↙	tuud	9972	箭头
+∈	ntgf	9971	属于
+∑	oitk	9970	乘积
+∏	oitk	9969	求和
+√	gysv	9968	平方根
+∝	ghxx	9967	正比
+∞	fpdd	9966	无穷大
+∟	qej	9965	角
+∠	qej	9964	角
+∣	gkbw	9963	整除
+∥	gutf	9962	平行
+∧	gngd	9961	与
+∨	akgd	9960	或
+∩	uqwy	9959	交集
+∪	uawy	9958	并集
+∫	tkwv	9957	积分
+∮	tkwv	9956	积分
+∴	rnny	9955	所以
+∵	ldyl	9954	因为
+∶	xxn	9953	比
+∷	oitk	9952	正比
+∽	ssll	9951	s
+≈	xtgf	9950	约等于
+≌	wtgf	9949	全等于
+≒	oitk	9948	全等于
+≠	gtgf	9947	不等于
+≡	ntgf	9946	恒等于
+≤	igtg	9945	小于等于
+≥	dgtg	9944	大于等于
+≦	oitk	9943	小于等于
+≧	oitk	9942	大于等于
+≮	oitk	9941	不小于
+≯	oitk	9940	不大于
+⊕	lkmi	9939	圆
+⊙	lkmi	9938	圆
+⊥	oitk	9937	垂直
+⊿	oitk	9936	三角
+⌒	attk	9935	弧
+①	glll	9934	1
+②	fgll	9933	2
+③	dgll	9932	3
+④	lhll	9931	4
+⑤	ggll	9930	5
+⑥	uyll	9929	6
+⑦	agll	9928	7
+⑧	wtll	9927	8
+⑨	vtll	9926	9
+⑩	fghl	9925	10
+㈠	glll	9924	一
+㈡	fgll	9923	二
+㈢	dgll	9922	三
+㈣	lhll	9921	四
+㈤	ggll	9920	五
+㈥	uyll	9919	六
+㈦	agll	9918	七
+㈧	wtll	9917	八
+㈨	vtll	9916	九
+㈩	fghl	9915	十
+⑴	glll	9914	1
+⑵	fgll	9913	2
+⑶	dgll	9912	3
+⑷	lhll	9911	4
+⑸	ggll	9910	5
+⑹	uyll	9909	6
+⑺	agll	9908	7
+⑻	wtll	9907	8
+⑼	vtll	9906	9
+⑽	fghl	9905	10
+⑾	fggg	9904	11
+⑿	fgfg	9903	12
+⒀	fgdg	9902	13
+⒁	fglh	9901	14
+⒂	fggg	9900	15
+⒃	fguy	9899	16
+⒄	fgag	9898	17
+⒅	fgwt	9897	18
+⒆	fgvt	9896	19
+⒇	fgfg	9895	20
+⒈	glll	9894	1
+⒉	fgll	9893	2
+⒊	dgll	9892	3
+⒋	lhll	9891	4
+⒌	ggll	9890	5
+⒍	uyll	9889	6
+⒎	agll	9888	7
+⒏	wtll	9887	8
+⒐	vtll	9886	9
+⒑	fghl	9885	10
+⒒	fggg	9884	11
+⒓	fgfg	9883	12
+⒔	fgdg	9882	13
+⒕	fglh	9881	14
+⒖	fggg	9880	15
+⒗	fguy	9879	16
+⒘	fgag	9878	17
+⒙	fgwt	9877	18
+⒚	fgvt	9876	19
+⒛	fgfg	9875	20
+Ⅰ	glll	9874	一
+Ⅱ	fgll	9873	二
+Ⅲ	dgll	9872	三
+Ⅳ	lhll	9871	四
+Ⅴ	ggll	9870	五
+Ⅵ	uyll	9869	六
+Ⅶ	agll	9868	七
+Ⅷ	wtll	9867	八
+Ⅸ	vtll	9866	九
+Ⅹ	fghl	9865	十
+Ⅺ	fggg	9864	十一
+Ⅻ	fgfg	9863	十二
+■	mwlg	9862	三角
+▲	mwlg	9861	三角
+△	mwlg	9860	三角
+▼	mwlg	9859	三角
+▽	mwlg	9858	三角
+◆	mwlg	9857	菱形
+◇	mwlg	9856	菱形
+○	llll	9855	圆
+◎	mwlg	9854	圆
+●	mwlg	9853	圆
+◢	dgqe	9852	三角
+◣	dgqe	9851	三角
+◤	dgqe	9850	三角
+◥	dgqe	9849	三角
+★	gqjt	9848	星号
+☆	gqjt	9847	星号
+☉	votk	9846	男女
+♀	votk	9845	男女
+♂	votk	9844	男女
+、	gbkg	9843	顿号
+。	qkkg	9842	句号
+〃	mghh	9841	同上
+々	qyi	9840	重复
+〇	llll	9839	零
+〈	nqkg	9838	书名号
+〉	nqkg	9837	书名号
+》	nqkg	9836	书名号
+¤	wxtm	9835	书名号
+【	rtkg	9834	括号
+】	rtkg	9833	括号
+〖	rtkg	9832	括号
+〗	rtkg	9831	括号
+〡	glll	9830	一
+〢	fgll	9829	二
+〣	dgll	9828	三
+〤	lhll	9827	四
+〥	ggll	9826	五
+〦	uyll	9825	六
+〧	agll	9824	七
+〨	wtll	9823	八
+〩	vtll	9822	九
+ㄅ	bbll	9821	b
+ㄆ	ppll	9820	p
+ㄇ	mmll	9819	m
+ㄈ	ffll	9818	f
+ㄉ	ddll	9817	d
+ㄊ	ttll	9816	t
+ㄋ	nnll	9815	n
+ㄌ	llll	9814	l
+ㄍ	ggll	9813	g
+ㄎ	kkll	9812	k
+ㄏ	hhll	9811	h
+ㄐ	jjll	9810	j
+ㄑ	qqll	9809	q
+ㄒ	xxll	9808	x
+ㄓ	lhll	9807	zh
+ㄔ	chll	9806	ch
+ㄕ	shll	9805	sh
+ㄖ	rrll	9804	ri
+ㄗ	llll	9803	zi
+ㄘ	clll	9802	ci
+ㄙ	slll	9801	si
+ㄚ	aall	9800	a
+ㄛ	ooll	9799	o
+ㄜ	eell	9798	e
+ㄝ	eell	9797	eh
+ㄞ	aill	9796	ai
+ㄟ	eill	9795	ei
+ㄠ	aoll	9794	ao
+ㄡ	oull	9793	ou
+ㄢ	anll	9792	an
+ㄣ	enll	9791	en
+ㄤ	angl	9790	ang
+ㄥ	engl	9789	eng
+ㄦ	erll	9788	er
+ㄧ	iill	9787	I
+ㄨ	uull	9786	u
+ㄩ	iull	9785	iu
+㈱	sriy	9784	株
+㊣	ghd	9783	带圈汉字
+㎎	mg	9782	单位
+㎏	kg	9781	单位
+㎜	mm	9780	单位
+㎝	cm	9779	单位
+㎞	km	9778	单位
+㎡	mmmm	9777	单位
+㏄	cccc	9776	单位
+㏑	lnln	9775	单位
+㏒	log	9774	单位
+㏕	mil	9773	单位
+︻	rtkg	9772	括号
+︼	rtkg	9771	括号
+﹩	ugfq	9770	美元
+﹪	djwv	9768	百分之…
+﹫	atll	9767	at
+！	kckg	9766	叹号
+＂	xhkg	9765	引号
+＃	fjkg	9764	井号
+＄	ugfq	9763	美元
+％	dwpp	9762	百分之…
+＆	andl	9761	and
+＇	xhkg	9760	引号
+＊	jtkg	9759	星号
+＋	lkg	9758	加
+，	gkkg	9757	逗号
+－	udgt	9756	减
+．	qkkg	9755	句号
+／	wtxg	9754	斜线
+：	jhkg	9753	冒号
+；	wvkg	9752	分号
+＜	ihgf	9751	小于
+＝	tfgf	9750	等于
+＞	ddgf	9749	大于
+？	ukkg	9748	问号
+＼	rwsa	9747	反斜杠
+＾	uytw	9746	补注
+＿	gaxg	9745	横
+｀	tutw	9744	重音符
+～	iixg	9743	波浪线
+￠	aqfq	9742	分
+《	nqkg	9741	分
+￡	amqu	9740	镑
+￥	fqb	9739	元
+㏁	mo	9738	
+㎸	kv	9737	
+㎾	kw	9736	
+Ω	aqvx	9735	
+㎂	ua	9734	
+## -英语字母-			
+9°	vtya	10000	
+元/股	fqem	10000	
+PE	pe	10000	
+IPO	ipo	9999	
+a+A+b+B+c	aabb	9998	
+工业4.0	aolk	9997	
+互联网+	gbml	9996	
+蓝牙4.0	aalk	9995	
+奇虎360	dhdk	9994	
+树莓派2	saif	9993	
+树莓派3	said	9992	
+代码大全2	wddf	9991	
+加密/解密	lpqp	9990	
+枚举+二分	sifw	9989	
+操作系统/网络	rwtm	9988	
+静态库/动态库	gdyy	9987	
+算法+数据结构	tios	9986	
+从0到1	wkgg	9985	
+B证	bygh	9984	
+SCI	sci	9983	
+PMI	pmi	9982	
+20号胶	ffke	9981	
+PMP	pmp	9980	
+AI	ai	9979	
+PUA	pua	9978	
+CAD	cad	9977	
+PCR	pcr	9976	
+㏙	ppm	9975	
+G20	gfkw	9974	
+AA	aa	9973	
+AAA	aaa	9972	
+A区	aaqi	9971	
+AA制	aarm	9970	
+ABC	abc	9969	
+AB型	abga	9968	
+AB型血	abgt	9967	
+A出口	abkk	9966	
+ABS	abs	9965	
+AB血型	abtg	9964	
+A面	admj	9963	
+A股	aemc	9962	
+A款	affi	9961	
+A型	agaj	9960	
+A型号	agkg	9959	
+A型血	agtl	9958	
+A班	agty	9957	
+AGV	agv	9956	
+A卡	ahhu	9955	
+A点	ahko	9954	
+AION	aion	9953	
+AirPods	airp	9952	
+AirPods Pro	airp	9951	
+AirPower	airp	9950	
+AirTag	airt	9949	
+A口	akkk	9948	
+A罩	alhj	9947	
+A4纸	alxq	9946	
+Android	and	9945	
+A屏	anua	9944	
+APP	app	9943	
+Apple Watch	appl	9942	
+A栋	asai	9941	
+A杯	asgi	9940	
+A楼	asov	9939	
+A盘	atel	9938	
+A血型	atga	9937	
+A片	athg	9936	
+ATM	atm	9935	
+AV	av	9934	
+A组	axeg	9933	
+A级	axey	9932	
+axios	axio	9931	
+芭比Q	axqq	9930	
+A座	ayww	9929	
+Backspace	back	9928	
+B区	baqi	9927	
+B出口	bbkk	9926	
+B面	bdmj	9925	
+B股	bemc	9924	
+Beta	beta	9923	
+B款	bffi	9922	
+B超	bfhv	9921	
+B型	bgaj	9920	
+B型号	bgkg	9919	
+B型血	bgtl	9918	
+B班	bgty	9917	
+B点	bhko	9916	
+BIM	bim	9915	
+B口	bkkk	9914	
+B罩	blhj	9913	
+BOLL	boll	9912	
+BOSS	boss	9911	
+B栋	bsai	9910	
+B杯	bsgi	9909	
+阿Sir	bsir	9908	
+阿Q	bskq	9907	
+B哥	bsks	9906	
+B楼	bsov	9905	
+B血型	btga	9904	
+B站	buhk	9903	
+B组	bxeg	9902	
+B细胞	bxeq	9901	
+B级	bxey	9900	
+B座	byww	9899	
+C区	caqi	9898	
+CarPlay	carp	9897	
+C出口	cbkk	9896	
+CBR500R	cbr	9895	
+C面	cdmj	9894	
+C款	cffi	9893	
+C型	cgaj	9892	
+C型号	cgkg	9891	
+C班	cgty	9890	
+C口	ckkk	9889	
+C罩	clhj	9888	
+Cmd	cmd	9887	
+.com	com	9886	
+CPVC	cpvc	9885	
+C栋	csai	9884	
+C杯	csgi	9883	
+C楼	csov	9882	
+CT	ct	9881	
+C盘	ctel	9880	
+Ctrl	ctrl	9879	
+C组	cxeg	9878	
+C级	cxey	9877	
+C座	cyww	9876	
+C语言	cyyy	9875	
+D区	daqi	9874	
+D出口	dbkk	9873	
+D面	ddmj	9872	
+DDoS	ddos	9871	
+大V	ddv	9870	
+Delete	dele	9869	
+D款	dffi	9868	
+D型	dgaj	9867	
+D型号	dgkg	9866	
+D班	dgty	9865	
+三K党	dkip	9864	
+D口	dkkk	9863	
+D罩	dlhj	9862	
+DNA	dna	9861	
+DNS	dns	9860	
+Dock	dock	9859	
+DoS	dos	9858	
+D栋	dsai	9857	
+D杯	dsgi	9856	
+D楼	dsov	9855	
+D盘	dtel	9854	
+DVD	dvd	9853	
+D组	dxeg	9852	
+D级	dxey	9851	
+D座	dyww	9850	
+E区	eaqi	9849	
+E出口	ebkk	9848	
+E款	effi	9847	
+E型	egaj	9846	
+E型号	egkg	9845	
+E口	ekkk	9844	
+月K线	ekxg	9843	
+E罩	elhj	9842	
+EMS	ems	9841	
+Enter	ente	9840	
+E栋	esai	9839	
+Esc	esc	9838	
+E杯	esgi	9837	
+E楼	esov	9836	
+ETC	etc	9835	
+E盘	etel	9834	
+ETF	etf	9833	
+Excel	exc	9832	
+E组	exeg	9831	
+E座	eyww	9830	
+F区	faqi	9829	
+老Baby	fbab	9828	
+F出口	fbkk	9827	
+F款	fffi	9826	
+F型	fgaj	9825	
+二B	fggb	9824	
+F型号	fgkg	9823	
+F口	fkkk	9822	
+F罩	flhj	9821	
+Fn	fn	9820	
+F栋	fsai	9819	
+F杯	fsgi	9818	
+F楼	fsov	9817	
+F盘	ftel	9816	
+老K	ftxk	9815	
+F组	fxeg	9814	
+F座	fyww	9813	
+GCS	gcs	9812	
+GDP	gdp	9811	
+G点	ghko	9810	
+Github	git	9809	
+逗B	gkub	9808	
+G罩	glhj	9807	
+GoPro	gop	9806	
+G杯	gsgi	9805	
+GSX250R	gsx	9804	
+G盘	gtel	9803	
+H股	hemc	9802	
+H罩	hlhj	9801	
+卡拉OK	hrok	9800	
+H杯	hsgi	9799	
+H版	hthg	9798	
+小Baby	ibab	9797	
+IC	ic	9796	
+ICAC	icac	9795	
+iCloud	iclo	9794	
+ID	id	9793	
+IF	if	9792	
+℃	ijya	9791	
+IM	im	9790	
+iOS	ios	9789	
+IP	ip	9788	
+iPadPro	ipad	9787	
+IRR	irr	9786	
+IT	it	9785	
+日K线	jkxg	9784	
+<kbd></kbd>	kbd	9783	
+KDJ	kdj	9782	
+嗑CP	kfcp	9781	
+唱K	kjjk	9780	
+哆啦A梦	kkas	9779	
+K歌	ksks	9778	
+K线	kxf	9777	
+L码	ldcg	9776	
+LED	led	9775	
+Lite	lite	9774	
+Mac	mac	9773	
+MACD	macd	9772	
+MacOS	maco	9771	
+Markdown	mar	9770	
+Max	max	9769	
+M码	mdcg	9768	
+周K线	mkxg	9767	
+㎫	mpa	9766	
+NAV	nav	9765	
+N卡	nhhu	9764	
+N号房	nkyn	9763	
+NPV	npv	9762	
+N次	nuqw	9761	
+Obsidian	obsi	9760	
+O型	ogaj	9759	
+O型血	ogtl	9758	
+炒CP	oicp	9757	
+OK	ok	9756	
+OPEC	opec	9755	
+OPPO	oppo	9754	
+Option	opti	9753	
+O血型	otga	9752	
+party	part	9751	
+PC	pc	9750	
+PIN	pin	9749	
+PK赛	pkpf	9748	
+P图	pltu	9747	
+Plus	plu	9746	
+Plus	plus	9745	
+POS	pos	9744	
+Pro	pro	9743	
+PTA	pta	9742	
+P站	puhk	9741	
+PUK	puk	9740	
+PVC	pvc	9739	
+QQ	qq	9738	
+Q我	qtrn	9737	
+Return	retu	9736	
+牛B	rhkb	9735	
+RNA	rna	9734	
+手推	rtrw	9733	
+R级	rxey	9732	
+S码	sdcg	9731	
+S形	sgae	9730	
+Shift	shif	9729	
+SIM	sim	9728	
+Space	spac	9727	
+Switch	swit	9726	
+S级	sxey	9725	
+TF	tf	9724	
+TMD	tmd	9723	
+T恤	tntl	9722	
+第N次	tnuq	9721	
+TV	tv	9720	
+立Flag	uflg	9719	
+装B	ufyb	9718	
+U形	ugae	9717	
+单体	ujws	9716	
+UPS	ups	9715	
+Up主	upyg	9714	
+U盾	urfh	9713	
+USB	usb	9712	
+USB-C	usb	9711	
+U盘	utel	9710	
+VIP	vip	9709	
+V字	vpb	9708	
+V站	vuhk	9707	
+V领	vwyc	9706	
+Web	web	9705	
+Weread	were	9704	
+Wi-Fi	wifi	9703	
+Wikipedia	wiki	9702	
+Wiki	wiki	9701	
+Win	win	9700	
+Windows	wind	9699	
+傻B	wtlb	9698	
+傻X	wtlx	9697	
+维E	xeye	9696	
+维K	xeyk	9695	
+X战警	xhaq	9694	
+X光	xiq	9693	
+X染色体	xiqw	9692	
+X轴	xlm	9691	
+维生素A	xtga	9690	
+维生素B	xtgb	9689	
+维生素C	xtgc	9688	
+维生素D	xtgd	9687	
+维生素E	xtge	9686	
+维生素K	xtgk	9685	
+X射线	xtxg	9684	
+维A	xwya	9683	
+维B	xwyb	9682	
+维C	xwyc	9681	
+维D	xwyd	9680	
+Y染色体	yiqw	9679	
+Y轴	ylm	9678	
+FOMC	fomc	9677	
+## -俗语-			
+子非鱼，安知鱼之乐	bjpptppq	29999	
+明枪易躲，暗箭难防	jsjtjtcb	29998	
+路见不平，拔刀相助	lmdgrvse	29997	
+百花齐放，百家争鸣	dayodpqk	29996	
+千里不同风，百里不同俗	tjdmmdjdmw	29995	
+十年树木，百年树人	frssdrsw	29994	
+胜不骄，败不馁	edcmdq	29993	
+成事不足，败事有余	dgdlmgdw	29992	
+乘兴而来，败兴而归	tidgmidj	29991	
+金玉其外，败絮其中	qgaqmvak	29990	
+成也萧何，败也萧何	dbawmbaw	29989	
+当面是人，背后是鬼	idjwurjr	29988	
+江山易改，本性难移	imjnsnct	29987	
+比上不足，比下有余	xhdlxgdw	29986	
+此一时，彼一时	hgjtgj	29985	
+工欲善其事，必先利其器	awuagnrtak	29984	
+将欲取之，必先与之	uwbpnrgp	29983	
+大难不死，必有后福	dcdgndrp	29982	
+人无远虑，必有近忧	wffhndrn	29981	
+三人行，必有我师	dwtndtj	29980	
+愚者千虑，必有一得	jfthndgt	29979	
+二虎相斗，必有一伤	fhsundgw	29978	
+智者千虑，必有一失	tfthndgr	29977	
+重赏之下，必有勇夫	tipgndcf	29976	
+积善之家，必有余庆	tuppndwy	29975	
+睁一只眼，闭一只眼	hgkhugkh	29974	
+一朝权在手，便把令来行	gfsdrwrwgt	29973	
+不成功，便成仁	ddawdw	29972	
+独此一家，别无分店	ehgpkfwy	29971	
+拆东墙，补西墙	rafpsf	29970	
+不以规矩，不成方圆	dnftddol	29969	
+玉不琢，不成器	gdgddk	29968	
+人在屋檐下，不得不低头	wdnsgdtdwu	29967	
+箭在弦上，不得不发	tdxhdtdn	29966	
+一叶障目，不见泰山	gkbhdmdm	29965	
+明察秋毫，不见舆薪	jptydmea	29964	
+只可意会，不可言传	ksuwdsyw	29963	
+不在其位，不谋其政	ddawdyag	29962	
+留得青山在，不怕没柴烧	qtgmddniho	29961	
+积财千万，不如薄技在身	tmtddvardt	29960	
+授人以鱼，不如授人以渔	rwnpdvrwni	29959	
+宁可玉碎，不为瓦全	psgddygw	29958	
+道不同，不相为谋	udmdsyy	29957	
+只许州官放火，不许百姓点灯	kyypoodydvho	29956	
+不以物喜，不以己悲	dnrfdnnj	29955	
+凡事预则立，不预则废	mgcmudcmy	29954	
+两国交兵，不斩来使	glurdlgw	29953	
+不经一事，不长一智	dxggdtgt	29952	
+知之为知之，不知为不知	tpytpdtydt	29951	
+不塞不流，不止不行	dpdidhdt	29950	
+一步错，步步错	ghqhhq	29949	
+失之毫厘，差以千里	rpyduntj	29948	
+谋事在人，成事在天	ygdwdgdg	29947	
+不听老人言，吃亏在眼前	dkfwykfdhu	29946	
+若要人不知，除非己莫为	aswdtbjnay	29945	
+从善如登，从恶如崩	wuvowgvm	29944	
+求大同，存小异	fdmdin	29943	
+尺有所短，寸有所长	ndrtfdrt	29942	
+牵着不走，打着倒退	dudfruwv	29941	
+不求有功，但求无过	dfdawfff	29940	
+士别三日，当刮目相待	fkdjithst	29939	
+魔高一尺，道高一丈	yygnuygd	29938	
+踏破铁鞋无觅处，得来全不费工夫	ldqafettgwdxaf	29937	
+扇阴风，点鬼火	ybmhro	29935	
+捡了芝麻，丢了西瓜	rbaytbsr	29934	
+静如处女，动如脱兔	gvtvfveq	29933	
+以小人之心，度君子之腹	niwpnyvbpe	29932	
+好事不出门，恶事行千里	vgdbuggttj	29931	
+怒从心上起，恶向胆边生	vwnhfgtelt	29930	
+善有善报，恶有恶报	udurgdgr	29929	
+爱之欲其生，恶之欲其死	epwatgpwag	29928	
+眼观四路，耳听八方	hcllbkwo	29927	
+眼观六路，耳听八方	hculbkwo	29926	
+一不做，二不休	gdwfdw	29925	
+一是一，二是二	gjgfjf	29924	
+当断不断，反受其乱	iodoreat	29923	
+衣来伸手，饭来张口	ygwrqgxk	29922	
+害人之心不可有，防人之心不可无	pwpndsdbwpndsf	29921	
+冰冻三尺，非一日之寒	uudnjgjpp	29920	
+仇人见面，分外眼红	wwmdwqhx	29919	
+仇人相见，分外眼红	wwsmwqhx	29918	
+木秀于林，风必摧之	stssmnrp	29917	
+翻手为云，覆手为雨	tryfsryk	29916	
+舍得一身剐，敢把皇帝拉下马	wtgtknrrurgc	29915	
+花开两朵，各表一枝	aggmtggs	29914	
+爹死娘嫁人，各人顾各人	wgvvwtwdtw	29913	
+萝卜青菜，各有所爱	ahgatdre	29912	
+大路朝天，各走一边	dlfgtfgl	29911	
+欲穷千里目，更上一层楼	wptjhghgns	29910	
+出其不意，攻其不备	baduaadt	29909	
+战无不胜，攻无不克	hfdeafdd	29908	
+以子之矛，攻子之盾	nbpcabpr	29907	
+儿不嫌母丑，狗不嫌家贫	qdvxnedvpw	29906	
+神不知，鬼不觉	pdtrdi	29905	
+人不知，鬼不觉	wdtrdi	29904	
+没吃过猪肉，还没见过猪跑	ikfemdimfel	29903	
+以其人之道，还治其人之身	nawpudiawpt	29902	
+人不可貌相，海水不可斗量	wdsesiidsuj	29901	
+分久必合，合久必分	wqnwwqnw	29900	
+既有今日，何必当初	vdwjwnip	29899	
+早知今日，何必当初	jtwjwnip	29898	
+山上无老虎，猴子称大王	mhffhebtdg	29897	
+前不着村，后不着店	udusrduy	29896	
+先小人，后君子	riwrvb	29895	
+前怕狼，后怕虎	unernh	29894	
+前人栽树，后人乘凉	uwfsrwtu	29893	
+前事不忘，后事之师	ugdyrgpj	29892	
+先天下之忧而忧，后天下之乐而乐	rggpndnrggpqdq	29891	
+前无古人，后无来者	ufdwrfgf	29890	
+关门养虎，虎大伤人	uuuhhdww	29889	
+螳螂捕蝉，黄雀在后	jjrjaidr	29888	
+呼之即来，挥之即去	kpvgrpvf	29887	
+召之即来，挥之即去	vpvgrpvf	29886	
+苦海无边，回头是岸	aifllujm	29885	
+福不重至，祸必重来	pdtgpntg	29884	
+病从口入，祸从口出	uwktpwkb	29883	
+一人得道，鸡犬升天	gwtucdtg	29882	
+养儿防老，积谷防饥	uqbftwbq	29881	
+平时不烧香，急来抱佛脚	gjdotqgrwe	29880	
+眉头一皱，计上心来	nugqyhng	29879	
+嫁鸡随鸡，嫁狗随狗	vcbcvebe	29878	
+棋逢对手，将遇良才	stcrujyf	29877	
+头痛医头，脚痛医脚	uuaueuae	29876	
+精诚所至，金石为开	oyrgqdyg	29875	
+近朱者赤，近墨者黑	rrffrlfl	29874	
+远在天边，近在眼前	fdglrdhu	29873	
+不怕一万，就怕万一	dngdyndg	29872	
+不是鱼死，就是网破	djpgyjmd	29871	
+行家一出手，就知有没有	tpgbrytdid	29870	
+靠山吃山，靠水吃水	rmkmriki	29869	
+君子一言，快马一鞭	vbgyncga	29868	
+严以律己，宽以待人	gntnpntw	29867	
+千里之堤，溃于蚁穴	tjpfisjp	29866	
+是骡子是马，拉出来溜溜	jcbjcrbgii	29865	
+少壮不努力，老大徒伤悲	iudvlfdtwj	29864	
+放下屠刀，立地成佛	ognvufdw	29863	
+高鸟尽，良弓藏	yqnyxa	29862	
+兵马未动，粮草先行	rcffoart	29861	
+三日打鱼，两日晒网	djrpgjjm	29860	
+三天打鱼，两天晒网	dgrpggjm	29859	
+看菜吃饭，量体裁衣	rakqjwfy	29858	
+落花有意，流水无情	aaduiifn	29857	
+桥归桥，路归路	sjsljl	29856	
+司马昭之心，路人皆知	ncjpnlwxt	29855	
+乌头白，马生角	qurctq	29854	
+挂羊头，卖狗肉	ruufem	29853	
+皮之不存，毛将焉附	hpddtugb	29852	
+丁是丁，卯是卯	sjsqjq	29851	
+长他人志气，灭自己威风	twwfrgtndm	29850	
+皇帝轮流坐，明年到我家	ruliwjrgtp	29849	
+道高一尺，魔高一丈	uygnyygd	29848	
+各人自扫门前雪，莫管他家瓦上霜	twtruukatwpghk	29847	
+说时迟，那时快	yjnvjn	29846	
+蜀道难，难于上青天	luccshgg	29845	
+顺我者昌，逆我者亡	ktfjutfy	29844	
+天要下雨，娘要嫁人	gsgkvsvw	29843	
+人为财死，鸟为食亡	wymgqywy	29842	
+淡泊以明志，宁静以致远	iinjfpgngf	29841	
+当局者迷，旁观者清	infoucfi	29840	
+天下兴亡，匹夫有责	ggiyafdg	29839	
+明知山有虎，偏向虎山行	jtmdhwthmt	29838	
+兼听则明，偏信则暗	ukmjwwmj	29837	
+三分像人，七分似鬼	dwwwawwr	29836	
+三分像人，七分像鬼	dwwwawwr	29835	
+二人同心，其利断金	fwmnatoq	29834	
+兄弟同心，其利断金	kumnatoq	29833	
+非我族类，其心必异	jtooannn	29832	
+人之将死，其言也善	wpugaybu	29831	
+卧榻之旁，岂容他人鼾睡	aspumpwwth	29830	
+雄纠纠，气昂昂	dxxrjj	29829	
+雄赳赳，气昂昂	dffrjj	29828	
+惊天地，泣鬼神	ngfirp	29827	
+百万买宅，千万买邻	ddnptdnw	29826	
+满招损，谦受益	irryeu	29825	
+杀人偿命，欠债还钱	qwwwqwdq	29824	
+七年之病，求三年之艾	arpufdrpa	29823	
+君子爱财，取之有道	vbembpdu	29822	
+来无影，去无踪	gfjffl	29821	
+一人吃饱，全家不饿	gwkqwpdq	29820	
+衣不如新，人不如故	ydvuwdvd	29819	
+老鼠过街，人人喊打	feftwwkr	29818	
+佛是金装，人是衣装	wjquwjyu	29817	
+金无足赤，人无完人	qflfwfpw	29816	
+天有不测风云，人有旦夕祸福	gddimfwdjqpp	29815	
+路遥知马力，日久见人心	letcljqmwn	29814	
+日出而作，日入而息	jbdwjtdt	29813	
+眼中钉，肉中刺	hkqmkg	29812	
+上天无路，入地无门	hgfltffu	29811	
+三个臭皮匠，赛过诸葛亮	dwthapfyay	29810	
+秀才造反，三年不成	tfrrdrdd	29809	
+三十年河东，三十年河西	dfriadfris	29808	
+来者不善，善者不来	gfduufdg	29807	
+人在江湖，身不由己	wdiitdmn	29806	
+林子大了，什么鸟都有	sbdbwtqfd	29805	
+防民之口，甚于防川	bnpkasbk	29804	
+救人一命，胜造七级浮屠	fwgweraxin	29803	
+得道多助，失道寡助	tuqerupe	29802	
+饿死事小，失节事大	qggiragd	29801	
+差以毫厘，失之千里	unydrptj	29800	
+一传十，十传百	gwffwd	29799	
+十年河东，十年河西	friafris	29798	
+一朝被蛇咬，十年怕井绳	gfpjkfrnfx	29797	
+三年清知府，十万雪花银	drityfdkaq	29796	
+千里之行，始于足下	tjptvslg	29795	
+是福不是祸，是祸躲不过	jpdjpjptdf	29794	
+失之东隅，收之桑榆	rpabnpcs	29793	
+吃人家饭，受人家管	kwpqewpt	29792	
+端人家碗，受人家管	uwpdewpt	29791	
+天网恢恢，疏而不漏	gmnnnddi	29790	
+此而可忍，孰不可忍	hdsvydsv	29789	
+是可忍，孰不可忍	jsvydsv	29788	
+人非圣贤，孰能无过	wjcjycff	29787	
+王子犯法，庶民同罪	gbeiynml	29786	
+兵来将挡，水来土掩	rgurigfr	29785	
+汤里来，水里去	ijgijf	29784	
+人往高处走，水往低处流	wtytfitwti	29783	
+生不带来，死不带去	tdgggdgf	29782	
+百足之虫，死而不僵	dlpjgddw	29781	
+鞠躬尽瘁，死而后已	atnugdrn	29780	
+一言既出，驷马难追	gyvbcccw	29779	
+君子一言，驷马难追	vbgycccw	29778	
+台上三分钟，台下十年功	chdwqcgfra	29777	
+海内存知己，天涯若比邻	imdtngiaxw	29776	
+人不为己，天诛地灭	wdyngyfg	29775	
+视而不见，听而不闻	pddmkddu	29774	
+言之谆谆，听之藐藐	ypyykpaa	29773	
+同声相应，同气相求	mfsymrsf	29772	
+一夫当关，万夫莫开	gfiudfag	29771	
+一人之下，万人之上	gwpgdwph	29770	
+楚虽三户，亡秦必楚	skdyydns	29769	
+吃着碗里，望着锅里	kudjyuqj	29768	
+任凭风浪起，稳坐钓鱼船	wwmiftwqpt	29767	
+人若犯我，我必犯人	waettnew	29766	
+人不犯我，我不犯人	wdettdew	29765	
+人为刀俎，我为鱼肉	wyvwtypm	29764	
+你有张良计，我有过墙梯	wdxyytdffs	29763	
+无源之水，无本之末	fipifspg	29762	
+夜猫子进宅，无事不来	yebfpfgdg	29761	
+有则改之，无则加勉	dmnpfmlq	29760	
+三步一岗，五步一哨	dhgmghgk	29759	
+麻雀虽小，五脏俱全	yikigeww	29758	
+己所不欲，勿施于人	nrdwqosw	29757	
+朝闻道，夕死可矣	fuuqgsc	29756	
+上不着天，下不着地	hduggduf	29755	
+上刀山，下火海	hvmgoi	29754	
+上无片瓦，下无插针之地	hftggfrqpf	29753	
+上知天文，下知地理	htgygtfg	29752	
+桃李不言，下自成蹊	ssdygtdl	29751	
+大事化小，小事化了	dgwiigwb	29750	
+眼不见，心不烦	hdmndo	29749	
+人同此心，心同此理	wmhnnmhg	29748	
+旧的不去，新的不来	hrdfurdg	29747	
+言必信，行必果	ynwtnj	29746	
+人之初，性本善	wppnsu	29745	
+不入虎穴，焉得虎子	dthpgthb	29744	
+塞翁失马，焉知非福	pwrcgtjp	29743	
+名不正，言不顺	qdgydk	29742	
+知无不言，言无不尽	tfdyyfdn	29741	
+耳闻是虚，眼观为实	bujhhcyp	29740	
+耳听为虚，眼见为实	bkyhhmyp	29739	
+人过留名，雁过留声	wfqqdfqf	29738	
+城门失火，殃及池鱼	furogeip	29737	
+要风得风，要雨得雨	smtmsktk	29736	
+米粒之珠，也放光华	oopgboiw	29735	
+树高千丈，叶落归根	sytdkajs	29734	
+日有所思，夜有所梦	jdrlydrs	29733	
+一分耕耘，一分收获	gwddgwna	29732	
+一个唱红脸，一个唱白脸	gwkxegwkre	29731	
+老将出马，一个顶俩	fubcgwsw	29730	
+一个愿打，一个愿挨	gwdrgwdr	29729	
+千军易得，一将难求	tpjtgucf	29728	
+不鸣则已，一鸣惊人	dkmngknw	29727	
+用人不疑，疑人不用	ewdxxwde	29726	
+床前明月光，疑是地上霜举头望明月，低头思故乡	yujeixjfhkiuyjewuldx	29725	
+水可载舟，亦可覆舟	isftysst	29724	
+儿女情长，英雄气短	qvntadrt	29723	
+天下本无事，庸人自扰之	ggsfgywtrp	29722	
+养兵千日，用兵一时	urtjergj	29721	
+取之不尽，用之不竭	bpdnepdu	29720	
+秀才遇到兵，有理说不清	tfjgrdgydi	29719	
+有福同享，有难同当	dpmydcmi	29718	
+刚出狼窝，又入虎口	mbepcthk	29717	
+鹬蚌相争，渔人得利	cjsqiwtt	29716	
+鹬蚌相争，渔翁得利	cjsqiwtt	29715	
+执子之手，与子偕老	rbprgbwf	29714	
+雷声大，雨点小	kfdkhi	29713	
+风里来，雨里去	mjgkjf	29712	
+一而再，再而三	gdggdd	29711	
+有借有还，再借不难	dwddgwdc	29710	
+既来之，则安之	vgpmpp	29709	
+冤有头，债有主	pduwdy	29708	
+攻无不克，战无不胜	afddhfde	29707	
+经一事，长一智	xggtgt	29706	
+吃一堑，长一智	kgltgt	29705	
+不怕官，只怕管	dnpknt	29704	
+世上无难事，只怕有心人	ahfcgkndnw	29703	
+万事俱备，只欠东风	dgwtkqam	29702	
+仁者见仁，智者见智	wfmwtfmt	29701	
+食君之禄，忠君之事	wvppkvpg	29700	
+一日为师，终生为父	gjyjxtyw	29699	
+送君千里，终须一别	uvtjxegk	29698	
+行高于人，众必非之	tyswwnjp	29697	
+单则易折，众则难摧	umjrwmcr	29696	
+毫不利己，专门利人	ydtnfutw	29695	
+伤敌一千，自损八百	wtgttrwd	29694	
+此处不留人，自有留人处	htdqwtdqwt	29693	
+成人不自在，自在不成人	dwdtdtdddw	29692	
+三十六计，走为上计	dfuyfyhy	29691	
+千金之子，坐不垂堂	tqpbwdti	29690	
+行不更名，坐不改姓	tdgqwdnv	29689	
+不探虎穴，安得虎子	drhppthb	29688	
+塞翁失马，安知非福	pwrcptjp	29687	
+各尽所能，按劳分配	tnrcraws	29686	
+各尽所能，按需分配	tnrcrkws	29685	
+明修栈道，暗度陈仓	jwsujybw	29684	
+明枪好躲，暗箭难防	jsvtjtcb	29683	
+明是一盆火，暗是一把刀	jjgwojjgrv	29682	
+七九河开，八九雁来	avigwvdg	29681	
+七口当家，八口主事	akipwkyg	29680	
+赤口上天，白舌入地	fkhgrttf	29679	
+一处松，百处松	gtsdts	29678	
+一箭易断，百箭难折	gtjodtcr	29677	
+一马脱辔，百马难追	gcexdccw	29676	
+一犬吠形，百犬吠声	gdkgddkf	29675	
+一犬吠影，百犬吠声	gdkjddkf	29674	
+一尺水，百丈波	gniddi	29673	
+成则为王，败则为寇	dmygmmyp	29672	
+成则为王，败则为贼	dmygmmym	29671	
+嘴上无毛，办事不牢	khftlgdp	29670	
+嘴上没毛，办事不牢	khitlgdp	29669	
+女大三，抱金砖	vddrqd	29668	
+南上天，北上地	fhguhf	29667	
+江山好改，本性难移	imvnsnct	29666	
+山河易改，本性难移	mijnsnct	29665	
+眼观鼻，鼻观心	hcttcn	29664	
+十步之内，必有芳草	fhpmndaa	29663	
+念念不忘，必有回响	wwdyndlk	29662	
+无远虑者，必有近忧	ffhfndrn	29661	
+两虎相斗，必有一伤	ghsundgw	29660	
+十室之邑，必有忠信	fppkndkw	29659	
+睁只眼，闭只眼	hkhukh	29658	
+墙有缝，壁有耳	fdxndb	29657	
+不是我，便是你	djtwjw	29656	
+不为良相，便为良医	dyyswyya	29655	
+既作生人，便有生理	vwtwwdtg	29654	
+只此一家，别无分店	khgpkfwy	29653	
+水来土掩，兵来将挡	igfrrgur	29652	
+江山易改，秉性难移	imjntnct	29651	
+吃一节，剥一节	kgavga	29650	
+取人之长，补己之短	bwptpnpt	29649	
+留得青山在，不愁没柴烧	qtgmddtiho	29648	
+矢在弦上，不得不发	tdxhdtdn	29647	
+不入虎穴，不得虎子	dthpdthb	29646	
+蓬生麻中，不扶而直	atykdrdf	29645	
+攻其一点，不及其余	aaghdeaw	29644	
+只见树木，不见森林	kmssdmss	29643	
+一叶蔽目，不见泰山	gkahdmdm	29642	
+朋友妻，不可欺	edgdsa	29641	
+临阵磨枪，不快也光	jbysdnbi	29640	
+一步错，不能百步歪	ghqdcdhd	29639	
+伤其十指，不如断其一指	wafrdvoagr	29638	
+千羊之皮，不如一狐之腋	tuphdvgepe	29637	
+梁园虽好，不是久恋之家	ilkvdjqypp	29636	
+梁园虽好，不是久住之乡	ilkvdjqwpx	29635	
+宁为鸡口，不为牛后	pyckdyrr	29634	
+宁为玉碎，不为瓦全	pygddygw	29633	
+干打雷，不下雨	frkdgk	29632	
+不显山，不显水	djmdji	29631	
+用人朝前，不用人朝后	ewfudewfr	29630	
+超三界外，不在五行中	fdlqddgtk	29629	
+两国相争，不斩来使	glsqdlgw	29628	
+只知其一，不知其二	ktagdtaf	29627	
+但知其一，不知其二	wtagdtaf	29626	
+人而无信，不知其可	wdfwdtas	29625	
+只知有己，不知有人	ktdndtdw	29624	
+不痴不聋，不作家翁	dudddwpw	29623	
+不瞎不聋，不做阿翁	dhdddwbw	29622	
+牛去一毛，仓去一粟	rfgtwfgs	29621	
+光不光，糙不糙	idiodo	29620	
+说起曹操，曹操就到	yfgrgryg	29619	
+说到曹操，曹操就到	yggrgryg	29618	
+人过三十，草过天赦	wfdfafgf	29617	
+路上说话，草里有人	lhyyajdw	29616	
+人生一世，草木一秋	wtgaasgt	29615	
+人生一世，草生一春	wtgaatgd	29614	
+人生一世，草生一秋	wtgaatgt	29613	
+虎落平原，插翅难逃	hagdrfcq	29612	
+人一走，茶就凉	wgfayu	29611	
+疑今者，察之古	xwfppd	29610	
+人有人道，车有车道	wdwuldlu	29609	
+君是君，臣是臣	vjvaja	29608	
+败事有余，成事不足	mgdwdgdl	29607	
+公不离婆，秤不离砣	wdyitdyd	29606	
+一招鲜，吃遍天	grpkyg	29605	
+外财不贪，吃亏不干	qmdwkfdf	29604	
+不干不净，吃了没病	dfdukbiu	29603	
+半大小子，吃穷老子	udibkpfb	29602	
+半桩小子，吃穷老子	usibkpfb	29601	
+打了梅香，丑了姑娘	rbstnbvv	29600	
+五十五，出山虎	gfgbmh	29599	
+在家靠父母，出外靠朋友	dprwxbqred	29598	
+吃百家饭，穿众手衣	kdpqpwry	29597	
+彼一时，此一时	tgjhgj	29596	
+神而明之，存乎其人	pdjpdtaw	29595	
+运用之妙，存乎一心	fepvdtgn	29594	
+三九四九，打骂不走	dvlvrkdf	29593	
+小财不出，大财不入	imdbdmdt	29592	
+小洞不补，大洞吃苦	iidpdika	29591	
+小时不防，大了跳墙	ijdbdblf	29590	
+小钱不出，大钱不入	iqdbdqdt	29589	
+人要俏，戴身孝	wswftf	29588	
+不怕一万，单怕万一	dngdundg	29587	
+弓上弦，刀出鞘	xhxvba	29586	
+拳来拳对，刀来刀挡	ugucvgvr	29585	
+豆腐嘴，刀子心	gykvbn	29584	
+数黄瓜，道茄子	oaruab	29583	
+说一千，道一万	ygtugd	29582	
+得寸即寸，得尺即尺	tfvftnvn	29581	
+得一望十，得十望百	tgyftfyd	29580	
+听人劝，得一半	kwctgu	29579	
+天不怕，地不怕	gdnfdn	29578	
+人哄地皮，地哄肚皮	wkfhfkeh	29577	
+天生一对，地生一双	gtgcftgc	29576	
+高不成，低不就	yddwdy	29575	
+三个臭皮匠，抵个诸葛亮	dwtharwyay	29574	
+船破有底，底破有帮	tddyyddd	29573	
+放长线，钓大鱼	otxqdp	29572	
+爬得高，跌得重	rtyltt	29571	
+攀得高，跌得重	styltt	29570	
+抓了芝麻，丢掉西瓜	rbaytrsr	29569	
+夏练三伏，冬练三九	dxdwtxdv	29568	
+静若处子，动若脱兔	gatbfaeq	29567	
+三九四九，冻破石头	dvlvuddu	29566	
+吃不了，兜着走	kdbruf	29565	
+刀子嘴，豆腐心	vbkgyn	29564	
+一碗豆腐，豆腐一碗	gdgygygd	29563	
+蝎子屎，毒一份	jbnggw	29562	
+当面锣，对面鼓	idqcdf	29561	
+韩信将兵，多多益善	fwurqquu	29560	
+眼观四处，耳听八方	hcltbkwo	29559	
+眼见为实，耳听为虚	hmypbkyh	29558	
+一不作，二不休	gdwfdw	29557	
+一而二，二而三	gdffdd	29556	
+一而二，二而一	gdffdg	29555	
+一佛出世，二佛涅槃	gwbafwit	29554	
+一佛出世，二佛升天	gwbafwtg	29553	
+一佛出世，二佛生天	gwbafwtg	29552	
+一回生，二回熟	gltfly	29551	
+大门不出，二门不迈	dudbfudd	29550	
+一年大，二年小	grdfri	29549	
+有一分热，发一分光	dgwrngwi	29548	
+打虎不成，反被虎伤	rhddrphw	29547	
+犯病的不吃，犯法的不做	eurdkeirdw	29546	
+人是铁，饭是钢	wjqqjq	29545	
+不忘初心，方得始终	dypnotvx	29544	
+无事献殷勤，非奸即盗	fgfrajvvu	29543	
+千金之裘，非一狐之腋	tqpfjgepe	29542	
+合久必分，分久必合	wqnwwqnw	29541	
+墙头一棵草，风吹两边倒	fugsamkglw	29540	
+徐娘半老，风韵犹存	tvufmued	29539	
+祸兮福所倚，福兮祸所伏	pwprwpwprw	29538	
+强不欺弱，富不压穷	xdaxpddp	29537	
+生死有命，富贵在天	tgdwpkdg	29536	
+事不关己，高高挂起	gdunyyrf	29535	
+求爷爷，告奶奶	fwwrvv	29534	
+敲锣卖糖，各干一行	yqfotfgt	29533	
+人心不同，各如其面	wndmtvad	29532	
+八仙过海，各显其能	wwfitjac	29531	
+八仙过海，各显神通	wwfitjpc	29530	
+大路朝天，各走半边	dlfgtful	29529	
+百尺竿头，更进一步	dntugfgh	29528	
+为山九仞，功亏一篑	ymvwafgt	29527	
+出其不意，攻其无备	baduaaft	29526	
+猫吃腥，狗吃屎	ekeekn	29525	
+貂不足，狗尾续	edlenx	29524	
+人爱富的，狗咬穷的	weprekpr	29523	
+人无十全，瓜无滚圆	wffwrfil	29522	
+树大招风，官大招祸	sdrmpdrp	29521	
+人心似铁，官法如炉	wnwqpivo	29520	
+管山吃山，管水吃水	tmkmtiki	29519	
+人不像人，鬼不像鬼	wdwwrdwr	29518	
+人有人路，鬼有鬼路	wdwlrdrl	29517	
+家有家规，国有国法	pdpfldli	29516	
+上山打柴，过河脱鞋	hmrhfiea	29515	
+上楼抽梯，过桥拆板	hsrsfsrs	29514	
+女人心，海底针	vwniyq	29513	
+河有头，海有边	iduidl	29512	
+吃香的，喝辣的	ktrkur	29511	
+欲加之罪，何患无辞	wlplwkft	29510	
+既生瑜，何生亮	vtgwty	29509	
+以德报怨，何以报德	ntrqwnrt	29508	
+忍为贵，和为高	vyktyy	29507	
+一碗饸饹，饸饹一碗	gdqqqqgd	29506	
+怒从心上起，恨向胆边生	vwnhfntelt	29505	
+白刀子进去，红刀子出来	rvbffxvbbg	29504	
+前不靠村，后不挨店	udrsrdry	29503	
+前不见古人，后不见来者	udmdwrdmgf	29502	
+前不巴村，后不贴店	udcsrdmy	29501	
+前车之覆，后车之鉴	ulpsrlpj	29500	
+前门去虎，后门进狼	uufhrufe	29499	
+先君子，后小人	rvbriw	29498	
+山中无好汉，猢狲称霸王	mkfvieetkg	29497	
+聪明一世，糊涂一时	bjgaoigj	29496	
+人不辞路，虎不辞山	wdtlhdtm	29495	
+人怕齐心，虎怕成群	wnynhndv	29494	
+官凭印信，虎凭山	pwqwhwm	29493	
+人死留名，虎死留皮	wgqqhgqh	29492	
+流水不腐，户枢不蠹	iidyysdf	29491	
+匹夫无罪，怀璧其罪	afflnnal	29490	
+淮南橘，淮北枳	ifsius	29489	
+好事不出门，坏事传千里	vgdbufgwtj	29488	
+二人合心，黄土成金	fwwnafdq	29487	
+早知今日，悔不当初	jtwjndip	29486	
+难家不会，会家不难	cpdwwpdc	29485	
+人比人，活不成	wxwidd	29484	
+死不死，活不活	gdgidi	29483	
+人争气，火争焰	wqroqo	29482	
+福无双至，祸不单行	pfcgpdut	29481	
+一人成佛，鸡犬升天	gwdwcdtg	29480	
+头发长，见识短	untmyt	29479	
+刀出鞘，箭上弦	vbathx	29478	
+日月经天，江河行地	jexgiitf	29477	
+棋逢敌手，将遇良材	sttrujys	29476	
+人老精，姜老辣	wfoufu	29475	
+头顶长疮，脚跟流脓	ustuelie	29474	
+头是头，脚是脚	ujueje	29473	
+叫天不应，叫地不语	kgdykfdy	29472	
+人无完人，金无足赤	wfpwqflf	29471	
+离了狼窝，进入虎穴	ybepfthp	29470	
+水中月，镜中花	ikeqka	29469	
+满天要价，就地还钱	igswyfdq	29468	
+不怕单，就怕连	dnuynl	29467	
+不怕贼偷，就怕贼想	dnmwynms	29466	
+不怕慢，就怕站	dnnynu	29465	
+不是你死，就是我活	djwgyjti	29464	
+不是东风压了西风，就是西风压了东风	djamdbsmyjsmdbam	29463	
+做得初一，就做得十五	wtpgywtfg	29462	
+一人向隅，举桌不欢	gwtbihdc	29461	
+将在外，君命有所不受	udqvwdrde	29460	
+听话听音，看人看心	kykurwrn	29459	
+听书长智，看戏慌心	knttrcnn	29458	
+听书长智，看戏乱心	knttrctn	29457	
+吃着碗里，看着锅里	kudjruqj	29456	
+他山之石，可以攻玉	wmpdsnag	29455	
+星星之火，可以燎原	jjposnod	29454	
+官不修衙，客不修店	pdwtpdwy	29453	
+不吃鱼，口不腥	dkpkde	29452	
+快人一言，快马一鞭	nwgyncga	29451	
+快马一鞭，快人一言	ncganwgy	29450	
+虎口拔牙，狼窝掏崽	hkraeprm	29449	
+一将无能，累死三军	gufclgdp	29448	
+主将无能，累死三军	yufclgdp	29447	
+如鱼饮水，冷暖自知	vpqiujtt	29446	
+张家长，李家短	xptspt	29445	
+瓜田不纳履，李下不正冠	rldxnsgdgp	29444	
+事有千般，理有千层	gdttgdtn	29443	
+坐吃山空，立吃地陷	wkmpukfb	29442	
+狡兔死，良狗烹	eqgyey	29441	
+一根筷，两半节	gstgua	29440	
+一步近，两步远	ghrghf	29439	
+扁担没扎，两头打塌	yrirgurf	29438	
+狗咬狗，两嘴毛	ekegkt	29437	
+蜀中无大将，廖化作先锋	lkfduywwrq	29436	
+忠臣不事二君，烈女不更二夫	kadgfvgvdgff	29435	
+亲帮亲，邻帮邻	uduwdw	29434	
+平时不烧香，临时抱佛脚	gjdotjjrwe	29433	
+五不五，六不六	gdgudu	29432	
+人怕揭短，龙怕揭鳞	wnrtdnrp	29431	
+庆父不死，鲁难不止	ywdgpcdh	29430	
+庆父不死，鲁难未已	ywdgpcfn	29429	
+街死街埋，路死路埋	tgtflglf	29428	
+铜山西崩，洛钟东应	qmsmiqay	29427	
+人怕横的，马怕蹦的	wnsrcnlr	29426	
+人怕逼，马怕骑	wngcnc	29425	
+人穷志短，马瘦毛长	wpftcutt	29424	
+人要衣装，马要鞍装	wsyucsau	29423	
+人要炼，马要骑	wsocsc	29422	
+人要知足，马要歇脚	wstlcsje	29421	
+人有失错，马有漏蹄	wdrqcdil	29420	
+人有错手，马有失蹄	wdqrcdrl	29419	
+人有失足，马有失蹄	wdrlcdrl	29418	
+人有同相，马有同鞍	wdmscdma	29417	
+一着不慎，满盘皆输	gudnitxl	29416	
+棋错一着，满盘皆输	sqguitxl	29415	
+丁对丁，卯对卯	scsqcq	29414	
+钉对钉，铆对铆	qcqqcq	29413	
+钉是钉，铆是铆	qjqqjq	29412	
+父母之命，媒妁之言	wxpwvvpy	29411	
+聪明一世，懵懂一时	bjganngj	29410	
+功不成，名不就	addqdy	29409	
+今日三，明日四	wjdjjl	29408	
+心比天高，命比纸薄	nxgywxxa	29407	
+性不能改，命不能换	ndcnwdcr	29406	
+失之毫厘，谬以千里	rpydyntj	29405	
+差之毫厘，谬以千里	upydyntj	29404	
+未经他人苦，莫劝他人善	fxwwaacwwu	29403	
+但行好事，莫问前程	wtvgauut	29402	
+不行春风，难得秋雨	dtdmcttk	29401	
+命有八斗，难求一石	wdwucfgd	29400	
+命里八尺，难求一丈	wjwncfgd	29399	
+秀才不出门，能知天下事	tfdbuctggg	29398	
+天知地知，你知我知	gtftwttt	29397	
+顺我者生，逆我者死	ktftutfg	29396	
+顺之者昌，逆之者亡	kpfjupfy	29395	
+顺之者兴，逆之者亡	kpfiupfy	29394	
+天要落雨，娘要嫁人	gsakvsvw	29393	
+人不离乡，鸟不离枝	wdyxqdys	29392	
+人饥投亲，鸟饥投林	wqruqqrs	29391	
+人急投亲，鸟急投林	wqruqqrs	29390	
+人为钱，鸟为食	wyqqyw	29389	
+东吴招亲，弄假成真	akrugwdf	29388	
+主多高，奴多大	yqyvqd	29387	
+哀其不幸，怒其不争	yadfvadq	29386	
+恶从心头起，怒向胆边生	gwnufvtelt	29385	
+听话听音，刨树刨根	kykuqsqs	29384	
+跑得了初一，跑不了十五	ltbpgldbfg	29383	
+兼听则明，偏听则暗	ukmjwkmj	29382	
+嫁出门的女，泼出门的水	vburviburi	29381	
+嫁出去的女，泼出去的水	vbfrvibfri	29380	
+公说公有理，婆说婆有理	wywdgiyidg	29379	
+三分人才，七分打扮	dwwfawrr	29378	
+三分治，七分养	dwiawu	29377	
+三分匠人，七分主人	dwawawyw	29376	
+十五个吊桶打水，七上八下	fgwksriahwg	29375	
+人比人，气死人	wxwrgw	29374	
+一言已定，千金不移	gynptqdt	29373	
+漂母一饭，千金难买	ixgqtqcn	29372	
+蝉翼为重，千钧为轻	jnyttqyl	29371	
+刀对刀，枪对枪	vcvscs	29370	
+但得一片橘皮吃，且莫忘了洞庭湖	wtgtshkeaybiyi	29369	
+妻不如妾，妾不如偷	gdvuudvw	29368	
+土帮土成墙，穷帮穷成王	fdfdfpdpdg	29367	
+求生不得，求死不能	ftdtfgdc	29366	
+一着不慎，全盘皆输	gudnwtxl	29365	
+穷家难舍，热土难离	ppcwrfcy	29364	
+树老虫多，人老病多	sfjqwfuq	29363	
+树老根多，人老话多	sfsqwfyq	29362	
+世情看冷暖，人面逐高低	anrujwdeyw	29361	
+树怕剥皮，人怕揭短	snvhwnrt	29360	
+树怕剥皮，人怕伤心	snvhwnwn	29359	
+树怕伤根，人怕伤心	snwswnwn	29358	
+树怕烂根，人怕无志	snoswnff	29357	
+水平不流，人平不言	igdiwgdy	29356	
+豹死留皮，人死留名	egqhwgqq	29355	
+山头有水，人头有血	mudiwudt	29354	
+人存政举，人亡政息	wdgiwygt	29353	
+金无足赤，人无十全	qflfwffw	29352	
+佛要金装，人要衣装	wsquwsyu	29351	
+水至清则无鱼，人至察则无徒	igimfpwgpmft	29350	
+智者见智，仁者见仁	tfmtwfmw	29349	
+和为贵，忍为高	tykvyy	29348	
+三十六计，忍为上计	dfuyvyhy	29347	
+起死人，肉白骨	fgwmrm	29346	
+眼中疔，肉中刺	hkumkg	29345	
+一日不见，如隔三秋	gjdmvbdt	29344	
+如临深渊，如履薄冰	vjiivnau	29343	
+入境问禁，入国问俗	tfustluw	29342	
+入乡问禁，入庙拜神	txustyrp	29341	
+一年被蛇咬，三年怕草索	grpjkdrnaf	29340	
+一年被蛇咬，三年怕井绳	grpjkdrnfx	29339	
+一日三，三日九	gjddjv	29338	
+酒不醉人人自醉，色不迷人人自迷	idswwtsqdowwto	29337	
+力田不如逢年，善仕不如遇合	lldvtruwdvjw	29336	
+三天不打，上房揭瓦	dgdrhyrg	29335	
+笑一笑，少一少	tgtigi	29334	
+多栽花，少栽刺	qfaifg	29333	
+头上长角，身上长刺	uhtqthtg	29332	
+吃五谷，生百病	kgwtdu	29331	
+法不阿贵，绳不挠曲	idbkxdrm	29330	
+听君一席话，胜读十年书	kvgyyeyfrn	29329	
+得民者昌，失民者亡	tnfjrnfy	29328	
+得人者昌，失人者亡	twfjrwfy	29327	
+不如意事，十常八九	dvugfiwv	29326	
+天下不如意事，十常八九	ggdvugfiwv	29325	
+一家有难，十户相助	gpdcfyse	29324	
+一家犯法，十家连坐	gpeifplw	29323	
+君子报仇，十年不晚	vbrwfrdj	29322	
+一人传十，十人传百	gwwffwwd	29321	
+十目所视，十手所指	fhrpfrrr	29320	
+一朝怀胎，十月分娩	gfnefewv	29319	
+一尺水，十丈波	gnifdi	29318	
+人闲生病，石闲生苔	wutuduta	29317	
+机不可失，时不我待	sdsrjdtt	29316	
+机不可失，时不再来	sdsrjdgg	29315	
+不是不报，时候未到	djdrjwfg	29314	
+疑人勿使，使人勿疑	xwqwwwqx	29313	
+以其昏昏，使人昭昭	naqqwwjj	29312	
+山中方七日，世上已千年	mkoajahntr	29311	
+路遥知马力，事久见人心	letclgqmwn	29310	
+是话有音，是树有根	jydujsds	29309	
+人有人言，兽有兽语	wdwyuduy	29308	
+此而可忍，孰不可容	hdsvydsp	29307	
+人非草木，孰能无情	wjasycfn	29306	
+穷家难舍，熟地难离	ppcwyfcy	29305	
+人的名儿，树的影儿	wrqqsrjq	29304	
+人活脸，树活皮	wiesih	29303	
+人靠好心，树靠好根	wrvnsrvs	29302	
+人怕伤心，树怕剥皮	wnwnsnvh	29301	
+人怕没脸，树怕没皮	wniesnih	29300	
+人要脸，树要皮	wsessh	29299	
+水有源，树有根	idisds	29298	
+河有源，树有根	idisds	29297	
+人有名，树有根	wdqsds	29296	
+人有脸，树有皮	wdesdh	29295	
+人有名，树有影	wdqsdj	29294	
+横草不动，竖草不拿	sadfjadw	29293	
+横草不拿，竖草不拈	sadwjadr	29292	
+哑子做梦，说不得	kbwsydt	29291	
+泼出的水，说出的话	ibriybry	29290	
+说一是一，说二是二	ygjgyfjf	29289	
+活不见人，死不见尸	idmwgdmn	29288	
+活不活，死不死	idigdg	29287	
+生同衾，死同穴	tmwgmp	29286	
+生于忧患，死于安乐	tsnkgspq	29285	
+僧不僧，俗不俗	wdwwdw	29284	
+台上握手，台下踢脚	chrrcgle	29283	
+人心齐，泰山移	wnydmt	29282	
+山外有山，天外有天	mqdmgqdg	29281	
+人外有人，天外有天	wqdwgqdg	29280	
+河水清，天下平	iiiggg	29279	
+人有千算，天有一算	wdttgdgt	29278	
+只要功夫深，铁杵磨成针	ksafiqsydq	29277	
+只要工夫深，铁杵磨成针	ksafiqsydq	29276	
+王八吃秤砣，铁了心	gwktdqbn	29275	
+听话听声，听鼓听音	kykfkfku	29274	
+受人一饭，听人使唤	ewgqkwwk	29273	
+言者谆谆，听者藐藐	yfyykfaa	29272	
+王八挨踩，痛在肚里	gwrludej	29271	
+黄钟毁弃，瓦釜雷鸣	aqeygwkk	29270	
+家有黄金，外有戥秤	pdaqqdjt	29269	
+内邪不生，外贼不入	madtqmdt	29268	
+一人传虚，万人传实	gwwhdwwp	29267	
+打掉门牙，往肚子里咽	rruatebjk	29266	
+为渊驱鱼，为丛驱雀	yicpywci	29265	
+受人香火，为人销灾	ewtoywqp	29264	
+你若经我苦，未必有我善	waxtafndtu	29263	
+亡羊补牢，未为晚也	yuppfyjb	29262	
+只知其一，未知其二	ktagftaf	29261	
+言者无罪，闻者足戒	yfflufla	29260	
+任从风浪起，稳坐钓鱼船	wwmiftwqpt	29259	
+任凭风浪起，稳坐钓鱼台	wwmiftwqpc	29258	
+无源之水，无本之木	fipifsps	29257	
+和尚打伞，无发无天	tirwfnfg	29256	
+不孝有三，无后为大	dfddfryd	29255	
+有话即长，无话即短	dyvtfyvt	29254	
+千夫所指，无疾而死	tfrrfudg	29253	
+千人所指，无疾而亡	twrrfudy	29252	
+有心下蛋，无心抱窝	dngnfnrp	29251	
+不自由，毋宁死	dtmxpg	29250	
+四体不勤，五谷不分	lwdagwdw	29249	
+三日一小宴，五日一大宴	djgipgjgdp	29248	
+十日一水，五日一石	fjgigjgd	29247	
+文不文，武不武	ydygdg	29246	
+人尽其才，物尽其用	wnafrnae	29245	
+东不成，西不就	addsdy	29244	
+东家长，西家短	aptspt	29243	
+上不上，下不下	hdhgdg	29242	
+上不巴天，下不着地	hdcggduf	29241	
+上马金，下马银	hcqgcq	29240	
+上山问樵，下水问渔	hmusgiui	29239	
+上台拍手，下台打狗	hcrrgcre	29238	
+上无片瓦，下无寸土	hftggfff	29237	
+上有皇天，下有后土	hdrggdrf	29236	
+上有老，下有小	hdfgdi	29235	
+上贼船易，下贼船难	hmtjgmtc	29234	
+桃李不言，下自成行	ssdygtdt	29233	
+冬练三九，夏练三伏	txdvdxdw	29232	
+未过河，先搭桥	ffirrs	29231	
+家有敝帚，享之千金	pduvyptq	29230	
+大处着眼，小处着手	dtuhitur	29229	
+阎王好作，小鬼难当	ugvwirci	29228	
+阎王好见，小鬼难当	ugvmirci	29227	
+大事化小，小事化无	dgwiigwf	29226	
+恨人有，笑人无	nwdtwf	29225	
+身在江湖，心存魏阙	tdiindtu	29224	
+坐不改姓，行不改名	wdnvtdnq	29223	
+坐不更名，行不改姓	wdgqtdnv	29222	
+言寡尤，行寡悔	ypdtpn	29221	
+活到老，学到老	igfigf	29220	
+做到老，学到老	wgfigf	29219	
+覆巢之下，焉有完卵	svpggdpq	29218	
+耳听六路，眼观八方	bkulhcwo	29217	
+耳闻是虚，眼见为实	bujhhmyp	29216	
+人过留踪，雁过留声	wfqldfqf	29215	
+阴一套，阳一套	bgdbgd	29214	
+要死不能，要生不能	sgdcstdc	29213	
+水能载舟，也能覆舟	icftbcst	29212	
+月有盈缺，业有兴衰	ederodiy	29211	
+朝朝寒食，夜夜元宵	ffpwyyfp	29210	
+一把屎，一把尿	grngrn	29209	
+一波未平，一波又起	gifggicf	29208	
+千锤打锣，一锤定声	tqrqgqpf	29207	
+打鼓千声，一锤定音	rftfgqpu	29206	
+千锤打锣，一锤定音	tqrqgqpu	29205	
+主帅出马，一个顶俩	yjbcgwsw	29204	
+人要俏，一身皂	wswgtr	29203	
+一手交钱，一手交货	gruqgruw	29202	
+一则以喜，一则以惧	gmnfgmnn	29201	
+以眼还眼，以牙还牙	nhdhnada	29200	
+狮子搏兔，亦用全力	ebrqyewl	29199	
+项庄舞剑，意在沛公	ayrwudiw	29198	
+山阴道上，应接不暇	mbuhyrdj	29197	
+秤不离砣，影不离身	tdydjdyt	29196	
+疑人不用，用人不疑	xwdeewdx	29195	
+疑人莫用，用人莫疑	xwaeewax	29194	
+疑人勿用，用人勿疑	xwqeewqx	29193	
+亡羊补牢，犹未为晚	yuppefyj	29192	
+有米一锅煮，有柴一灶烧	dogqfdhgoo	29191	
+有冤报冤，有仇报仇	dprpdwrw	29190	
+有一说一，有二说二	dgygdfyf	29189	
+有家难奔，有国难投	dpcddlcr	29188	
+有福同享，有祸同当	dpmydpmi	29187	
+秀才遇见兵，有理讲不清	tfjmrdgydi	29186	
+有柴一灶，有米一锅	dhgodogq	29185	
+有苦同受，有难同当	damedcmi	29184	
+有你没我，有我没你	dwitdtiw	29183	
+才出虎口，又入狼窝	fbhkctep	29182	
+左不是，右不是	ddjddj	29181	
+水趁鱼，鱼趁水	ifppfi	29180	
+鹬蚌相持，渔人得利	cjsriwtt	29179	
+干一行，怨一行	fgtqgt	29178	
+太公钓鱼，愿者上钩	dwqpdfhq	29177	
+风高放火，月黑杀人	myooelqw	29176	
+花无常红，月无常圆	afixefil	29175	
+丈母娘看女婿，越看越有趣	dxvrvvfrfdf	29174	
+人有人道，贼有贼道	wdwumdmu	29173	
+不进庙门，怎么修行	dfyuttwt	29172	
+画虎画皮难画骨，知人知面不知心	ghghcgmtwtddtn	29171	
+井里捞竹头，直拔直	fjrtufrf	29170	
+天下无难事，只怕有心人	ggfcgkndnw	29169	
+不怕路远，只怕志短	dnlfknft	29168	
+项庄之剑，志在沛公	aypwfdiw	29167	
+治得病，治不得命	ituidtw	29166	
+烈女不更二夫，忠臣不事二君	gvdgffkadgfv	29165	
+受人之托，忠人之事	ewprkwpg	29164	
+受人之禄，忠人之事	ewppkwpg	29163	
+一日为师，终身如父	gjyjxtvw	29162	
+种瓜得瓜，种豆得豆	trtrtgtg	29161	
+一人计短，众人计长	gwytwwyt	29160	
+众地莫企，众事莫议	wfawwgay	29159	
+家有万贯，主事一人	pddxyggw	29158	
+家有千口，主事一人	pdtkyggw	29157	
+出口的话，铸成的塔	bkryqdrf	29156	
+踏石留印，抓铁有痕	ldqqrqdu	29155	
+众怒难犯，专欲难成	wvcefwcd	29154	
+七十二行，庄稼为强	afftytyx	29153	
+三十六行，庄稼为强	dfutytyx	29152	
+捉贼要赃，捉奸要双	rmsmrvsc	29151	
+父做子笑，子做父笑	wwbtbwwt	29150	
+老王卖瓜，自卖自夸	fgfrtftd	29149	
+王婆卖瓜，自卖自夸	gifrtftd	29148	
+木匠戴枷，自作自受	safstwte	29147	
+穿新鞋，走老路	puaffl	29146	
+拉大旗，作虎皮	rdowhh	29145	
+家累千金，坐不垂堂	pltqwdti	29144	
+行不改名，坐不改姓	tdnqwdnv	29143	
+说一套，做一套	ygdwgd	29142	
+大鱼吃小鱼，快鱼吃慢鱼	dpkipnpknp	29141	
+好人不长寿，祸害一千年	vwdtdppgtr	29140	
+上有政策，下有对策	hdgtgdct	29139	
+## -人体主要穴位名称（108处）-			
+期门	aduy	30000	
+彧中	akkh	30000	
+颧髎	akme	30000	
+巨骨	anme	30000	
+巨髎	anme	30000	
+巨阙	anuu	29732	
+劳宫	appk	30000	
+翳明	atje	30000	
+翳风	atmq	24663	
+阳陵泉	bbri	27289	
+阴陵泉	bbri	30000	
+聚泉	bcri	30000	
+承满	bdia	30000	
+承光	bdiq	30000	
+承泣	bdiu	30000	
+承山	bdmm	30000	
+承扶	bdrf	30000	
+承筋	bdte	30000	
+承浆	bduq	30000	
+承灵	bdvo	30000	
+阴都	beft	30000	
+阴郄	beqd	30000	
+阴包	beqn	30000	
+阴交	beuq	30000	
+阴谷	beww	30000	
+阴市	beym	30000	
+阴廉	beyu	30000	
+耳尖	bgid	33384	
+耳门	bguy	32327	
+阳池	bjib	30000	
+阳溪	bjie	30000	
+阳辅	bjlg	30000	
+阳白	bjrr	30000	
+阳交	bjuq	30000	
+阳谷	bjww	38606	
+阳纲	bjxm	30000	
+孔最	bnjb	30000	
+隐白	bqrr	30000	
+陶道	bqut	30000	
+陷谷	bqww	30000	
+耳和髎	btme	30000	
+附分	bwwv	30000	
+颈臂	cank	30000	
+颈百劳	cdap	30000	
+通天	cegd	36625	
+通里	cejf	30000	
+太阳穴	dbpw	35681	
+三阴交	dbuq	29941	
+厥阴俞	dbwg	30000	
+三阳络	dbxt	30000	
+大巨	ddan	30000	
+大陵	ddbf	30000	
+大赫	ddfo	30000	
+大迎	ddqb	30000	
+大钟	ddqk	34006	
+大包	ddqn	37235	
+大横	ddsa	30000	
+大杼	ddsc	30000	
+大椎	ddsw	29225	
+厉兑	dduk	30000	
+大敦	ddyb	24373	
+大肠俞	dewg	30000	
+石关	dgud	30000	
+三间	dguj	35641	
+丰隆	dhbt	29926	
+不容	dhpw	40723	
+百虫窝	djpw	30000	
+百会	djwf	35629	
+大骨空	dmpw	30000	
+百会穴	dwpw	28053	
+三焦俞	dwwg	30000	
+太溪	dyie	30000	
+太渊	dyit	27022	
+太乙	dynn	34288	
+太冲	dyuk	31681	
+乳中	ebkh	30000	
+乳根	ebsv	30000	
+膝阳关	ebud	30000	
+腰阳关	ebud	30000	
+腹通谷	ecww	30000	
+膀胱俞	eewg	23116	
+肘尖	efid	30000	
+肘髎	efme	30000	
+臑会	efwf	30000	
+肝俞	efwg	30000	
+臑俞	efwg	30000	
+悬厘	egdj	30000	
+悬颅	eghn	30000	
+悬钟	egqk	23813	
+悬枢	egsa	30000	
+膈关	egud	30000	
+膈俞	egwg	23687	
+肺俞	egwg	30000	
+胆囊	ejfk	35383	
+胆俞	ejwg	30000	
+腕骨	epme	27397	
+胸乡	eqxt	30000	
+胞肓	eqyn	30000	
+脾俞	erwg	30000	
+腰奇	esds	30000	
+腰眼	eshv	27061	
+膝眼	eshv	21962	
+腰宜	espe	30000	
+膝关	esud	30000	
+腰俞	eswg	30000	
+腹结	etxf	30000	
+腹哀	etye	30000	
+腰痛点	euhk	30000	
+膻中	eykh	29014	
+脑空	eypw	30000	
+脑户	eyyn	30000	
+十七椎	fasw	30000	
+地机	fbsm	30000	
+地仓	fbwb	30000	
+支正	fcgh	30000	
+支沟	fciq	30000	
+云门	fcuy	33646	
+魂门	fcuy	30000	
+十宣	fgpg	30000	
+二白	fgrr	28913	
+二间	fguj	32340	
+地五会	fgwf	30000	
+志室	fnpg	30000	
+下巨虚	gaha	30000	
+至阴	gcbe	32114	
+至阳	gcbj	32220	
+天井	gdfj	37267	
+天鼎	gdhn	27665	
+天池	gdib	37560	
+天溪	gdie	30000	
+环跳	gdlq	26899	
+天髎	gdme	30000	
+天宗	gdpf	30000	
+天窗	gdpw	37246	
+天容	gdpw	28808	
+天突	gdpw	30000	
+天泉	gdri	33583	
+天枢	gdsa	32047	
+天柱	gdsy	33105	
+天牖	gdth	30000	
+天冲	gduk	30000	
+天府	gdyw	40359	
+青灵	gevo	30000	
+球后	gfrg	30416	
+五枢	ggsa	30000	
+五处	ggth	31235	
+正营	ghap	29732	
+下脘	ghep	22781	
+下髎	ghme	30000	
+下关	ghud	34510	
+下廉	ghyu	30000	
+带脉	gkey	28344	
+束骨	gkme	30000	
+璇玑	gogm	30175	
+列缺	gqrm	30000	
+下极俞	gswg	30000	
+夹脊	guiw	28189	
+颊车	gulg	30000	
+素髎	gxme	30000	
+玉堂	gyip	32822	
+玉液	gyiy	30279	
+玉枕	gysp	28609	
+上巨虚	haha	30000	
+瞳子髎	hbme	30000	
+睛明	hgje	30000	
+上脘	hhep	30000	
+上星	hhjt	34064	
+上髎	hhme	30000	
+目窗	hhpw	30000	
+上关	hhud	30000	
+上廉	hhyu	30000	
+督俞	hiwg	30000	
+步廊	hiyy	30000	
+颅息	hnth	30000	
+上迎香	hqtj	30000	
+龈交	hwuq	30000	
+紫宫	hxpk	30000	
+上廉泉	hyri	30000	
+涌泉	icri	32721	
+浮郄	ieqd	30000	
+浮白	ierr	30000	
+小肠俞	iewg	30000	
+小海	ihit	37103	
+水沟	iiiq	37167	
+消泺	iiiq	30000	
+水突	iipw	30000	
+水泉	iiri	36742	
+水道	iiut	35768	
+温溜	ijiq	30000	
+小骨空	impw	30000	
+滑肉门	imuy	30000	
+漏谷	inww	30000	
+渊腋	itey	30000	
+少泽	itic	30000	
+少海	itit	28419	
+渊液	itiy	30000	
+海泉	itri	32094	
+少冲	ituk	30000	
+少商	itum	28913	
+少府	ityw	29763	
+清冷渊	iuit	30000	
+当阳	ivbj	33477	
+梁丘	ivrg	30000	
+梁门	ivuy	30000	
+脊中	iwkh	30000	
+液门	iyuy	30000	
+肾俞	jcwg	28491	
+晴明	jgje	27728	
+申脉	jhey	30000	
+日月	jjee	39589	
+照海	jvit	30000	
+足通谷	kcww	30000	
+足五里	kgjf	30000	
+哑门	kguy	19470	
+跗阳	khbj	30000	
+中脘	khep	28491	
+中封	khff	30000	
+中都	khfj	40128	
+中渚	khif	30000	
+中渎	khif	30000	
+中注	khiy	30000	
+中髎	khme	30000	
+中泉	khri	29701	
+中魁	khrq	30000	
+中枢	khsa	37034	
+中极	khse	31463	
+中冲	khuk	30081	
+中庭	khyt	33787	
+中府	khyw	27968	
+足临泣	kjiu	30000	
+足窍阴	kpbe	30000	
+听宫	krpk	30000	
+听会	krwf	35232	
+口禾髎	ktme	30000	
+中膂俞	kywg	30000	
+辄筋	lbte	30000	
+足三里	ldjf	31666	
+胃脘下俞	legw	30000	
+胃仓	lewb	30000	
+胃俞	lewg	30000	
+四满	lhia	30000	
+四渎	lhif	30000	
+四白	lhrr	30000	
+四缝	lhxt	30000	
+四神聪	lpbu	30000	
+曲鬓	made	30000	
+曲垣	mafg	30000	
+曲池	maib	24841	
+曲泽	maic	30000	
+曲骨	mame	30000	
+曲泉	mari	30000	
+曲差	maud	30000	
+内膝眼	mehv	30000	
+髋骨	meme	28268	
+髀关	meud	30000	
+周荣	mfap	28808	
+内踝尖	mkid	30000	
+风池	mqib	27820	
+内迎香	mqtj	30000	
+风门	mquy	32502	
+风市	mqym	30000	
+风府	mqyw	30000	
+内关	mwud	28786	
+内庭	mwyt	28319	
+幽门	mxuy	31316	
+居髎	ndme	30000	
+屋翳	ngat	30000	
+眉冲	nhuk	30000	
+臂臑	nkef	30000	
+尺泽	nyic	30000	
+心俞	nywg	30000	
+完骨	pfme	30000	
+定喘	pgkm	28394	
+鹤顶	pwsd	30000	
+神藏	pyad	30000	
+神封	pyff	27968	
+神堂	pyip	30638	
+神道	pyut	38263	
+神阙	pyuu	28162	
+神门	pyuy	30011	
+神庭	pyyt	26243	
+外劳宫	qapk	30000	
+迎香	qbtj	30000	
+郄门	qduy	30000	
+然谷	qdww	30000	
+角孙	qebi	30000	
+解溪	qeie	30000	
+鱼际	qgbf	30000	
+鱼腰	qges	30000	
+印堂	qgip	31420	
+外陵	qhbf	30000	
+外丘	qhrg	30000	
+外关	qhud	29838	
+外踝尖	qkid	30000	
+金津	qqiv	28609	
+独阴	qtbe	30000	
+急脉	qvey	30000	
+手三里	rdjf	30000	
+扶突	rfpw	30000	
+扶兔	rfqk	30000	
+丘墟	rgfh	30000	
+后溪	rgie	28609	
+手五里	rgjf	30000	
+后顶	rgsd	30000	
+白环俞	rgwg	30000	
+气海俞	riwg	30000	
+缺盆	rmwv	30000	
+气海	rnit	30823	
+气穴	rnpw	28394	
+气冲	rnuk	33189	
+气端	rnum	30000	
+气舍	rnwf	30000	
+气户	rnyn	30000	
+攒竹	rrtt	24841	
+魄户	rryn	30000	
+殷门	rvuy	30000	
+横骨	same	30000	
+极泉	seri	25388	
+本神	sgpy	32067	
+筑宾	tapr	30000	
+箕门	tauy	30000	
+长强	taxk	30000	
+筋缩	texp	30000	
+行间	tfuj	30977	
+秉风	tgmq	30000	
+复溜	tjiq	30000	
+血海	tlit	33115	
+囟会	tlwf	30000	
+身柱	tmsy	30000	
+秩边	trlp	30000	
+犊鼻	trth	30000	
+条口	tskk	30000	
+委阳	tvbj	30000	
+委中	tvkh	28954	
+瘛脉	udey	30000	
+关元	udfq	33575	
+关冲	uduk	30000	
+头维	udxw	30000	
+前顶	uesd	30148	
+前谷	ueww	30000	
+关元俞	ufwg	30000	
+阑尾	ugnt	34416	
+痞根	ugsv	30000	
+头临泣	ujiu	30000	
+章门	ujuy	30000	
+意舍	ujwf	30000	
+间使	ujwg	30000	
+冲阳	ukbj	30000	
+兑端	ukum	30000	
+冲门	ukuy	30000	
+商阳	umbj	30000	
+商曲	umma	30000	
+头窍阴	upbe	30000	
+次髎	uqme	30000	
+交信	uqwy	30000	
+建里	vfjf	30000	
+灵墟	vofh	22400	
+灵道	vout	31216	
+鸠尾	vqnt	27665	
+公孙	wcbi	37592	
+会阴	wfbe	33157	
+会阳	wfbj	30000	
+会宗	wfpf	30000	
+合阳	wgbj	33180	
+侠溪	wgie	30000	
+侠白	wgrr	30000	
+命门	wguy	34114	
+合谷	wgww	30317	
+俞府	wgyw	30000	
+仆参	whcd	30000	
+八邪	wtah	30000	
+八风	wtmq	27728	
+人迎	wwqb	30000	
+华盖	wxug	32531	
+颔厌	wydd	30000	
+偏历	wydl	30000	
+食窦	wypw	30000	
+经渠	xcia	30000	
+蠡沟	xeiq	30000	
+强间	xkuj	30000	
+经外奇穴	xqdp	30000	
+络却	xtfc	30000	
+丝竹空	xtpw	30000	
+维道	xwut	30000	
+京骨	yime	30000	
+京门	yiuy	27534	
+肩中俞	ykwg	30000	
+肩井	ynfj	26080	
+肩贞	ynhm	30000	
+肩髎	ynme	30000	
+肩髃	ynme	30000	
+扁桃	ynsq	28080	
+肓门	ynuy	30000	
+肓俞	ynwg	30000	
+膏肓	ypyn	35370	
+肩外俞	yqwg	30000	
+廉泉	yuri	30000	
+譩譆	yuyf	30000	
+膺窗	ywpw	30000	
+府舍	ywwf	30000	
+率谷	yxww	30000	
+膏肓俞	yywg	30000	
+## -传统医学词汇-			
+腰肌劳损	eear	31253	
+脾胃虚弱	elhx	31586	
+去胀气	fern	30000	
+增强免疫力	fxql	30000	
+止咳平喘	hkgk	26981	
+润肺定喘	iepk	30000	
+滋肝养肾	ieuj	30000	
+清心润肺	inie	30000	
+滋补强身	ipxt	30000	
+肾虚腰痛	jheu	30000	
+明目醒脑	jhse	30000	
+四肢乏力	letl	30000	
+补脾和胃	petl	30000	
+补气养血	prut	28242	
+提神醒脑	rpse	31513	
+益脾润肠	ueie	30000	
+养心安神	unpp	30000	
+益气生津	urti	30000	
+体虚便稀	whwt	30000	
+体困神疲	wlpu	30000	
+强筋骨	xtme	30000	
+强身健体	xtww	35153	
+强化肝肾	xwej	30000	
+## -地名-			
+浐灞	iuik	31546	
+凤翔	mcud	34816	
+上海	hhit	51599	
+北京	uxyi	50812	
+比如	xxvk	48956	
+深圳	ipfk	48625	
+广州	yyyt	48069	
+重庆	tgyd	47710	
+成都	dnfj	46769	
+海南	itfm	46740	
+南京	fmyi	46592	
+杭州	syyt	46219	
+天津	gdiv	46065	
+武汉	gaic	45774	
+东方	aioy	45742	
+西安	sgpv	45118	
+河南	isfm	45114	
+厦门	dduy	44917	
+苏州	alyt	44847	
+三亚	dggo	44624	
+海口	itkk	44288	
+青岛	geqy	44262	
+长沙	taii	44192	
+东莞	aiap	44111	
+宁波	psih	44066	
+焦作	wowt	44050	
+沈阳	ipbj	43893	
+温州	ijyt	43878	
+大连	ddlp	43779	
+福州	pyyt	43770	
+河北	isux	43666	
+巢湖	vjid	43581	
+无锡	fqqj	43348	
+南海	fmit	43316	
+前进	uefj	43288	
+泉州	riyt	43194	
+昆明	jxje	43059	
+威海	dgit	43057	
+珠海	grit	42950	
+中山	khmm	42950	
+郑州	udyt	42853	
+澳门	ituy	42843	
+广东省	yait	42773	
+兰州	udyt	42663	
+太和	dytk	42651	
+济南	iyfm	42608	
+南昌	fmjj	42452	
+文昌	yyjj	42429	
+南宁	fmps	42382	
+哈尔滨	kqip	42350	
+汕头	imud	42338	
+玉环	gygd	42275	
+佛山	wxmm	42225	
+长安	tapv	42167	
+桂林	sfss	42109	
+长春	tadw	42051	
+合肥	wgec	42025	
+贵阳	khbj	41964	
+丽江	gmia	41921	
+扬州	rnyt	41911	
+徐州	twyt	41904	
+金山	qqmm	41783	
+常州	ipyt	41754	
+四川省	lkit	41599	
+洛阳	itbj	41562	
+江苏省	iait	41558	
+万宁	dnps	41530	
+小店	ihyh	41496	
+新建	usvf	41454	
+浙江省	iiit	41440	
+山东省	mait	41428	
+吉林	fkss	41361	
+揭阳	rjbj	41354	
+瑞金	gmqq	41232	
+石家庄	dpyf	41219	
+河南省	ifit	41209	
+花都	awfj	41189	
+宁夏	psdh	41171	
+振兴	rdiw	41155	
+昆山	jxmm	41058	
+商城	umfd	40997	
+朝阳	fjbj	40983	
+赤壁	fonk	40953	
+东海	aiit	40816	
+河北省	iuit	40760	
+湛江	iaia	40746	
+海南省	ifit	40729	
+汉中	ickh	40719	
+拉萨	ruab	40718	
+太原	dydr	40693	
+西湖	sgid	40692	
+海丰	itdh	40681	
+万年	dnrh	40681	
+福建省	pvit	40659	
+惠州	gjyt	40654	
+临高	jtym	40651	
+南山	fmmm	40644	
+南通	fmce	40610	
+黄山	ammm	40598	
+唐山	yvmm	40521	
+绍兴	xviw	40503	
+湖北省	iuit	40500	
+延安	thpv	40434	
+义乌	yqqn	40312	
+安徽省	ptit	40290	
+荆州	agyt	40277	
+乌鲁木齐	qpsy	40255	
+台州	ckyt	40217	
+绵阳	xrbj	40211	
+新余	usws	40185	
+烟台	olck	40179	
+山西省	msit	40164	
+六合	uywg	40127	
+大名	ddqk	40115	
+江门	iauy	40108	
+宜昌	pejj	40091	
+赣州	ujyt	40067	
+荷塘	awfy	40063	
+浦东	igai	40053	
+玉树	gysc	40045	
+福田	pyll	40045	
+北海	uxit	40026	
+云南省	ffit	40002	
+大理	ddgj	40001	
+无极	fqse	39928	
+阿里	bsjf	39925	
+共和	awtk	39868	
+湖滨	idip	39857	
+辽宁省	bpit	39794	
+江西省	isit	39709	
+柳州	sqyt	39699	
+天河	gdis	39654	
+大同	ddmg	39644	
+张掖	xtry	39635	
+天山	gdmm	39628	
+芝加哥	alsk	39615	
+陕西省	bsit	39594	
+泰山	dwmm	39569	
+白水	rrii	39565	
+佳木斯	wsad	39556	
+嘉兴	fkiw	39550	
+博爱	fgep	39535	
+顺德	kdtf	39528	
+芜湖	afid	39524	
+漳州	iuyt	39523	
+湖州	idyt	39327	
+琼海	gyit	39304	
+大庆	ddyd	39303	
+吉林省	fsit	39283	
+株洲	sriy	39253	
+黑龙江省	ldii	39210	
+西夏	sgdh	39205	
+日照	jjjv	39196	
+南沙	fmii	39180	
+城关	fdud	39177	
+番禺	tojm	39173	
+保定	wkpg	39128	
+张家界	xplw	39126	
+金华	qqwx	39109	
+江北	iaux	39098	
+云霄	fcki	39089	
+九江	vtia	39086	
+海淀	itip	39079	
+海宁	itps	39071	
+蜀山	lqmm	39054	
+开封	gaff	39049	
+香格里拉	tsjr	39042	
+上饶	hhqn	39030	
+晋江	goia	38983	
+西宁	sgps	38971	
+阳江	bjia	38898	
+咸阳	dgbj	38898	
+廊坊	yyfo	38839	
+镇江	qfia	38817	
+屯昌	gbjj	38769	
+贵州省	kyit	38759	
+大兴	ddiw	38756	
+安庆	pvyd	38735	
+潍坊	ixfo	38701	
+天水	gdii	38692	
+威信	dgwy	38665	
+驻马店	ccyh	38649	
+甘肃省	avit	38646	
+七星	agjt	38630	
+盐城	fhfd	38617	
+九龙	vtdx	38607	
+武昌	gajj	38595	
+都江堰	fifa	38547	
+临沂	jtir	38523	
+五指山	grmm	38499	
+乐山	qimm	38471	
+岳阳	rgbj	38455	
+宝安	pgpv	38435	
+西山	sgmm	38427	
+滨海	ipit	38420	
+衡阳	tqbj	38414	
+南阳	fmbj	38412	
+潮州	ifyt	38387	
+宜宾	pepr	38379	
+宝鸡	pgcq	38364	
+南充	fmyc	38327	
+邯郸	afuj	38306	
+包头	qnud	38293	
+台前	ckue	38269	
+淮安	iwpv	38253	
+遵义	usyq	38245	
+常熟	ipyb	38228	
+太湖	dyid	38202	
+罗湖	lqid	38200	
+肇庆	ynyd	38185	
+银川	qvkt	38183	
+龙华	dxwx	38166	
+江阴	iabe	38144	
+萧山	avmm	38132	
+常德	iptf	38119	
+阳朔	bjub	38117	
+松江	swia	38116	
+龙岩	dxmd	38115	
+金门	qquy	38089	
+湘西	issg	38081	
+梅州	styt	38077	
+宜兴	peiw	38073	
+南开	fmga	38063	
+黄埔	amfg	38062	
+陵水	bfii	38061	
+天门	gduy	38057	
+玉林	gyss	38020	
+庐山	yymm	38001	
+景德镇	jtqf	37997	
+秦皇岛	drqy	37988	
+南平	fmgu	37936	
+莆田	agll	37936	
+锦州	qryt	37930	
+韶关	ujud	37924	
+襄阳	ykbj	37914	
+喀什	kpwf	37910	
+淮南	iwfm	37901	
+兴业	iwog	37882	
+九寨沟	vpiq	37874	
+敦煌	ybor	37871	
+鹰潭	ywis	37816	
+慈溪	uxie	37814	
+三元	dgfq	37812	
+鞍山	akmm	37801	
+沧州	iwyt	37789	
+泸州	ihyt	37783	
+泰州	dwyt	37769	
+山城	mmfd	37721	
+天台	gdck	37713	
+自贡	tham	37708	
+吴江	kgia	37672	
+昭通	jvce	37667	
+龙城	dxfd	37653	
+青海省	giit	37639	
+龙岗	dxmm	37627	
+中卫	khbg	37627	
+茂名	adqk	37624	
+阜阳	wnbj	37615	
+马尾	cnnt	37566	
+益阳	uwbj	37560	
+连云	lpfc	37548	
+丽水	gmii	37545	
+丰台	dhck	37489	
+舟山	temm	37470	
+济宁	iyps	37470	
+昌平	jjgu	37467	
+丹东	myai	37442	
+安阳	pvbj	37440	
+商都	umfj	37420	
+龙凤	dxmc	37401	
+呼和浩特	ktir	37380	
+鹿寨	ynpf	37360	
+道里	utjf	37360	
+石门	dguy	37348	
+张家港	xpia	37347	
+井冈山	fmmm	37344	
+衢州	thyt	37344	
+许昌	ytjj	37342	
+清远	igfq	37320	
+运河	fcis	37320	
+桃源	sqid	37312	
+淄博	ivfg	37311	
+湖南省	ifit	37303	
+攀枝花	ssaw	37285	
+东城	aifd	37277	
+三明	dgje	37267	
+十堰	fgfa	37219	
+东湖	aiid	37213	
+兴隆	iwbt	37195	
+湘潭	isis	37193	
+清河	igis	37177	
+石鼓	dgfk	37159	
+怒江	vcia	37150	
+紫金	hxqq	37145	
+滨江	ipia	37143	
+广元	yyfq	37123	
+聊城	bqfd	37109	
+怀化	ndwx	37101	
+吉安	fkpv	37080	
+向阳	tmbj	37076	
+河源	isid	37047	
+梁山	ivmm	37025	
+承德	bdtf	37002	
+瑞安	gmpv	36991	
+余姚	wsvq	36984	
+红河	xais	36973	
+内蒙古自治区	mada	36950	
+城西	fdsg	36950	
+三江	dgia	36935	
+怀柔	ndcn	36933	
+泰安	dwpv	36902	
+西昌	sgjj	36892	
+台山	ckmm	36878	
+卧龙	ahdx	36852	
+曲靖	maug	36849	
+本溪	sgie	36843	
+开平	gagu	36822	
+抚顺	rfkd	36813	
+汕尾	imnt	36793	
+蓬莱	atag	36793	
+阜新	wnus	36790	
+蚌埠	jdfw	36777	
+宁海	psit	36763	
+玉溪	gyie	36750	
+南区	fmaq	36743	
+石棉	dgsr	36702	
+临潼	jtiu	36684	
+梧州	sgyt	36648	
+太仓	dywb	36647	
+安居	pvnd	36634	
+鼓楼	fkso	36633	
+顺义	kdyq	36630	
+邢台	gack	36625	
+内江	mwia	36616	
+满洲里	iijf	36597	
+宝山	pgmm	36580	
+榆林	swss	36572	
+石柱	dgsy	36566	
+武夷山	ggmm	36562	
+大关	ddud	36561	
+满城	iafd	36559	
+河口	iskk	36541	
+南岸	fmmd	36533	
+忻州	nryt	36523	
+平湖	guid	36491	
+石林	dgss	36487	
+临安	jtpv	36482	
+三台	dgck	36480	
+凌云	uffc	36469	
+黄石	amdg	36462	
+张家口	xpkk	36459	
+汉阳	icbj	36442	
+邵阳	vkbj	36430	
+安顺	pvkd	36423	
+鄂尔多斯	kqqa	36405	
+德州	tfyt	36402	
+江城	iafd	36395	
+呼伦贝尔	kwmq	36393	
+长乐	taqi	36389	
+工农	aape	36368	
+眉山	nhmm	36357	
+抚州	rfyt	36345	
+商丘	umrg	36318	
+大观	ddcm	36313	
+晋中	gokh	36293	
+宜春	pedw	36290	
+丹阳	mybj	36287	
+赤峰	fomt	36267	
+东营	aiap	36262	
+龙泉	dxri	36259	
+江津	iaiv	36251	
+水城	iifd	36251	
+嘉定	fkpg	36235	
+连云港	lfia	36234	
+小金	ihqq	36232	
+信阳	wybj	36224	
+咸丰	dgdh	36223	
+诸暨	yfvc	36208	
+嘉禾	fktt	36204	
+弥勒	xqak	36201	
+临汾	jtiw	36193	
+平阳	gubj	36186	
+遂宁	ueps	36181	
+海港	itia	36181	
+新会	uswf	36175	
+马鞍山	camm	36152	
+伊犁	wvtj	36136	
+龙山	dxmm	36128	
+松山	swmm	36125	
+北戴河	ufis	36123	
+金凤	qqmc	36108	
+长兴	taiw	36095	
+娄底	ovyq	36080	
+盐田	fhll	36068	
+福清	pyig	36060	
+新安	uspv	36053	
+六安	uypv	36048	
+阿拉善	brud	36037	
+太白	dyrr	36011	
+延边	thlp	36008	
+三门峡	dumg	35984	
+龙井	dxfj	35977	
+云龙	fcdx	35975	
+雅安	ahpv	35966	
+荆门	aguy	35961	
+钟楼	qkso	35951	
+神木	pyss	35923	
+淮北	iwux	35923	
+南岳	fmrg	35911	
+增城	fufd	35909	
+运城	fcfd	35909	
+龙潭	dxis	35889	
+象山	qjmm	35868	
+延平	thgu	35863	
+百色	djqc	35861	
+昌都	jjfj	35859	
+静安	gepv	35854	
+文山	yymm	35825	
+牡丹江	rmia	35823	
+北区	uxaq	35812	
+萍乡	aixt	35806	
+四平	lhgu	35806	
+朝天	fjgd	35797	
+长治	taic	35795	
+宣城	pgfd	35792	
+枣庄	gmyf	35786	
+锦江	qria	35779	
+徽州	tmyt	35773	
+巴林	cnss	35762	
+铜陵	qmbf	35745	
+宁德	pstf	35742	
+随州	bdyt	35734	
+开化	gawx	35730	
+辽阳	bpbj	35706	
+铁岭	qrmw	35681	
+临江	jtia	35658	
+酒泉	isri	35658	
+浏阳	iybj	35656	
+阳春	bjdw	35652	
+黄冈	ammq	35635	
+徐汇	twia	35633	
+大田	ddll	35629	
+商洛	umit	35627	
+普陀	uobp	35621	
+海西	itsg	35611	
+雷州	klyt	35609	
+渭南	ilfm	35605	
+玉门	gyuy	35552	
+玉山	gymm	35552	
+沙河	iiis	35548	
+长宁	taps	35548	
+平顶山	gsmm	35548	
+未央	fimd	35538	
+崂山	mamm	35536	
+杨浦	snig	35528	
+富阳	pgbj	35518	
+石景山	djmm	35516	
+连城	lpfd	35493	
+黄浦	amig	35483	
+兴国	iwlg	35469	
+曲阜	mawn	35456	
+山海关	miud	35454	
+江陵	iabf	35452	
+龙游	dxio	35450	
+漯河	ilis	35433	
+虹口	jakk	35423	
+上虞	hhha	35419	
+宜川	pekt	35412	
+宝塔	pgfa	35404	
+建华	vfwx	35355	
+秦淮	dwiw	35353	
+濮阳	iwbj	35290	
+高台	ymck	35261	
+平遥	guer	35255	
+路北	ltux	35248	
+咸宁	dgps	35241	
+天长	gdta	35217	
+北辰	uxdf	35214	
+凉山	uymm	35203	
+盐湖	fhid	35199	
+延庆	thyd	35187	
+江海	iait	35180	
+延吉	thfk	35171	
+仙桃	wmsq	35162	
+奉贤	dwjc	35153	
+衡水	tqii	35127	
+珍珠港	ggia	35123	
+湖口	idkk	35111	
+西贡	sgam	35078	
+崇明	mpje	35078	
+广西壮族自治区	ysua	35062	
+德庆	tfyd	35052	
+涪陵	iubf	35047	
+密云	pnfc	35028	
+吐鲁番	kpto	35021	
+双流	cciy	35018	
+建平	vfgu	35016	
+新昌	usjj	35009	
+青浦	geig	35006	
+山南	mmfm	35004	
+双塔	ccfa	34999	
+房山	ynmm	34999	
+鄂州	kkyt	34888	
+莱芜	agaf	34877	
+双峰	ccmt	34875	
+民乐	naqi	34867	
+武威	gadg	34865	
+如皋	vkrd	34852	
+河池	isib	34837	
+亚东	goai	34831	
+蓝田	ajll	34782	
+仙居	wmnd	34777	
+惠安	gjpv	34764	
+衡山	tqmm	34758	
+琼中	gykh	34750	
+个旧	whhj	34742	
+江油	iaim	34742	
+安达	pvdp	34742	
+嘉陵	fkbf	34740	
+哈密	kwpn	34721	
+海珠	itgr	34689	
+永嘉	ynfk	34678	
+云浮	fcie	34672	
+冀州	uxyt	34645	
+晋城	gofd	34634	
+琼山	gymm	34631	
+站前	uhue	34620	
+平谷	guww	34589	
+沙市	iiym	34587	
+隆昌	btjj	34584	
+平江	guia	34570	
+五台	ggck	34567	
+周口	mfkk	34538	
+伊春	wvdw	34527	
+和顺	tkkd	34524	
+曲江	maia	34518	
+云阳	fcbj	34515	
+盘锦	teqr	34510	
+池州	ibyt	34504	
+伊川	wvkt	34501	
+大兴安岭	dipm	34501	
+通辽	cebp	34472	
+韶山	ujmm	34463	
+神农架	pplk	34460	
+名山	qkmm	34448	
+克拉玛依	drgw	34425	
+龙口	dxkk	34410	
+姑苏	vdal	34404	
+华容	wxpw	34401	
+吕梁	kkiv	34392	
+海东	itai	34386	
+庐江	yyia	34380	
+平顺	gukd	34380	
+寿光	dtiq	34380	
+龙江	dxia	34365	
+桐城	smfd	34362	
+毕节	xxab	34337	
+黄梅	amst	34316	
+荣成	apdn	34263	
+安国	pvlg	34253	
+溧阳	isbj	34250	
+金昌	qqjj	34247	
+石河子	dibb	34240	
+镇海	qfit	34237	
+江汉	iaic	34234	
+大新	ddus	34218	
+胶州	euyt	34150	
+德宏	tfpd	34130	
+兰溪	udie	34111	
+明光	jeiq	34101	
+康乐	yvqi	34101	
+凤阳	mcbj	34094	
+同安	mgpv	34087	
+石嘴山	dkmm	34067	
+金沙	qqii	34064	
+吉首	fkut	34047	
+即墨	vclf	34040	
+紫阳	hxbj	34030	
+湘乡	isxt	34030	
+惠阳	gjbj	34020	
+廉江	yuia	34006	
+汝南	ivfm	34006	
+灵宝	vopg	34002	
+鸡西	cqsg	34002	
+武陵	gabf	33992	
+新罗	uslq	33978	
+滁州	ibyt	33961	
+安平	pvgu	33947	
+鹤岗	pwmm	33940	
+秀峰	temt	33893	
+洪湖	iaid	33879	
+库尔勒	yqak	33857	
+大安	ddpv	33854	
+黑河	lfis	33843	
+潜江	ifia	33835	
+横山	samm	33780	
+阳泉	bjri	33765	
+六盘水	utii	33720	
+固原	lddr	33712	
+甘孜	afbt	33712	
+福鼎	pyhn	33708	
+淮阴	iwbe	33704	
+离岛	ybqy	33701	
+丹凤	mymc	33697	
+赤水	foii	33693	
+甘南	affm	33689	
+樟树	susc	33650	
+白城	rrfd	33650	
+潮阳	ifbj	33638	
+思茅	lnac	33635	
+扶风	rfmq	33599	
+平凉	guuy	33587	
+古田	dgll	33583	
+铜川	qmkt	33563	
+丰润	dhiu	33539	
+甘泉	afri	33531	
+盐池	fhib	33514	
+磐石	tedg	33506	
+新田	usll	33444	
+福安	pypv	33444	
+陇南	bdfm	33440	
+四会	lhwf	33431	
+江口	iakk	33427	
+临川	jtkt	33423	
+黔南	lffm	33367	
+恒山	ngmm	33354	
+恩平	ldgu	33337	
+东川	aikt	33332	
+南明	fmje	33328	
+东乡	aixt	33284	
+南川	fmkt	33275	
+徐闻	twub	33248	
+延寿	thdt	33244	
+永福	ynpy	33208	
+高邮	ymmb	33198	
+零陵	kwbf	33194	
+东坡	aifh	33189	
+南丹	fmmy	33180	
+绥化	xewx	33175	
+永新	ynus	33162	
+黔江	lfia	33138	
+万全	dnwg	33134	
+昌吉	jjfk	33105	
+梨树	tjsc	33086	
+大化	ddwx	33086	
+缙云	xgfc	33067	
+诸城	yffd	33058	
+尖山	idmm	33053	
+官渡	phiy	33043	
+灵台	vock	33038	
+广陵	yybf	32945	
+富源	pgid	32945	
+清流	igiy	32945	
+鄱阳	tobj	32920	
+梅县	steg	32920	
+江岸	iamd	32894	
+乌海	qnit	32859	
+岐山	mfmm	32848	
+永宁	ynps	32807	
+莱阳	agbj	32807	
+尚志	imfn	32775	
+乐业	qiog	32770	
+高平	ymgu	32770	
+朔州	ubyt	32764	
+盱眙	hshc	32754	
+涿州	ieyt	32754	
+榆树	swsc	32748	
+平川	gukt	32710	
+翠屏	nynu	32694	
+平度	guya	32694	
+辽源	bpid	32672	
+海北	itux	32667	
+塔城	fafd	32628	
+黄州	amyt	32617	
+长岭	tamw	32583	
+高要	ymsv	32577	
+榆次	swuq	32566	
+兴城	iwfd	32560	
+澜沧	iuiw	32554	
+祁连	pylp	32548	
+定海	pgit	32543	
+鄂伦春	kwdw	32531	
+澄江	ioia	32525	
+罗山	lqmm	32520	
+汉阴	icbe	32514	
+鹤壁	pwnk	32467	
+碑林	drss	32455	
+巫山	awmm	32443	
+万源	dnid	32419	
+黑山	lfmm	32377	
+蒙山	apmm	32271	
+迪庆	mpyd	32258	
+莱西	agsg	32213	
+怀安	ndpv	32168	
+伊宁	wvps	32168	
+鸡冠	cqpf	32114	
+曲阳	mabj	32047	
+莲池	alib	32026	
+罗城	lqfd	31998	
+宁河	psis	31991	
+景泰	jydw	31942	
+平果	gujs	31920	
+民和	natk	31906	
+道县	uteg	31877	
+淳安	iypv	31841	
+固始	ldvc	31833	
+桂阳	sfbj	31826	
+界首	lwut	31826	
+余庆	wsyd	31818	
+凤山	mcmm	31818	
+清苑	igaq	31818	
+安源	pvid	31811	
+修水	whii	31796	
+宝坻	pgfq	31751	
+嘉峪关	fmud	31751	
+东丽	aigm	31705	
+唐河	yvis	31634	
+招远	rvfq	31634	
+华阴	wxbe	31626	
+秭归	ttjv	31570	
+莒县	akeg	31537	
+丹江口	mikk	31454	
+闽侯	ujwn	31437	
+华亭	wxyp	31429	
+柳江	sqia	31412	
+汾阳	iwbj	31386	
+萧县	aveg	31360	
+米脂	oyex	31333	
+故城	dtfd	31289	
+锡林浩特	qsir	31244	
+兰考	udfg	31161	
+陆丰	bfdh	31133	
+临朐	jteq	31133	
+滨城	ipfd	31123	
+侯马	wncn	31123	
+鲁山	pjmm	31123	
+珲春	gpdw	30906	
+山阴	mmbe	30896	
+新县	useg	30886	
+宾县	preg	30865	
+孙吴	bikg	30781	
+准格尔	usqi	30759	
+西峡	sgmg	30727	
+卢氏	hnqa	30661	
+旬阳	qjbj	30627	
+山阳	mmbj	30581	
+双鸭山	clmm	30535	
+桐柏	smsr	30464	
+民丰	nadh	30227	
+襄城	ykfd	30162	
+沁阳	inbj	30122	
+内乡	mwxt	30122	
+峡江	mgia	30108	
+进贤	fjjc	30094	
+郯城	oofd	30094	
+徽县	tmeg	30067	
+乌克兰	qdud	39909	
+渑池	ikib	29997	
+嫩江	vgia	29941	
+嵩县	myeg	29808	
+靖边	uglp	29778	
+叶城	kffd	29763	
+平利	gutj	29701	
+曲水	maii	29637	
+崇信	mpwy	29605	
+吉隆	fkbt	29456	
+乌兰浩特	quir	29422	
+甘州	afyt	29404	
+台湾省	ciit	29352	
+城厢	fdds	29298	
+宣州	pgyt	29207	
+盐山	fhmm	29150	
+郸城	ujfd	29093	
+龙文	dxyy	29054	
+西青	sgge	29014	
+汤阴	inbe	28850	
+镇宁	qfps	28699	
+岚皋	mmrd	28586	
+崆峒	mpmm	28419	
+竞秀	ukte	28215	
+清徐	igtw	28189	
+久治	qyic	27910	
+环县	gdeg	27759	
+富县	pgeg	27139	
+西藏自治区	sata	26243	
+察哈尔	pkqi	22400	
+新疆维吾尔自治区	uxxa	20000	
+沙县	iieg	44097	
+泗水	ilii	32033	
+小浪底	iiyq	30937	
+溏沽	iyid	12000	
+## A股			
+中广核	kysy	32667	
+阿科力	btlt	10000	
+阿莱德	batf	10000	
+阿石创	bdwb	10000	
+艾比森	axss	10000	
+艾布鲁	adqg	10000	
+埃夫特	fftr	10000	
+爱柯迪	esmp	10000	
+艾可蓝	asaj	10000	
+艾力斯	alad	10000	
+爱美客	eupt	10000	
+爱司凯	enmn	10000	
+爱乐达	eqdp	10000	
+安必平	pngu	10000	
+安博通	pfce	10000	
+安道麦	pugt	10000	
+安德利	pttj	10000	
+安迪苏	pmal	10000	
+安杰思	psln	10000	
+安凯微	pmtm	10000	
+昂利康	jtyv	10000	
+奥佳华	twwx	10000	
+奥来德	tgtf	10000	
+奥浦迈	tidn	10000	
+奥普特	tutr	10000	
+奥锐特	tqtr	10000	
+奥士康	tfyv	10000	
+奥特佳	ttwf	10000	
+奥特维	ttxw	10000	
+百奥泰	dtdw	10000	
+宝兰德	putf	10000	
+宝丽迪	pgmp	10000	
+保立佳	wuwf	10000	
+保力新	wlus	10000	
+倍加洁	wlif	10000	
+倍杰特	wstr	10000	
+贝斯美	maug	10000	
+贝泰妮	mdvn	10000	
+必康退	nyve	10000	
+必易微	njtm	10000	
+铂力特	qltr	10000	
+博力威	fldg	10000	
+博迈科	fdtu	10000	
+博世科	fatu	10000	
+长龄液	thiy	10000	
+长盈通	tece	10000	
+楚天龙	sgdx	10000	
+川金诺	kqya	10000	
+创益通	wuce	10000	
+大地熊	dfce	10000	
+大宏立	dpuu	10000	
+大胜达	dedp	10000	
+大通退	dcve	10000	
+道道全	uuwg	10000	
+德固特	tltr	10000	
+德科立	ttuu	10000	
+德林海	tsit	10000	
+德迈仕	tdwf	10000	
+德明利	tjtj	10000	
+帝奥微	uttm	10000	
+狄耐克	qddq	10000	
+迪生力	mtlt	10000	
+迪威尔	mdqi	10000	
+迪威迅	mdnf	10000	
+鼎际得	hbtj	10000	
+东田微	altm	10000	
+菲利华	atwx	10000	
+飞荣达	nadp	10000	
+菲沃泰	aidw	10000	
+风语筑	myta	10000	
+蜂助手	jert	10000	
+富瀚微	pitm	10000	
+富乐德	pqtf	10000	
+福立旺	pujg	10000	
+福龙马	pdcn	10000	
+富满微	pitm	10000	
+福然德	pqtf	10000	
+富士莱	pfag	10000	
+福斯达	padp	10000	
+甘咨询	auyq	10000	
+格科微	sttm	10000	
+格力博	slfg	10000	
+格林达	ssdp	10000	
+固德威	ltdg	10000	
+广和通	ytce	10000	
+广立微	yutm	10000	
+光韵达	iudp	10000	
+国安达	lpdp	10000	
+国科微	lttm	10000	
+哈三联	kdbu	10000	
+海利尔	itqi	10000	
+海目星	ihjt	10000	
+海泰科	idtu	10000	
+航宇微	tptm	10000	
+豪尔赛	yqpf	10000	
+浩欧博	iafg	10000	
+好上好	vhvb	10000	
+恒而达	nddp	10000	
+恒铭达	nqdp	10000	
+鸿富瀚	ipif	10000	
+宏力达	pldp	10000	
+鸿日达	ijdp	10000	
+华尔泰	wqdw	10000	
+华润微	witm	10000	
+华盛昌	wdjj	10000	
+汇创达	iwdp	10000	
+汇金通	iqce	10000	
+慧智微	dttm	10000	
+霍莱沃	fait	10000	
+吉艾退	fave	10000	
+吉贝尔	fmqi	10000	
+吉比特	fxtr	10000	
+计通退	ycve	10000	
+嘉必优	fnwd	10000	
+佳力图	wllt	10000	
+建研院	vdbp	10000	
+江波龙	iidx	10000	
+江化微	iwtm	10000	
+杰华特	swtr	10000	
+杰美特	sutr	10000	
+杰普特	sutr	10000	
+金奥博	qtfg	10000	
+金百泽	qdic	10000	
+金橙子	qsbb	10000	
+金达威	qddg	10000	
+金迪克	qmdq	10000	
+金鸿顺	qikd	10000	
+金徽酒	qtis	10000	
+金力泰	qldw	10000	
+金三江	qdia	10000	
+金现代	qgwa	10000	
+金银河	qqis	10000	
+京北方	yuyy	10000	
+晶华微	jwtm	10000	
+景嘉微	jftm	10000	
+京泉华	yrwx	10000	
+竞业达	uodp	10000	
+久之洋	qpiu	10000	
+聚合顺	bwkd	10000	
+聚赛龙	bpdx	10000	
+卡倍亿	hwwn	10000	
+卡莱特	hatr	10000	
+凯尔达	mqdp	10000	
+凯莱英	maam	10000	
+凯利泰	mtdw	10000	
+开普云	gufc	10000	
+凯瑞德	mgtf	10000	
+康德莱	ytag	10000	
+康力源	ylid	10000	
+康隆达	ybdp	10000	
+康斯特	yatr	10000	
+康希诺	yqya	10000	
+科安达	tpdp	10000	
+科博达	tfdp	10000	
+科达利	tdtj	10000	
+柯利达	stdp	10000	
+科力尔	tlqi	10000	
+科瑞思	tgln	10000	
+雷尔伟	fqwf	10000	
+利安隆	tpbt	10000	
+立昂微	ujtm	10000	
+利柏特	tstr	10000	
+立达信	udwy	10000	
+力合微	lwtm	10000	
+利和兴	ttiw	10000	
+力芯微	latm	10000	
+利元亨	tfyb	10000	
+凌云光	ufiq	10000	
+龙利得	dttj	10000	
+罗普特	lutr	10000	
+麦澜德	gitf	10000	
+迈信林	dwss	10000	
+曼卡龙	jhdx	10000	
+梅安森	spss	10000	
+美迪凯	ummn	10000	
+美迪西	umsg	10000	
+美利信	utwy	10000	
+美利云	utfc	10000	
+美诺华	uywx	10000	
+美思德	ultf	10000	
+美芯晟	uajd	10000	
+梦百合	sdwg	10000	
+铭利达	qtdp	10000	
+纳思达	xldp	10000	
+纳芯微	xatm	10000	
+纽泰格	xdst	10000	
+诺思格	ylst	10000	
+诺唯赞	yktf	10000	
+欧科亿	atwn	10000	
+派斯林	iass	10000	
+普莱得	uatj	10000	
+普莱柯	uass	10000	
+普蕊斯	uaad	10000	
+璞泰来	gdgo	10000	
+奇信退	dwve	10000	
+七一二	agfg	10000	
+秋田微	tltm	10000	
+瑞尔特	gqtr	10000	
+瑞华泰	gwdw	10000	
+瑞可达	gsdp	10000	
+瑞芯微	gatm	10000	
+若羽臣	anah	10000	
+三柏硕	dsdd	10000	
+三达膜	ddea	10000	
+三利谱	dtyu	10000	
+三羊马	ducn	10000	
+森麒麟	syyn	10000	
+设研院	ydbp	10000	
+深城交	ifuq	10000	
+深科达	itdp	10000	
+深南退	ifve	10000	
+深中华	ikwx	10000	
+盛讯达	dydp	10000	
+寿仙谷	dwww	10000	
+数据港	oria	10000	
+顺利退	ktve	10000	
+硕贝德	dmtf	10000	
+斯迪克	amdq	10000	
+思科瑞	ltgm	10000	
+斯莱克	aadq	10000	
+思林杰	lsso	10000	
+思瑞浦	lgig	10000	
+思特威	ltdg	10000	
+苏博特	aftr	10000	
+太辰光	ddiq	10000	
+泰恩康	dlyv	10000	
+太和水	dtii	10000	
+泰慕士	dafg	10000	
+天德钰	gtqg	10000	
+天汽模	gisa	10000	
+天亿马	gwcn	10000	
+天智航	gtte	10000	
+通达海	cdit	10000	
+通行宝	ctpg	10000	
+同兴达	midp	10000	
+同益中	mukh	10000	
+拓斯达	radp	10000	
+挖金客	rqpt	10000	
+万邦德	ddtf	10000	
+万得凯	dtmn	10000	
+万德斯	dtad	10000	
+维海德	xitf	10000	
+威派格	dist	10000	
+唯赛勃	kpfp	10000	
+唯特偶	ktwj	10000	
+卫信康	bwyv	10000	
+维信诺	xwya	10000	
+味知香	kttj	10000	
+希荻微	qatm	10000	
+西高院	sybp	10000	
+西上海	shit	10000	
+翔丰华	udwx	10000	
+湘油泵	iidi	10000	
+翔宇医	upat	10000	
+新大正	udgh	10000	
+新风光	umiq	10000	
+新凤鸣	umkq	10000	
+新宏泰	updw	10000	
+鑫宏业	qpog	10000	
+新宏泽	upic	10000	
+新洁能	uice	10000	
+新劲刚	ucmq	10000	
+新金路	uqkh	10000	
+新巨丰	uadh	10000	
+新开源	ugid	10000	
+新莱福	uapy	10000	
+新雷能	ufce	10000	
+新美星	uujt	10000	
+新诺威	uydg	10000	
+芯朋微	aetm	10000	
+新强联	uxbu	10000	
+新乳业	ueog	10000	
+芯瑞达	agdp	10000	
+新通联	ucbu	10000	
+新相微	ustm	10000	
+新亚强	ugxk	10000	
+新洋丰	uidh	10000	
+新益昌	uujj	10000	
+新易盛	ujdn	10000	
+芯源微	aitm	10000	
+新中港	ukia	10000	
+星帅尔	jjqi	10000	
+迅捷兴	nriw	10000	
+亚辉龙	gidx	10000	
+燕东微	aatm	10000	
+药易购	ajmq	10000	
+易德龙	jtdx	10000	
+溢多利	iqtj	10000	
+怡合达	nwdp	10000	
+亿华通	wwce	10000	
+亿嘉和	wftk	10000	
+易尚退	jive	10000	
+壹石通	fdce	10000	
+银河退	qive	10000	
+英搏尔	arqi	10000	
+盈方微	eytm	10000	
+英飞特	antr	10000	
+映翰通	jfce	10000	
+英集芯	awan	10000	
+英可瑞	asgm	10000	
+英诺特	aytr	10000	
+赢时胜	yjet	10000	
+英维克	axdq	10000	
+永安行	yptf	10000	
+永茂泰	yadw	10000	
+永顺泰	ykdw	10000	
+永泰运	ydfc	10000	
+优博讯	wfyn	10000	
+优刻得	wytj	10000	
+有棵树	dssc	10000	
+优利德	wttf	10000	
+优宁维	wpxw	10000	
+友讯达	dydp	10000	
+有研硅	dddf	10000	
+玉禾田	gtll	10000	
+裕太微	pdtm	10000	
+云中马	fkcn	10000	
+智动力	tflt	10000	
+智明达	tjdp	10000	
+中触媒	kqva	10000	
+中达安	kdpv	10000	
+中电港	kjia	10000	
+中富通	kpce	10000	
+中光学	kiip	10000	
+中信博	kwfg	10000	
+卓胜微	hetm	10000	
+机器人	skww	42729	
+太平洋	dgiu	42727	
+中关村	kusf	42196	
+步步高	hhym	41456	
+农产品	pukk	41105	
+保龄宝	whpg	40240	
+值得买	wtnu	39987	
+大西洋	dsiu	38650	
+新世界	ualw	38315	
+大智慧	dtdh	38269	
+日照港	jjia	38189	
+新华网	uwmq	38189	
+全聚德	wbtf	37773	
+王府井	gyfj	37694	
+向日葵	tjaw	37659	
+新天地	ugfb	37598	
+五粮液	goiy	37503	
+太平鸟	dgqy	37474	
+峨眉山	mnmm	37108	
+长白山	trmm	37063	
+指南针	rfqf	36923	
+陆家嘴	bpkh	36901	
+普利特	uttr	36896	
+北大荒	uday	36834	
+好想你	vswq	36781	
+七匹狼	aaqt	36625	
+华侨城	wwfd	36564	
+徐家汇	tpia	36472	
+火星人	ojww	36399	
+康普顿	yugb	35966	
+金融街	qgtf	35963	
+创世纪	waxn	35903	
+苏美达	audp	35830	
+雪莱特	fatr	35745	
+白云山	rfmm	35743	
+葫芦娃	aavf	35743	
+黑芝麻	lays	35725	
+海普瑞	iugm	35673	
+奥特迅	ttnf	35625	
+酒鬼酒	iris	35540	
+科威尔	tdqi	35483	
+电子城	jbfd	35477	
+京东方	yayy	35391	
+百合花	dwaw	35125	
+万里扬	djrn	34564	
+同仁堂	mwip	34513	
+金龙鱼	qdqg	34487	
+红太阳	xdbj	34475	
+新希望	uqyn	34253	
+水井坊	iffy	34192	
+怡亚通	ngce	34104	
+一心堂	gnip	33995	
+汤姆猫	ivqt	33988	
+欣旺达	rjdp	33932	
+沃尔德	iqtf	33886	
+富安娜	ppvv	33795	
+祁连山	plmm	33780	
+人人乐	wwqi	33739	
+宝莱特	patr	33704	
+漫步者	ihft	33674	
+天津港	giia	33611	
+索菲亚	fago	33575	
+达仁堂	dwip	33567	
+安诺其	pyad	33559	
+雅戈尔	aaqi	33477	
+贝因美	mlug	33350	
+喜临门	fjuy	33253	
+伊力特	wltr	33239	
+新时达	ujdp	33230	
+大悦城	dnfd	33157	
+新动力	uflt	33105	
+克劳斯	daad	33058	
+金太阳	qdbj	33043	
+红蜻蜓	xjjt	33024	
+珍宝岛	gpqy	32965	
+得利斯	ttad	32960	
+片仔癀	twua	32925	
+兔宝宝	qppg	32879	
+新产业	uuog	32874	
+锦州港	qyia	32817	
+法尔胜	iqet	32786	
+外高桥	qyst	32786	
+司尔特	nqtr	32754	
+新国都	ulft	32737	
+探路者	rkft	32622	
+美吉姆	ufvx	32600	
+新华都	uwft	32583	
+三人行	dwtf	32531	
+万年青	drge	32531	
+深南电	ifjn	32520	
+三棵树	dssc	32496	
+盐田港	flia	32346	
+惠而浦	gdig	32252	
+飞亚达	ngdp	32213	
+新大洲	udiy	32174	
+大东方	dayy	32081	
+新大陆	udbf	32067	
+人民网	wnmq	32047	
+大名城	dqfd	32040	
+中青旅	kgyt	32033	
+孩子王	bbgg	31942	
+澳柯玛	isgc	31899	
+粤水电	tijn	31666	
+报喜鸟	rfqy	31658	
+威士顿	dfgb	31658	
+黑牡丹	ltmy	31618	
+云天化	fgwx	31412	
+九芝堂	vaip	31386	
+贝斯特	matr	31333	
+马应龙	cydx	31316	
+珀莱雅	gaah	31316	
+阳光城	bifd	31316	
+金麒麟	qyyn	31289	
+好太太	vddy	31271	
+金信诺	qwya	31046	
+老凤祥	fmpy	30997	
+郑煤机	uosm	30937	
+格林美	ssug	30927	
+爱仕达	ewdp	30917	
+五芳斋	gayd	30917	
+美尔雅	uqah	30896	
+瑞贝卡	gmhh	30855	
+世联行	abtf	30705	
+李子园	sblf	30616	
+木林森	ssss	30616	
+两面针	gdqf	30512	
+新城市	ufym	30464	
+宁波港	piia	30392	
+会稽山	wtmm	30379	
+寒武纪	pgxn	30367	
+金达莱	qdag	30342	
+雷迪克	fmdq	30342	
+诺普信	yuwy	30342	
+罗牛山	lrmm	30317	
+东方通	ayce	30227	
+香飘飘	tssf	30108	
+轻纺城	lxfd	30094	
+苏泊尔	aiqi	30081	
+深振业	irog	30053	
+万事利	dgtj	30025	
+海兰信	iuwy	30000	
+海联讯	ibyn	30000	
+金通灵	qcvo	30000	
+亚玛顿	gggb	30000	
+众业达	wodp	30000	
+史丹利	kmtj	29897	
+西大门	sduy	29838	
+维尔利	xqtj	29701	
+苏常柴	aihx	29685	
+天士力	gflt	29685	
+新和成	utdn	29637	
+伊戈尔	waqi	29621	
+新开普	uguo	29589	
+陕国投	blrm	29540	
+粤电力	tjlt	29523	
+阿拉丁	brsg	29507	
+威尔泰	dqdw	29490	
+今世缘	waxx	29473	
+乔治白	tirr	29422	
+鹏博士	effg	29404	
+信立泰	wudw	29404	
+中青宝	kgpg	29369	
+中科软	ktlq	29316	
+渝三峡	idmg	29280	
+新黄浦	uaig	29131	
+金螳螂	qjjy	29054	
+煌上煌	ohor	29014	
+万里马	djcn	28871	
+欧菲光	aaiq	28850	
+宝泰隆	pdbt	28829	
+福瑞达	pgdp	28808	
+好当家	vipe	28765	
+九州通	vyce	28765	
+大北农	dupe	28699	
+深天马	igcn	28677	
+周大生	mdtg	28654	
+深深房	iiyn	28609	
+生意宝	tupg	28539	
+穗恒运	tnfc	28539	
+海伦哲	iwrr	28443	
+远望谷	fyww	28419	
+电科院	jtbp	28394	
+特锐德	tqtf	28394	
+潮宏基	ipad	28369	
+超频三	fhdg	28369	
+大东南	dafm	28369	
+新宙邦	updt	28242	
+唐山港	ymia	28189	
+獐子岛	qbqy	28189	
+深康佳	iywf	28108	
+新坐标	uwsf	28025	
+欧比特	axtr	27968	
+哈空调	kpym	27910	
+拉卡拉	rhru	27880	
+多氟多	qrqq	27850	
+赤天化	fgwx	27820	
+康恩贝	ylmh	27820	
+新华锦	uwqr	27820	
+安纳达	pxdp	27790	
+新里程	ujtk	27790	
+广州港	yyia	27696	
+信雅达	wadp	27665	
+张小泉	xiri	27665	
+三力士	dlfg	27632	
+健康元	wyfq	27534	
+桂发祥	snpy	27500	
+智立方	tuyy	27431	
+达意隆	dubt	27361	
+士兰微	futm	27361	
+天下秀	ggte	27361	
+青岛港	gqia	27289	
+海能达	icdp	27215	
+来伊份	gwww	27215	
+唐人神	ywpy	27178	
+爱施德	eytf	27101	
+东阳光	abiq	27061	
+碧水源	giid	27022	
+泸天化	igwx	26981	
+英威腾	adeu	26981	
+爱婴室	empg	26899	
+深物业	itog	26899	
+英派斯	aiad	26899	
+阿尔特	bqtr	26726	
+深高速	iygk	26726	
+粤高速	tygk	26726	
+银之杰	qpso	26636	
+山外山	mqmm	26589	
+粤传媒	twva	26589	
+安居宝	pnpg	26396	
+海利得	ittj	26346	
+利亚德	tgtf	26295	
+实益达	pudp	26295	
+美凯龙	umdx	26135	
+日月明	jeje	26135	
+一品红	gkxa	26135	
+渝开发	ignt	26080	
+新五丰	ugdh	25966	
+和而泰	tddw	25847	
+北信源	uwid	25786	
+三房巷	dyaw	25724	
+天融信	ggwy	25724	
+科沃斯	tiad	25660	
+粤宏远	tpfq	25660	
+珠海港	giia	25660	
+阿特斯	btad	25594	
+重庆港	tyia	25594	
+美盈森	uess	25459	
+皮阿诺	hbya	25459	
+大参林	dcss	25316	
+三六零	dufw	25316	
+新北洋	uuiu	25316	
+易联众	jbww	25242	
+科力远	tlfq	25089	
+口子窖	kbpw	25089	
+利德曼	ttjl	25089	
+奥瑞金	tgqq	25008	
+歌力思	slln	25008	
+深桑达	icdp	24841	
+哈尔斯	kqad	24753	
+万邦达	dddp	24753	
+伯特利	wttj	24373	
+嘉事堂	fgip	24373	
+富森美	psug	24270	
+倍轻松	wlsw	24162	
+新经典	uxma	24162	
+赛恩斯	plad	23935	
+深华发	iwnt	23935	
+海洋王	iigg	23687	
+好莱客	vapt	23687	
+金新农	qupe	23687	
+麦趣尔	gfqi	23687	
+天地源	gfid	23687	
+嘉麟杰	fyso	23554	
+建科院	vtbp	23554	
+任子行	wbtf	23554	
+德尔玛	tqgc	23116	
+二六三	fudg	23116	
+福斯特	patr	23116	
+家家悦	ppnu	22953	
+科士达	tfdp	22953	
+深赛格	ipst	22953	
+安奈儿	pdqt	22781	
+牧高笛	tytm	22781	
+深科技	itrf	22781	
+四方达	lydp	22781	
+易事特	jgtr	22597	
+深信服	iweb	22400	
+金诚信	qywy	22190	
+深纺织	ixxk	22190	
+思特奇	ltds	22190	
+动力源	flid	21962	
+同庆楼	myso	21962	
+亿利达	wtdp	21962	
+英飞拓	anrd	21962	
+红宝丽	xpgm	21143	
+京运通	yfce	21143	
+跨境通	kfce	21143	
+中海达	kidp	20808	
+高新兴	yuiw	20428	
+司太立	nduu	20428	
+拓尔思	rqln	20428	
+万里石	djdg	20428	
+埃斯顿	fagb	19989	
+东富龙	apdx	19989	
+合力泰	wldw	19989	
+健之佳	wpwf	19989	
+可立克	sudq	19989	
+绿岛风	xqmq	19989	
+英力特	altr	19989	
+欢乐家	cqpe	19470	
+法狮龙	iqdx	18835	
+飞力达	nldp	18835	
+名家汇	qpia	18835	
+欧陆通	abce	18835	
+泉阳泉	rbri	18835	
+伊之密	wppn	18835	
+英洛华	aiwx	18835	
+奥赛康	tpyv	18016	
+福莱特	patr	18016	
+广生堂	ytip	18016	
+依米康	woyv	18016	
+安科瑞	ptgm	16862	
+飞利信	ntwy	16862	
+高伟达	ywdp	16862	
+广誉远	yifq	16862	
+华昌达	wjdp	16862	
+华鹏飞	wenu	16862	
+惠博普	gfuo	16862	
+诚益通	yuce	14889	
+海思科	iltu	14889	
+金海通	qice	14889	
+金龙羽	qdnn	14889	
+南极光	fsiq	14889	
+南京港	fyia	14889	
+普路通	ukce	14889	
+清水源	iiid	14889	
+瑞茂通	gace	14889	
+赛福天	ppgd	14889	
+舒泰神	wdpy	14889	
+苏交科	autu	14889	
+雪迪龙	fmdx	14889	
+易华录	jwvi	14889	
+盈建科	evtu	14889	
+真视通	fpce	14889	
+中毅达	kudp	14889	
+奇安信	dpwy	99	
+爱迪	epmp	14889	
+艾格	aqst	14889	
+八菱	wtaf	14889	
+柏龙	srdx	14889	
+博天	fggd	14889	
+步森	hiss	14889	
+大集	ddwo	14889	
+德豪	tfyp	14889	
+鼎龙	hndx	14889	
+豆神	gkpy	14889	
+泛海	itit	14889	
+富吉	pgfk	14889	
+高升	ymta	14889	
+工智	aatd	14889	
+广田	yyll	14889	
+国安	lgpv	14889	
+海投	itrm	14889	
+浩源	irid	14889	
+和科	tktu	14889	
+恒久	ngqy	14889	
+弘高	xcym	14889	
+红相	xash	14889	
+华铁	wxqr	14889	
+花王	awgg	14889	
+皇台	rgck	14889	
+慧辰	dhdf	14889	
+惠天	gjgd	14889	
+吉药	fkax	14889	
+嘉凯	fkmn	14889	
+佳通	wfce	14889	
+交投	uqrm	14889	
+金鸿	qqia	14889	
+金一	qqgg	14889	
+金运	qqfc	14889	
+金正	qqgh	14889	
+金洲	qqiy	14889	
+京蓝	yiaj	14889	
+九有	vtde	14889	
+凯撒	mnra	14889	
+开元	gafq	14889	
+康美	yvug	14889	
+莱斯	agad	14889	
+炼石	oadg	14889	
+柳工	sqaa	14889	
+鲁泰	pjdw	14889	
+美谷	ugww	14889	
+美尚	ugim	14889	
+美盛	ugdn	14889	
+美置	uglf	14889	
+明诚	jeyd	14889	
+摩登	ysog	14889	
+莫高	ajym	14889	
+南玻	fmgh	14889	
+南卫	fmbg	14889	
+平能	guce	14889	
+日海	jjit	14889	
+三圣	dgcf	14889	
+深天	ipgd	14889	
+升达	tadp	14889	
+实华	puwx	14889	
+视讯	pyyn	14889	
+数源	ovid	14889	
+搜特	rerh	14889	
+太安	dypv	14889	
+泰禾	dwtt	14889	
+特力	rhln	14889	
+天龙	gddx	14889	
+天润	gdiu	14889	
+天圣	gdcf	14889	
+天顺	gdkd	14889	
+通葡	ceaq	14889	
+同洲	mgiy	14889	
+万科	dntu	14889	
+围海	lfit	14889	
+西发	sgnt	14889	
+新纺	usxo	14889	
+新海	usit	14889	
+新联	usbu	14889	
+新研	usdg	14889	
+星源	jtid	14889	
+雪发	kvnt	14889	
+易购	jqmq	14889	
+宇顺	pskd	14889	
+越博	fhfg	14889	
+张裕	xtpu	14889	
+正邦	ghdt	14889	
+中嘉	khfk	14889	
+中捷	khrg	14889	
+中利	khtj	14889	
+紫鑫	hxqq	14889	
+左江	daia	14889	
+安靠	pvrk	14889	
+安联	pvbu	14889	
+奥比	tmxx	14889	
+百川	djkt	14889	
+百龙	djdx	14889	
+百纳	djxm	14889	
+北汽	uxir	14889	
+比音	xxuj	14889	
+长光	taiq	14889	
+常山	ipmm	14889	
+驰宏	cbpd	14889	
+电投	jnrm	14889	
+顶固	sdld	14889	
+东微	aitm	14889	
+东岳	airg	14889	
+凡拓	myrd	14889	
+泛亚	itgo	14889	
+菲菱	ajaf	14889	
+福莱	pyag	14889	
+富临	pgjt	14889	
+工大	aadd	14889	
+广安	yypv	14889	
+光威	iqdg	14889	
+贵研	khdg	14889	
+国盛	lgdn	14889	
+海天	itgd	14889	
+海新	itus	14889	
+海源	itid	14889	
+海正	itgh	14889	
+寒锐	pfqu	14889	
+豪恩	ypld	14889	
+和林	tkss	14889	
+恒基	ngad	14889	
+恒顺	ngkd	14889	
+宏华	pdwx	14889	
+鸿利	iatj	14889	
+华安	wxpv	14889	
+华海	wxit	14889	
+华力	wxln	14889	
+华图	wxlt	14889	
+华友	wxdc	14889	
+慧博	dhfg	14889	
+惠云	gjfc	14889	
+建发	vfnt	14889	
+建龙	vfdx	14889	
+金贵	qqkh	14889	
+金浦	qqig	14889	
+晶丰	jjdh	14889	
+京基	yiad	14889	
+京山	yimm	14889	
+久立	qyuu	14889	
+九州	vtyt	14889	
+聚杰	bcso	14889	
+科大	tudd	14889	
+坤恒	fjng	14889	
+力诺	lnya	14889	
+丽人	gmww	14889	
+陇神	bdpy	14889	
+罗平	lqgu	14889	
+罗普	lquo	14889	
+绿能	xvce	14889	
+芒果	ayjs	14889	
+美亚	uggo	14889	
+密尔	pnqi	14889	
+铭科	qqtu	14889	
+明新	jeus	14889	
+诺禾	yatt	14889	
+欧普	aquo	14889	
+普源	uoid	14889	
+千禾	tftt	14889	
+千味	tfkf	14889	
+青松	gesw	14889	
+睿创	hpwb	14889	
+三钢	dgqm	14889	
+三联	dgbu	14889	
+三一	dggg	14889	
+森鹰	ssyw	14889	
+山大	mmdd	14889	
+山河	mmis	14889	
+山石	mmdg	14889	
+盛新	dnus	14889	
+世荣	anap	14889	
+思创	lnwb	14889	
+斯达	addp	14889	
+苏盐	alfh	14889	
+腾远	eufq	14889	
+天力	gdln	14889	
+天佑	gdwd	14889	
+天娱	gdvk	14889	
+天源	gdid	14889	
+万朗	dnyv	14889	
+唯捷	kwrg	14889	
+沃尔	itqi	14889	
+西子	sgbb	14889	
+香农	tjpe	14889	
+协鑫	flqq	14889	
+新莱	usag	14889	
+芯碁	anad	14889	
+新天	usgd	14889	
+星辉	jtiq	14889	
+星源	jtid	14889	
+亿利	wntj	14889	
+壹网	fpmq	14889	
+亿纬	wnxf	14889	
+有研	dedg	14889	
+豫光	cniq	14889	
+云天	fcgd	14889	
+长高	taym	14889	
+浙大	irdd	14889	
+浙商	irum	14889	
+中钢	khqm	14889	
+中广	khyy	14889	
+中航	khte	14889	
+中际	khbf	14889	
+中科	khtu	14889	
+中铁	khqr	14889	
+中微	khtm	14889	
+中欣	khrq	14889	
+中信	khwy	14889	
+众兴	wwiw	14889	
+中银	khqv	14889	
+中远	khfq	14889	
+中洲	khiy	14889	
+紫光	hxiq	14889	
+大晟	ddjd	14889	
+读客	yfpt	14889	
+锋尚	qtim	14889	
+国脉	lgey	14889	
+果麦	jsgt	14889	
+国新	lgus	14889	
+凯撒	mnra	14889	
+荣信	apwy	14889	
+实丰	pudh	14889	
+天舟	gdte	14889	
+浙数	irov	14889	
+德艺	tfan	14889	
+祥源	pyid	14889	
+绿的	xvrq	14889	
+新智	ustd	14889	
+迪安	mppv	14889	
+科美	tuug	14889	
+药明	axje	14889	
+瑞斯	gmad	14889	
+钱江	qfia	14889	
+三夫	dgfw	14889	
+金力	qqln	14889	
+汉嘉	icfk	14889	
+建研	vfdg	14889	
+杰恩	sold	14889	
+启迪	ynmp	14889	
+尤安	dnpv	14889	
+郑中	udkh	14889	
+中衡	khtq	14889	
+筑博	tafg	14889	
+钢研	qmdg	14889	
+冠豪	pfyp	14889	
+国创	lgwb	14889	
+海特	itrh	14889	
+翰博	fjfg	14889	
+恒大	ngdd	14889	
+蓝科	ajtu	14889	
+蒙泰	apdw	14889	
+市北	ymux	14889	
+皖维	rpxw	14889	
+中炬	khoa	14889	
+中钨	khqq	14889	
+安彩	pves	14889	
+北摩	uxys	14889	
+长鸿	taia	14889	
+鼎泰	hndw	14889	
+国轩	lglf	14889	
+汉邦	icdt	14889	
+宏达	pddp	14889	
+华曙	wxjl	14889	
+捷安	rgpv	14889	
+金海	qqit	14889	
+久吾	qygk	14889	
+凯龙	mndx	14889	
+莱宝	agpg	14889	
+隆平	btgu	14889	
+沐邦	isdt	14889	
+荃银	awqv	14889	
+首航	utte	14889	
+威孚	dgeb	14889	
+张江	xtia	14889	
+中公	khwc	14889	
+中晟	khjd	14889	
+瑞丰	gmdh	14889	
+京沪	yiiy	14889	
+楚天	ssgd	14889	
+赣粤	ujtl	14889	
+宁沪	psiy	14889	
+皖通	rpce	14889	
+华铁	wxqr	14889	
+中船	khte	14889	
+财达	mfdp	14889	
+财通	mfce	14889	
+东吴	aikg	14889	
+东兴	aiiw	14889	
+国海	lgit	14889	
+国金	lgqq	14889	
+国联	lgbu	14889	
+国信	lgwy	14889	
+国元	lgfq	14889	
+海通	itce	14889	
+红塔	xafa	14889	
+华林	wxss	14889	
+华泰	wxdw	14889	
+华西	wxsg	14889	
+天风	gdmq	14889	
+信达	wydp	14889	
+中泰	khdw	14889	
+广电	yyjn	14889	
+飞天	nugd	14889	
+苏试	alya	14889	
+玉马	gycn	14889	
+嘉欣	fkrq	14889	
+达嘉	dpfk	14889	
+苏大	aldd	14889	
+弘元	xcfq	14889	
+隆基	btad	14889	
+博汇	fgia	14889	
+晨鸣	jdkq	14889	
+恒丰	ngdh	14889	
+景兴	jyiw	14889	
+凤竹	mctt	14889	
+德方	tfoy	14889	
+微导	tmnf	14889	
+华菱	wxaf	14889	
+华通	wxce	14889	
+通光	ceiq	14889	
+中兵	khrg	14889	
+高德	ymtf	14889	
+安恒	pvng	14889	
+安硕	pvdd	14889	
+初灵	puvo	14889	
+法本	ifsg	14889	
+富通	pgce	14889	
+高凌	ymuf	14889	
+光庭	iqyt	14889	
+海光	itiq	14889	
+汉得	ictj	14889	
+恒锋	ngqt	14889	
+健麾	wvys	14889	
+金桥	qqst	14889	
+科创	tuwb	14889	
+朗玛	yvgc	14889	
+力源	lnid	14889	
+南天	fmgd	14889	
+平治	guic	14889	
+普元	uofq	14889	
+启明	ynje	14889	
+赛意	pfuj	14889	
+石基	dgad	14889	
+特发	rhnt	14889	
+天喻	gdkw	14889	
+铜牛	qmrh	14889	
+拓维	rdxw	14889	
+万达	dndp	14889	
+纬德	xftf	14889	
+威胜	dget	14889	
+熙菱	ahaf	14889	
+旋极	otse	14889	
+亿道	wnut	14889	
+中孚	kheb	14889	
+卓易	hjjq	14889	
+三未	dgfi	14889	
+五洋	ggiu	14889	
+安记	pvyn	14889	
+安井	pvfj	14889	
+巴比	cnxx	14889	
+宝立	pguu	14889	
+春雪	dwkv	14889	
+甘源	afid	14889	
+海欣	itrq	14889	
+禾信	ttwy	14889	
+惠发	gjnt	14889	
+佳禾	wftt	14889	
+加加	lklk	14889	
+劲仔	cawb	14889	
+绝味	xqkf	14889	
+克明	dqje	14889	
+理邦	gjdt	14889	
+立高	uuym	14889	
+南侨	fmwt	14889	
+品渥	kkin	14889	
+洽洽	iwiw	14889	
+三全	dgwg	14889	
+天邦	gddt	14889	
+天瑞	gdgm	14889	
+天味	gdkf	14889	
+西麦	sggt	14889	
+西王	sggg	14889	
+益客	uwpt	14889	
+一鸣	ggkq	14889	
+有友	dedc	14889	
+仲景	wkjy	14889	
+紫燕	hxak	14889	
+真兰	fhud	14889	
+音飞	ujnu	14889	
+国网	lgmq	14889	
+恒宇	ngps	14889	
+南网	fmmq	14889	
+新乡	usxt	14889	
+长虹	taja	14889	
+金利	qqtj	14889	
+百傲	djwg	14889	
+华峰	wxmt	14889	
+华融	wxgk	14889	
+江天	iagd	14889	
+聚石	bcdg	14889	
+利尔	tjqi	14889	
+联盛	budn	14889	
+七彩	ages	14889	
+日科	jjtu	14889	
+万华	dnwx	14889	
+雅本	ahsg	14889	
+亚星	gojt	14889	
+康龙	yvdx	14889	
+哈焊	kwoj	14889	
+德美	tfug	14889	
+华昌	wxjj	14889	
+金牛	qqrh	14889	
+六国	uylg	14889	
+龙星	dxjt	14889	
+鲁北	pjux	14889	
+鲁西	pjsg	14889	
+氯碱	rndd	14889	
+三友	dgdc	14889	
+同德	mgtf	14889	
+阳煤	bjoa	14889	
+扬农	rnpe	14889	
+中盐	khfh	14889	
+中无	khfq	14889	
+澳洋	itiu	14889	
+德展	tfna	14889	
+华邦	wxdt	14889	
+均瑶	fqge	14889	
+开能	gace	14889	
+美年	ugrh	14889	
+名臣	qkah	14889	
+融捷	gkrg	14889	
+荣泰	apdw	14889	
+卫宁	bgps	14889	
+仙乐	wmqi	14889	
+信隆	wybt	14889	
+悦心	nuny	14889	
+中基	khad	14889	
+诺诚	yayd	14889	
+汤臣	inah	14889	
+莱茵	agal	14889	
+力盛	lndn	14889	
+舒华	wfwx	14889	
+艾华	aqwx	14889	
+爱建	epvf	14889	
+安泰	pvdw	14889	
+百大	djdd	14889	
+北元	uxfq	14889	
+播恩	rtld	14889	
+长华	tawx	14889	
+长青	tage	14889	
+长园	talf	14889	
+创力	wbln	14889	
+德必	tfnt	14889	
+德联	tfbu	14889	
+东百	aidj	14889	
+东贝	aimh	14889	
+东软	ailq	14889	
+方大	oydd	14889	
+丰林	dhss	14889	
+丰山	dhmm	14889	
+公牛	wcrh	14889	
+广汽	yyir	14889	
+广宇	yyps	14889	
+国芳	lgao	14889	
+国检	lgsw	14889	
+国泰	lgdw	14889	
+海大	itdd	14889	
+海汽	itir	14889	
+汉商	icum	14889	
+汉宇	icps	14889	
+杭叉	sycy	14889	
+赫美	foug	14889	
+华建	wxvf	14889	
+华蓝	wxaj	14889	
+华利	wxtj	14889	
+华设	wxym	14889	
+华闻	wxub	14889	
+华阳	wxbj	14889	
+华谊	wxyp	14889	
+皇氏	rgqa	14889	
+汇鸿	iaia	14889	
+汇通	iace	14889	
+吉华	fkwx	14889	
+际华	bfwx	14889	
+尖峰	idmt	14889	
+健民	wvna	14889	
+健盛	wvdn	14889	
+建艺	vfan	14889	
+江盐	iafh	14889	
+今创	wywb	14889	
+金地	qqfb	14889	
+锦泓	qrix	14889	
+金隅	qqbj	14889	
+九洲	vtiy	14889	
+君正	vtgh	14889	
+昆药	jxax	14889	
+朗迪	yvmp	14889	
+垒知	cctd	14889	
+立中	uukh	14889	
+丽珠	gmgr	14889	
+柳药	sqax	14889	
+龙佰	dxwd	14889	
+美的	ugrq	14889	
+南矿	fmdy	14889	
+宁水	psii	14889	
+欧亚	aqgo	14889	
+旗滨	otip	14889	
+日上	jjhh	14889	
+三环	dggd	14889	
+三木	dgss	14889	
+上港	hhia	14889	
+神农	pype	14889	
+省广	ityy	14889	
+圣泉	cfri	14889	
+盛泰	dndw	14889	
+塔牌	fath	14889	
+天健	gdwv	14889	
+天龙	gddx	14889	
+天茂	gdad	14889	
+拓普	rduo	14889	
+武商	gaum	14889	
+信质	wyrf	14889	
+兴发	iwnt	14889	
+旭升	vjta	14889	
+雪龙	kvdx	14889	
+雅化	ahwx	14889	
+亚盛	godn	14889	
+亚泰	godw	14889	
+益民	uwna	14889	
+因赛	ldpf	14889	
+英特	amrh	14889	
+友发	dcnt	14889	
+运机	fcsm	14889	
+中百	khdj	14889	
+中恒	khng	14889	
+中集	khwo	14889	
+中新	khus	14889	
+株冶	sruc	14889	
+博通	fgce	14889	
+成飞	dnnu	14889	
+晶合	jjwg	14889	
+圣晖	cfjp	14889	
+亚翔	goud	14889	
+中芯	khan	14889	
+建工	vfaa	14889	
+万业	dnog	14889	
+紫江	hxia	14889	
+博威	fgdg	14889	
+福达	pydp	14889	
+顺博	kdfg	14889	
+捷佳	rgwf	14889	
+北巴	uxcn	14889	
+川网	ktmq	14889	
+慈文	uxyy	14889	
+电广	jnyy	14889	
+分众	wvww	14889	
+华数	wxov	14889	
+吉视	fkpy	14889	
+龙版	dxth	14889	
+思美	lnug	14889	
+皖新	rpus	14889	
+引力	xhln	14889	
+兆讯	qiyn	14889	
+浙版	irth	14889	
+中视	khpy	14889	
+博瑞	fggm	14889	
+澄天	iogd	14889	
+米奥	oytm	14889	
+双环	ccgd	14889	
+中马	khcn	14889	
+柯力	ssln	14889	
+森霸	sska	14889	
+苏奥	altm	14889	
+中金	khqq	14889	
+安克	pvdq	14889	
+博晖	fgjp	14889	
+兆易	qijq	14889	
+智洋	tdiu	14889	
+鲁信	pjwy	14889	
+华星	wxjt	14889	
+亚士	gofg	14889	
+华大	wxdd	14889	
+奥飞	tmnu	14889	
+宏润	pdiu	14889	
+龙元	dxfq	14889	
+栖霞	sskn	14889	
+腾达	eudp	14889	
+中装	khuf	14889	
+北新	uxus	14889	
+海容	itpw	14889	
+中农	khpe	14889	
+沪硅	iydf	14889	
+中体	khws	14889	
+联泓	buix	14889	
+三孚	dgeb	14889	
+兴图	iwlt	14889	
+铂科	qrtu	14889	
+博迁	fgtf	14889	
+博云	fgfc	14889	
+晨光	jdiq	14889	
+楚江	ssia	14889	
+岱勒	waak	14889	
+鼎胜	hnet	14889	
+高盟	ymje	14889	
+国风	lgmq	14889	
+海昌	itjj	14889	
+海螺	itjl	14889	
+海顺	itkd	14889	
+海象	itqj	14889	
+海优	itwd	14889	
+豪美	ypug	14889	
+禾盛	ttdn	14889	
+宏柏	pdsr	14889	
+洪汇	iaia	14889	
+华达	wxdp	14889	
+华光	wxiq	14889	
+华信	wxwy	14889	
+华正	wxgh	14889	
+汇隆	iabt	14889	
+回天	lkgd	14889	
+江瀚	iaif	14889	
+锦盛	qrdn	14889	
+晶华	jjwx	14889	
+久日	qyjj	14889	
+开尔	gaqi	14889	
+凯立	mnuu	14889	
+凯盛	mndn	14889	
+康达	yvdp	14889	
+康欣	yvrq	14889	
+乐凯	qimn	14889	
+丽岛	gmqy	14889	
+联瑞	bugm	14889	
+隆华	btwx	14889	
+鹿山	ynmm	14889	
+美联	ugbu	14889	
+美瑞	uggm	14889	
+明冠	jepf	14889	
+派克	irdq	14889	
+奇德	dstf	14889	
+齐峰	yjmt	14889	
+仁信	wfwy	14889	
+瑞联	gmbu	14889	
+瑞泰	gmdw	14889	
+赛特	pfrh	14889	
+三超	dgfh	14889	
+三祥	dgpy	14889	
+上纬	hhxf	14889	
+胜华	etwx	14889	
+双星	ccjt	14889	
+四方	lhoy	14889	
+斯瑞	adgm	14889	
+泰和	dwtk	14889	
+台华	ckwx	14889	
+天安	gdpv	14889	
+天晟	gdjd	14889	
+天洋	gdiu	14889	
+彤程	mytk	14889	
+万凯	dnmn	14889	
+万顺	dnkd	14889	
+伟星	wfjt	14889	
+翔楼	udso	14889	
+翔腾	udeu	14889	
+信德	wytf	14889	
+新瀚	usif	14889	
+新纶	usxw	14889	
+星华	jtwx	14889	
+扬帆	rnmh	14889	
+扬子	rnbb	14889	
+逸豪	qkyp	14889	
+屹通	mtce	14889	
+永冠	ynpf	14889	
+宇邦	psdt	14889	
+远翔	fqud	14889	
+悦安	nupv	14889	
+振华	rdwx	14889	
+正威	ghdg	14889	
+志特	fnrh	14889	
+中旗	khot	14889	
+众源	wwid	14889	
+光环	iqgd	14889	
+海泰	itdw	14889	
+海科	ittu	14889	
+五洲	ggiy	14889	
+合康	wgyv	14889	
+华宝	wxpg	14889	
+珈伟	glwf	14889	
+嘉泽	fkic	14889	
+金开	qqga	14889	
+厦钨	ddqq	14889	
+天华	gdwx	14889	
+拓日	rdjj	14889	
+万润	dniu	14889	
+易成	jqdn	14889	
+致远	gcfq	14889	
+昭衍	jvti	14889	
+卓创	hjwb	14889	
+国投	lgrm	14889	
+华金	wxqq	14889	
+五矿	ggdy	14889	
+越秀	fhte	14889	
+中粮	khoy	14889	
+中油	khim	14889	
+创兴	wbiw	14889	
+河钢	isqm	14889	
+金石	qqdg	14889	
+鹏欣	eerq	14889	
+盛达	dndp	14889	
+盛和	dntk	14889	
+松炀	swon	14889	
+怡球	ncgf	14889	
+优彩	wdes	14889	
+中矿	khdy	14889	
+中润	khiu	14889	
+中再	khgm	14889	
+锦和	qrtk	14889	
+沪农	iype	14889	
+青农	gepe	14889	
+渝农	iwpe	14889	
+茂业	adog	14889	
+华兰	wxud	14889	
+飞乐	nuqi	14889	
+嘉和	fktk	14889	
+龙大	dxdd	14889	
+超达	fhdp	14889	
+华辰	wxdf	14889	
+华明	wxje	14889	
+冀东	uxai	14889	
+江航	iate	14889	
+捷强	rgxk	14889	
+景津	jyiv	14889	
+蓝英	ajam	14889	
+联得	butj	14889	
+耐科	dmtu	14889	
+蜀道	lqut	14889	
+天秦	gddw	14889	
+通润	ceiu	14889	
+中环	khgd	14889	
+杭齿	syhw	14889	
+兰花	udaw	14889	
+力合	lnwg	14889	
+爱康	epyv	14889	
+爱科	eptu	14889	
+艾隆	aqbt	14889	
+爱玛	epgc	14889	
+爱威	epdg	14889	
+安孚	pveb	14889	
+安集	pvwo	14889	
+安洁	pvif	14889	
+安控	pvrp	14889	
+安路	pvlt	14889	
+奥海	tmit	14889	
+翱捷	rdrg	14889	
+百邦	djdt	14889	
+百利	djtj	14889	
+邦基	dtad	14889	
+宝鼎	pghn	14889	
+保隆	wkbt	14889	
+宝明	pgje	14889	
+保税	wktu	14889	
+宝通	pgce	14889	
+宝馨	pgfn	14889	
+北矿	uxdy	14889	
+北特	uxrh	14889	
+北纬	uxxf	14889	
+本立	sguu	14889	
+必创	ntwb	14889	
+必得	nttj	14889	
+博创	fgwb	14889	
+博俊	fgwc	14889	
+博硕	fgdd	14889	
+博闻	fgub	14889	
+博彦	fgut	14889	
+灿勤	omak	14889	
+灿瑞	omgm	14889	
+长川	takt	14889	
+长电	tajn	14889	
+昌红	jjxa	14889	
+长缆	taxj	14889	
+长亮	tayp	14889	
+常青	ipge	14889	
+长信	tawy	14889	
+长阳	tabj	14889	
+超华	fhwx	14889	
+辰安	dfpv	14889	
+晨丰	jddh	14889	
+铖昌	qdjj	14889	
+呈和	kgtk	14889	
+诚迈	yddn	14889	
+楚环	ssgd	14889	
+川环	ktgd	14889	
+传艺	wfan	14889	
+创识	wbyk	14889	
+创耀	wbiq	14889	
+创元	wbfq	14889	
+淳中	iykh	14889	
+磁谷	duww	14889	
+丛麟	wwyn	14889	
+大富	ddpg	14889	
+大豪	ddyp	14889	
+大恒	ddng	14889	
+大立	dduu	14889	
+达志	dpfn	14889	
+丹化	mywx	14889	
+当虹	ivja	14889	
+当升	ivta	14889	
+道通	utce	14889	
+德马	tfcn	14889	
+德生	tftg	14889	
+德新	tfus	14889	
+迪普	mpuo	14889	
+电光	jniq	14889	
+鼎通	hnce	14889	
+鼎阳	hnbj	14889	
+东材	aisf	14889	
+东华	aiwx	14889	
+东箭	aitu	14889	
+东土	aiff	14889	
+东威	aidg	14889	
+多利	qqtj	14889	
+多伦	qqww	14889	
+返利	rctj	14889	
+方直	oyfh	14889	
+飞沃	nuit	14889	
+奋达	dldp	14889	
+峰岹	mtmv	14889	
+佛塑	wxub	14889	
+福晶	pyjj	14889	
+富淼	pgii	14889	
+孚能	ebce	14889	
+福蓉	pyap	14889	
+富信	pgwy	14889	
+高华	ymwx	14889	
+古鳌	dggq	14889	
+顾地	dbfb	14889	
+冠捷	pfrg	14889	
+冠石	pfdg	14889	
+观想	cmsh	14889	
+光峰	iqmt	14889	
+光弘	iqxc	14889	
+光华	iqwx	14889	
+光库	iqyl	14889	
+光力	iqln	14889	
+光迅	iqnf	14889	
+光云	iqfc	14889	
+光智	iqtd	14889	
+硅宝	dfpg	14889	
+国林	lgss	14889	
+国瑞	lggm	14889	
+国睿	lghp	14889	
+国芯	lgan	14889	
+哈铁	kwqr	14889	
+海航	itte	14889	
+海默	itlf	14889	
+海融	itgk	14889	
+汉马	iccn	14889	
+汉王	icgg	14889	
+汉威	icdg	14889	
+航发	tent	14889	
+航锦	teqr	14889	
+杭可	sysk	14889	
+航新	teus	14889	
+航亚	tego	14889	
+航宇	teps	14889	
+浩丰	irdh	14889	
+昊华	jgwx	14889	
+好利	vbtj	14889	
+豪迈	ypdn	14889	
+豪鹏	ypee	14889	
+浩通	irce	14889	
+浩云	irfc	14889	
+禾川	ttkt	14889	
+和达	tkdp	14889	
+和晶	tkjj	14889	
+合力	wgln	14889	
+和仁	tkwf	14889	
+合纵	wgxw	14889	
+恒华	ngwx	14889	
+恒实	ngpu	14889	
+恒为	ngyl	14889	
+恒玄	ngyx	14889	
+恒银	ngqv	14889	
+宏昌	pdjj	14889	
+宏和	pdtk	14889	
+鸿合	iawg	14889	
+宏景	pdjy	14889	
+虹软	jalq	14889	
+宏微	pdtm	14889	
+弘讯	xcyn	14889	
+华工	wxaa	14889	
+华宏	wxpd	14889	
+华立	wxuu	14889	
+华脉	wxey	14889	
+华懋	wxsc	14889	
+华强	wxxk	14889	
+华秦	wxdw	14889	
+华如	wxvk	14889	
+华软	wxlq	14889	
+华神	wxpy	14889	
+华生	wxtg	14889	
+华是	wxjg	14889	
+华塑	wxub	14889	
+华体	wxws	14889	
+华天	wxgd	14889	
+华旺	wxjg	14889	
+华纬	wxxf	14889	
+华依	wxwy	14889	
+华映	wxjm	14889	
+华自	wxth	14889	
+皇马	rgcn	14889	
+惠程	gjtk	14889	
+汇得	iatj	14889	
+汇顶	iasd	14889	
+汇纳	iaxm	14889	
+惠威	gjdg	14889	
+吉峰	fkmt	14889	
+极米	seoy	14889	
+吉鑫	fkqq	14889	
+激智	irtd	14889	
+佳都	wffj	14889	
+佳华	wfwx	14889	
+嘉环	fkgd	14889	
+家联	pebu	14889	
+迦南	lkfm	14889	
+佳士	wffg	14889	
+佳缘	wfxx	14889	
+嘉元	fkfq	14889	
+佳云	wffc	14889	
+键凯	qvmn	14889	
+剑桥	wgst	14889	
+交控	uqrp	14889	
+捷邦	rgdt	14889	
+洁美	ifug	14889	
+捷顺	rgkd	14889	
+金丹	qqmy	14889	
+金道	qqut	14889	
+金发	qqnt	14889	
+金风	qqmq	14889	
+金富	qqpg	14889	
+金晶	qqjj	14889	
+锦浪	qriy	14889	
+津膜	ivea	14889	
+金能	qqce	14889	
+金盘	qqte	14889	
+金时	qqjf	14889	
+金溢	qqiu	14889	
+金智	qqtd	14889	
+晶澳	jjit	14889	
+精锻	ogqw	14889	
+晶方	jjoy	14889	
+精工	ogaa	14889	
+晶科	jjtu	14889	
+精研	ogdg	14889	
+九联	vtbu	14889	
+炬光	oaiq	14889	
+聚光	bciq	14889	
+炬华	oawx	14889	
+钜泉	qari	14889	
+炬芯	oaan	14889	
+巨星	anjt	14889	
+巨一	angg	14889	
+矩子	tdbb	14889	
+骏成	ccdn	14889	
+骏亚	ccgo	14889	
+凯旺	mnjg	14889	
+凯因	mnld	14889	
+康冠	yvpf	14889	
+康平	yvgu	14889	
+可川	skkt	14889	
+科森	tuss	14889	
+科思	tuln	14889	
+旷达	jydp	14889	
+坤彩	fjes	14889	
+莱尔	agqi	14889	
+蓝黛	ajwa	14889	
+澜起	iufh	14889	
+蓝思	ajln	14889	
+蓝晓	ajja	14889	
+朗博	yvfg	14889	
+朗进	yvfj	14889	
+朗科	yvtu	14889	
+朗新	yvus	14889	
+乐鑫	qiqq	14889	
+雷柏	klsr	14889	
+力帆	lnmh	14889	
+立航	uute	14889	
+利仁	tjwf	14889	
+联测	buim	14889	
+联化	buwx	14889	
+联科	butu	14889	
+联特	burh	14889	
+领湃	wyir	14889	
+凌玮	ufgf	14889	
+龙磁	dxdu	14889	
+隆利	bttj	14889	
+龙蟠	dxjt	14889	
+龙软	dxlq	14889	
+隆盛	btdn	14889	
+路畅	ltjh	14889	
+露笑	kltt	14889	
+绿盟	xvje	14889	
+绿通	xvce	14889	
+麦迪	gtmp	14889	
+麦捷	gtrg	14889	
+满坤	iafj	14889	
+美埃	ugfc	14889	
+美力	ugln	14889	
+魅视	rqpy	14889	
+美硕	ugdd	14889	
+美腾	ugeu	14889	
+梦网	ssmq	14889	
+明志	jefn	14889	
+模塑	saub	14889	
+纳微	xmtm	14889	
+南凌	fmuf	14889	
+南王	fmgg	14889	
+南芯	fman	14889	
+能辉	ceiq	14889	
+能科	cetu	14889	
+农心	peny	14889	
+欧晶	aqjj	14889	
+欧克	aqdq	14889	
+派能	irce	14889	
+品茗	kkaq	14889	
+普门	uouy	14889	
+普天	uogd	14889	
+麒盛	yndn	14889	
+旗天	otgd	14889	
+颀中	rdkh	14889	
+千方	tfoy	14889	
+清越	igfh	14889	
+趣睡	fhht	14889	
+泉为	riyl	14889	
+全志	wgfn	14889	
+日联	jjbu	14889	
+容百	pwdj	14889	
+荣科	aptu	14889	
+荣联	apbu	14889	
+荣旗	apot	14889	
+睿能	hpce	14889	
+瑞松	gmsw	14889	
+锐新	quus	14889	
+润欣	iurq	14889	
+润阳	iubj	14889	
+润泽	iuic	14889	
+赛象	pfqj	14889	
+三变	dgyo	14889	
+三德	dgtf	14889	
+善水	udii	14889	
+熵基	ouad	14889	
+尚太	imdy	14889	
+申昊	jhjg	14889	
+胜宏	etpd	14889	
+昇辉	jtiq	14889	
+盛视	dnpy	14889	
+盛洋	dniu	14889	
+生益	tguw	14889	
+世华	anwx	14889	
+世嘉	anfk	14889	
+仕净	wfuq	14889	
+世名	anqk	14889	
+双枪	ccsw	14889	
+双一	ccgg	14889	
+双元	ccfq	14889	
+顺网	kdmq	14889	
+松霖	swks	14889	
+索辰	fpdf	14889	
+泰豪	dwyp	14889	
+泰晶	dwjj	14889	
+泰坦	dwfj	14889	
+腾景	eujy	14889	
+天玑	gdgm	14889	
+天箭	gdtu	14889	
+天利	gdtj	14889	
+天禄	gdpy	14889	
+天马	gdcn	14889	
+天迈	gddn	14889	
+天奈	gddf	14889	
+天沃	gdit	14889	
+天阳	gdbj	14889	
+天准	gduw	14889	
+通合	cewg	14889	
+同济	mgiy	14889	
+通力	celn	14889	
+同星	mgjt	14889	
+通业	ceog	14889	
+同有	mgde	14889	
+拓荆	rdag	14889	
+万安	dnpv	14889	
+万集	dnwo	14889	
+万马	dncn	14889	
+万祥	dnpy	14889	
+万兴	dniw	14889	
+皖仪	rpwy	14889	
+网宿	mqpw	14889	
+伟测	wfim	14889	
+炜冈	ofmq	14889	
+唯科	kwtu	14889	
+闻泰	ubdw	14889	
+文一	yygg	14889	
+沃顿	itgb	14889	
+西力	sgln	14889	
+显盈	joec	14889	
+翔港	udia	14889	
+祥鑫	pyqq	14889	
+湘邮	ismb	14889	
+晓程	jatk	14889	
+新晨	usjd	14889	
+芯导	annf	14889	
+芯海	anit	14889	
+芯能	ance	14889	
+欣锐	rqqu	14889	
+欣天	rqgd	14889	
+新元	usfq	14889	
+星湖	jtid	14889	
+星环	jtgd	14889	
+兴瑞	iwgm	14889	
+兴森	iwss	14889	
+雄帝	dcup	14889	
+雄塑	dcub	14889	
+雪峰	kvmt	14889	
+迅游	nfio	14889	
+亚光	goiq	14889	
+雅克	ahdq	14889	
+雅艺	ahan	14889	
+燕麦	akgt	14889	
+扬电	rnjn	14889	
+扬杰	rnso	14889	
+姚记	vqyn	14889	
+药石	axdg	14889	
+遥望	eryn	14889	
+宜安	pepv	14889	
+一彬	ggss	14889	
+一博	ggfg	14889	
+毅昌	uejj	14889	
+奕瑞	yogm	14889	
+亿通	wnce	14889	
+银禧	qvpy	14889	
+银信	qvwy	14889	
+赢合	ynwg	14889	
+盈趣	ecfh	14889	
+永太	yndy	14889	
+永悦	ynnu	14889	
+友车	dclg	14889	
+有方	deoy	14889	
+昱能	juce	14889	
+裕同	pumg	14889	
+宇信	pswy	14889	
+元琛	fqgp	14889	
+源杰	idso	14889	
+元利	fqtj	14889	
+云从	fcww	14889	
+运达	fcdp	14889	
+云鼎	fchn	14889	
+云涌	fcic	14889	
+昀冢	jqpe	14889	
+再升	gmta	14889	
+赞宇	rqps	14889	
+展鹏	naee	14889	
+掌趣	ipfh	14889	
+掌阅	ipuu	14889	
+肇民	ynna	14889	
+兆日	qijj	14889	
+震安	kdpv	14889	
+臻镭	gcqf	14889	
+振芯	rdan	14889	
+震有	kdde	14889	
+震裕	kdpu	14889	
+正帆	ghmh	14889	
+正虹	ghja	14889	
+正业	ghog	14889	
+至纯	gcxg	14889	
+智莱	tdag	14889	
+致尚	gcim	14889	
+直真	fhfh	14889	
+中材	khsf	14889	
+中核	khsy	14889	
+众合	wwwg	14889	
+中简	khtu	14889	
+中晶	khjj	14889	
+中石	khdg	14889	
+中天	khgd	14889	
+中一	khgg	14889	
+中亦	khyo	14889	
+中英	kham	14889	
+众智	wwtd	14889	
+中重	khtg	14889	
+中自	khth	14889	
+洲明	iyje	14889	
+珠城	grfd	14889	
+卓朗	hjyv	14889	
+卓翼	hjnl	14889	
+紫天	hxgd	14889	
+西陇	sgbd	14889	
+甘化	afwx	14889	
+信科	wytu	14889	
+金洲	qqiy	14889	
+三和	dgtk	14889	
+麦克	gtdq	14889	
+捷捷	rgrg	14889	
+赛微	pftm	14889	
+通富	cepg	14889	
+万丰	dndh	14889	
+登海	ogit	14889	
+丰乐	dhqi	14889	
+农发	pent	14889	
+东信	aiwy	14889	
+华业	wxog	14889	
+城地	fdfb	14889	
+天成	gddn	14889	
+万讯	dnyn	14889	
+广康	yyyv	14889	
+蓝丰	ajdh	14889	
+绿康	xvyv	14889	
+透景	tejy	14889	
+盈康	ecyv	14889	
+国机	lgsm	14889	
+兰石	uddg	14889	
+海波	itih	14889	
+昊海	jgit	14889	
+中联	khbu	14889	
+林州	ssyt	14889	
+潍柴	ixhx	14889	
+艾德	aqtf	14889	
+安科	pvtu	14889	
+安图	pvlt	14889	
+安旭	pvvj	14889	
+傲农	wgpe	14889	
+奥泰	tmdw	14889	
+百克	djdq	14889	
+博拓	fgrd	14889	
+博雅	fgah	14889	
+成大	dndd	14889	
+川宁	ktps	14889	
+大洋	ddiu	14889	
+东宝	aipg	14889	
+冠昊	pfjg	14889	
+海利	ittj	14889	
+海王	itgg	14889	
+和邦	tkdt	14889	
+和元	tkfq	14889	
+华恒	wxng	14889	
+华绿	wxxv	14889	
+华熙	wxah	14889	
+回盛	lkdn	14889	
+基蛋	adnh	14889	
+健帆	wvmh	14889	
+洁特	ifrh	14889	
+金河	qqis	14889	
+九强	vtxk	14889	
+君实	vtpu	14889	
+凯普	mnuo	14889	
+凯赛	mnpf	14889	
+康华	yvwx	14889	
+康泰	yvdw	14889	
+科华	tuwx	14889	
+科前	tuue	14889	
+科拓	turd	14889	
+迈克	dndq	14889	
+迈威	dndg	14889	
+美康	ugyv	14889	
+美农	ugpe	14889	
+明德	jetf	14889	
+南模	fmsa	14889	
+宁科	pstu	14889	
+诺泰	yadw	14889	
+欧林	aqss	14889	
+派林	irss	14889	
+热景	rvjy	14889	
+仁度	wfya	14889	
+荣昌	apjj	14889	
+瑞普	gmuo	14889	
+赛伦	pfww	14889	
+赛托	pfrt	14889	
+三诺	dgya	14889	
+申联	jhbu	14889	
+圣达	cfdp	14889	
+圣诺	cfya	14889	
+圣湘	cfis	14889	
+硕世	ddan	14889	
+四环	lhgd	14889	
+泰林	dwss	14889	
+特宝	rhpg	14889	
+天康	gdyv	14889	
+万辰	dndf	14889	
+万孚	dneb	14889	
+万泰	dndw	14889	
+卫光	bgiq	14889	
+微芯	tman	14889	
+沃森	itss	14889	
+我武	trga	14889	
+雪榕	kvsp	14889	
+药康	axyv	14889	
+益方	uwoy	14889	
+易瑞	jqgm	14889	
+苑东	aqai	14889	
+正海	ghit	14889	
+智飞	tdnu	14889	
+之江	ppia	14889	
+罗莱	lqag	14889	
+微电	tmjn	14889	
+大千	ddtf	14889	
+东珠	aigr	14889	
+冠中	pfkh	14889	
+汇绿	iaxv	14889	
+绿茵	xval	14889	
+美晨	ugjd	14889	
+蒙草	apaj	14889	
+天域	gdfa	14889	
+正和	ghtk	14889	
+大金	ddqq	14889	
+海陆	itbf	14889	
+华电	wxjn	14889	
+金鹰	qqyw	14889	
+天能	gdce	14889	
+铁建	qrvf	14889	
+通裕	cepu	14889	
+拓山	rdmm	14889	
+宇通	psce	14889	
+万向	dntm	14889	
+浙海	irit	14889	
+超卓	fhhj	14889	
+润贝	iumh	14889	
+江龙	iadx	14889	
+广联	yybu	14889	
+洪都	iafj	14889	
+春晖	dwjp	14889	
+三花	dgaw	14889	
+天玛	gdgc	14889	
+万通	dnce	14889	
+英唐	amyv	14889	
+永和	yntk	14889	
+领益	wyuw	14889	
+万控	dnrp	14889	
+川大	ktdd	14889	
+宏川	pdkt	14889	
+科远	tufq	14889	
+三川	dgkt	14889	
+正元	ghfq	14889	
+佰奥	wdtm	14889	
+百胜	djet	14889	
+本川	sgkt	14889	
+达华	dpwx	14889	
+达实	dppu	14889	
+大烨	ddow	14889	
+东杰	aiso	14889	
+丰立	dhuu	14889	
+海川	itkt	14889	
+瀚川	ifkt	14889	
+豪江	ypia	14889	
+合锻	wgqw	14889	
+宏英	pdam	14889	
+华铭	wxqq	14889	
+华亚	wxgo	14889	
+汇洲	iaiy	14889	
+杰创	sowb	14889	
+金卡	qqhh	14889	
+井松	fjsw	14889	
+景业	jyog	14889	
+巨轮	anlw	14889	
+均普	fquo	14889	
+科捷	turg	14889	
+酷特	sgrh	14889	
+快克	nndq	14889	
+昆船	jxte	14889	
+兰剑	udwg	14889	
+朗特	yvrh	14889	
+雷赛	klpf	14889	
+美格	ugst	14889	
+明阳	jebj	14889	
+瑞德	gmtf	14889	
+瑞纳	gmxm	14889	
+瑞晟	gmjd	14889	
+赛摩	pfys	14889	
+赛为	pfyl	14889	
+三丰	dgdh	14889	
+山科	mmtu	14889	
+思进	lnfj	14889	
+泰禾	dwtt	14889	
+天永	gdyn	14889	
+万胜	dnet	14889	
+威星	dgjt	14889	
+祥明	pyje	14889	
+信邦	wydt	14889	
+兴民	iwna	14889	
+延华	thwx	14889	
+亿田	wnll	14889	
+永创	ynwb	14889	
+越剑	fhwg	14889	
+泽宇	icps	14889	
+振邦	rddt	14889	
+智微	tdtm	14889	
+卓郎	hjyv	14889	
+传化	wfwx	14889	
+云赛	fcpf	14889	
+泰永	dwyn	14889	
+融发	gknt	14889	
+安车	pvlg	14889	
+国缆	lgxj	14889	
+华测	wxim	14889	
+开普	gauo	14889	
+实朴	push	14889	
+三只	dgkw	14889	
+菲林	ajss	14889	
+本钢	sgqm	14889	
+秦川	dwkt	14889	
+东利	aitj	14889	
+建科	vftu	14889	
+绿田	xvll	14889	
+奇精	dsog	14889	
+徐工	twaa	14889	
+泰瑞	dwgm	14889	
+昊志	jgfn	14889	
+和泰	tkdw	14889	
+金龙	qqdx	14889	
+晶盛	jjdn	14889	
+康尼	yvnx	14889	
+克来	dqgo	14889	
+科新	tuus	14889	
+神驰	pycb	14889	
+天银	gdqv	14889	
+兆威	qidg	14889	
+安琪	pvga	14889	
+德赛	tfpf	14889	
+信测	wyim	14889	
+飞凯	numn	14889	
+广信	yywy	14889	
+国瓷	lguq	14889	
+华润	wxiu	14889	
+聚和	bctk	14889	
+润禾	iutt	14889	
+天赐	gdmj	14889	
+鑫科	qqtu	14889	
+永兴	yniw	14889	
+三雄	dgdc	14889	
+瑞鹄	gmrk	14889	
+豪悦	ypnu	14889	
+京能	yice	14889	
+天岳	gdrg	14889	
+海得	ittj	14889	
+安通	pvce	14889	
+长药	taax	14889	
+城投	fdrm	14889	
+传音	wfuj	14889	
+达刚	dpmq	14889	
+东鹏	aiee	14889	
+福石	pydg	14889	
+广弘	yyxc	14889	
+宏创	pdwb	14889	
+华联	wxbu	14889	
+华媒	wxva	14889	
+华嵘	wxma	14889	
+华源	wxid	14889	
+京粮	yioy	14889	
+蓝焰	ajoq	14889	
+联美	buug	14889	
+岭南	mwfm	14889	
+鹏鼎	eehn	14889	
+仁东	wfai	14889	
+荣丰	apdh	14889	
+申华	jhwx	14889	
+深粮	ipoy	14889	
+首药	utax	14889	
+天音	gduj	14889	
+通程	cetk	14889	
+外服	qheb	14889	
+文投	yyrm	14889	
+吴通	kgce	14889	
+贤丰	jcdh	14889	
+香江	tjia	14889	
+欣龙	rqdx	14889	
+豫能	cnce	14889	
+浙富	irpg	14889	
+中超	khfh	14889	
+中密	khpn	14889	
+重药	tgax	14889	
+和远	tkfq	14889	
+华特	wxrh	14889	
+金宏	qqpd	14889	
+九鼎	vthn	14889	
+鲁银	pjqv	14889	
+悦达	nudp	14889	
+中迪	khmp	14889	
+新亚	usgo	14889	
+科达	tudp	14889	
+步长	hita	14889	
+尔康	qiyv	14889	
+方盛	oydn	14889	
+佛慈	wxux	14889	
+汉森	icss	14889	
+华森	wxss	14889	
+汇宇	iaps	14889	
+嘉应	fkyi	14889	
+九典	vtma	14889	
+康惠	yvgj	14889	
+科兴	tuiw	14889	
+科源	tuid	14889	
+力生	lntg	14889	
+羚锐	udqu	14889	
+南新	fmus	14889	
+普利	uotj	14889	
+千红	tfxa	14889	
+仙琚	wmgn	14889	
+香雪	tjkv	14889	
+益佰	uwwd	14889	
+泽璟	icgj	14889	
+振东	rdai	14889	
+富瑞	pggm	14889	
+晶品	jjkk	14889	
+罗博	lqfg	14889	
+凯美	mnug	14889	
+南都	fmfj	14889	
+东航	aite	14889	
+广汇	yyia	14889	
+华贸	wxqy	14889	
+铁龙	qrdx	14889	
+新宁	usps	14889	
+中创	khwb	14889	
+中谷	khww	14889	
+粤万	tldn	14889	
+庄园	yflf	14889	
+鸿泉	iari	14889	
+邦彦	dtut	14889	
+崇达	mpdp	14889	
+道氏	utqa	14889	
+电连	jnlp	14889	
+鼎汉	hnic	14889	
+东来	aigo	14889	
+光启	iqyn	14889	
+汇川	iakt	14889	
+嘉戎	fkad	14889	
+捷荣	rgap	14889	
+锦富	qrpg	14889	
+科瑞	tugm	14889	
+科信	tuwy	14889	
+立昂	uujq	14889	
+龙源	dxid	14889	
+强瑞	xkgm	14889	
+锐明	quje	14889	
+赛伍	pfwg	14889	
+维科	xwtu	14889	
+先惠	rqgj	14889	
+银江	qvia	14889	
+中控	khrp	14889	
+浦发	ignt	14889	
+齐鲁	yjpj	14889	
+苏农	alpe	14889	
+邮储	mbwy	14889	
+星网	jtmq	14889	
+大秦	dddw	14889	
+广深	yyip	14889	
+翔鹭	udlt	14889	
+章源	ujid	14889	
+云海	fcit	14889	
+物产	rhut	14889	
+海联	itbu	14889	
+新力	usln	14889	
+盛德	dntf	14889	
+智翔	tdud	14889	
+通化	cewx	14889	
+鄂尔	kkqi	14889	
+宝钢	pgqm	14889	
+合兴	wgiw	14889	
+嘉美	fkug	14889	
+粤海	tlit	14889	
+养元	udfq	14889	
+铜冠	qmpf	14889	
+富煌	pgor	14889	
+杭萧	syav	14889	
+鸿路	ialt	14889	
+八一	wtgg	14889	
+海伦	itww	14889	
+闽发	ujnt	14889	
+明泰	jedw	14889	
+赣锋	ujqt	14889	
+天齐	gdyj	14889	
+华盛	wxdn	14889	
+三湘	dgis	14889	
+盐津	fhiv	14889	
+赛科	pftu	14889	
+中复	khtj	14889	
+百济	djiy	14889	
+义翘	yqat	14889	
+佳创	wfwb	14889	
+天威	gddg	14889	
+海信	itwy	14889	
+丝路	xxlt	14889	
+亚信	gowy	14889	
+恒辉	ngiq	14889	
+王力	ggln	14889	
+彩蝶	esja	14889	
+大丰	dddh	14889	
+海能	itce	14889	
+恒立	nguu	14889	
+华资	wxuq	14889	
+金禾	qqtt	14889	
+晋亿	gown	14889	
+开开	gaga	14889	
+丽臣	gmah	14889	
+世龙	andx	14889	
+尚品	imkk	14889	
+安凯	pvmn	14889	
+中通	khce	14889	
+唯万	kwdn	14889	
+华控	wxrp	14889	
+百普	djuo	14889	
+嘉亨	fkyb	14889	
+拉芳	ruao	14889	
+鹏都	eefj	14889	
+华英	wxam	14889	
+顺鑫	kdqq	14889	
+苏垦	alve	14889	
+爱丽	epgm	14889	
+奥普	tmuo	14889	
+帝欧	upaq	14889	
+顾家	dbpe	14889	
+建霖	vfks	14889	
+箭牌	tuth	14889	
+匠心	arny	14889	
+美克	ugdq	14889	
+梦天	ssgd	14889	
+欧派	aqir	14889	
+曲美	maug	14889	
+我乐	trqi	14889	
+亚振	gord	14889	
+志邦	fndt	14889	
+中源	khid	14889	
+源飞	idnu	14889	
+酒钢	isqm	14889	
+申万	jhdn	14889	
+麦格	gtst	14889	
+金健	qqwv	14889	
+大族	ddot	14889	
+弘亚	xcgo	14889	
+科德	tutf	14889	
+纽威	xndg	14889	
+宇环	psgd	14889	
+博睿	fghp	14889	
+海量	itjg	14889	
+协创	flwb	14889	
+创维	wbxw	14889	
+电科	jntu	14889	
+九华	vtwx	14889	
+众信	wwwy	14889	
+洪通	iace	14889	
+首华	utwx	14889	
+水发	iint	14889	
+金字	qqpb	14889	
+汉钟	icqk	14889	
+华研	wxdg	14889	
+金明	qqje	14889	
+凯格	mnst	14889	
+日发	jjnt	14889	
+田中	llkh	14889	
+艾迪	aqmp	14889	
+长盈	taec	14889	
+富创	pgwb	14889	
+格林	stss	14889	
+恒工	ngaa	14889	
+横河	sais	14889	
+华锐	wxqu	14889	
+凯中	mnkh	14889	
+立讯	uuyn	14889	
+联诚	buyd	14889	
+瑞玛	gmgc	14889	
+统联	xybu	14889	
+优德	wdtf	14889	
+艾艾	aqaq	14889	
+百达	djdp	14889	
+博亚	fggo	14889	
+博众	fgww	14889	
+春兴	dwiw	14889	
+德恩	tfld	14889	
+腾亚	eugo	14889	
+亚通	goce	14889	
+中捷	khrg	14889	
+晋控	gorp	14889	
+恒源	ngid	14889	
+佳讯	wfyn	14889	
+保利	wktj	14889	
+财信	mfwy	14889	
+城建	fdvf	14889	
+海油	itim	14889	
+津滨	ivip	14889	
+京投	yirm	14889	
+平潭	guis	14889	
+荣盛	apdn	14889	
+上实	hhpu	14889	
+圣农	cfpe	14889	
+双汇	ccia	14889	
+顺控	kdrp	14889	
+索通	fpce	14889	
+天房	gdyn	14889	
+万方	dnoy	14889	
+亚联	gobu	14889	
+镇洋	qfiu	14889	
+申通	jhce	14889	
+近岸	rpmd	14889	
+华鲁	wxpj	14889	
+顺发	kdnt	14889	
+国科	lgtu	14889	
+高争	ymqv	14889	
+南岭	fmmw	14889	
+澳华	itwx	14889	
+电魂	jnfc	14889	
+泛微	ittm	14889	
+贵广	khyy	14889	
+恺英	nmam	14889	
+锐捷	qurg	14889	
+盛天	dngd	14889	
+新炬	usoa	14889	
+亿联	wnbu	14889	
+萤石	apdg	14889	
+用友	ehdc	14889	
+游族	ioot	14889	
+国华	lgwx	14889	
+海力	itln	14889	
+泰胜	dwet	14889	
+天顺	gdkd	14889	
+今飞	wynu	14889	
+银宝	qvpg	14889	
+高斯	ymad	14889	
+威高	dgym	14889	
+中化	khwx	14889	
+长航	tate	14889	
+赛轮	pflw	14889	
+三角	dgqe	14889	
+铁科	qrtu	14889	
+四维	lhxw	14889	
+宝信	pgwy	14889	
+博思	fgln	14889	
+超图	fhlt	14889	
+鼎捷	hnrg	14889	
+福昕	pyjr	14889	
+格尔	stqi	14889	
+华宇	wxps	14889	
+久其	qyad	14889	
+科蓝	tuaj	14889	
+凌志	uffn	14889	
+南威	fmdg	14889	
+鸥玛	aqgc	14889	
+普联	uobu	14889	
+榕基	spad	14889	
+润和	iutk	14889	
+网达	mqdp	14889	
+新点	ushk	14889	
+新致	usgc	14889	
+英方	amoy	14889	
+远光	fqiq	14889	
+中望	khyn	14889	
+国光	lgiq	14889	
+交大	uqdd	14889	
+合众	wgww	14889	
+长盛	tadn	14889	
+二三	fgdg	14889	
+金安	qqpv	14889	
+三生	dgtg	14889	
+涛涛	idid	14889	
+晋西	gosg	14889	
+丽尚	gmim	14889	
+宝利	pgtj	14889	
+郴电	ssjn	14889	
+飞马	nucn	14889	
+华能	wxce	14889	
+皇庭	rgyt	14889	
+嘉诚	fkyd	14889	
+嘉友	fkdc	14889	
+科锐	tuqu	14889	
+乐惠	qigj	14889	
+山煤	mmoa	14889	
+山鹰	mmyw	14889	
+咸亨	dgyb	14889	
+宣亚	pggo	14889	
+亚钾	goql	14889	
+中工	khaa	14889	
+中铝	khqk	14889	
+金埔	qqfg	14889	
+乾景	fjjy	14889	
+南国	fmlg	14889	
+惠泉	gjri	14889	
+燕京	akyi	14889	
+友邦	dcdt	14889	
+纳睿	xmhp	14889	
+登康	ogyv	14889	
+龙芯	dxan	14889	
+新湖	usid	14889	
+合富	wgpg	14889	
+横店	sayh	14889	
+华策	wxtg	14889	
+金逸	qqqk	14889	
+唐德	yvtf	14889	
+博纳	fgxm	14889	
+浙文	iryy	14889	
+得邦	tjdt	14889	
+宏辉	pdiq	14889	
+华凯	wxmn	14889	
+起帆	fhmh	14889	
+康力	yvln	14889	
+快意	nnuj	14889	
+梅轮	stlw	14889	
+江特	iarh	14889	
+中电	khjn	14889	
+晶瑞	jjgm	14889	
+菱电	afjn	14889	
+保变	wkyo	14889	
+博菲	fgaj	14889	
+迪贝	mpmh	14889	
+禾望	ttyn	14889	
+金冠	qqpf	14889	
+久盛	qydn	14889	
+凯发	mnnt	14889	
+科林	tuss	14889	
+莱克	agdq	14889	
+摩恩	ysld	14889	
+欧圣	aqcf	14889	
+平高	guym	14889	
+三晖	dgjp	14889	
+森源	ssid	14889	
+上能	hhce	14889	
+双杰	ccso	14889	
+思源	lnid	14889	
+唐源	yvid	14889	
+天正	gdgh	14889	
+万和	dntk	14889	
+望变	ynyo	14889	
+伟创	wfwb	14889	
+威腾	dgeu	14889	
+信捷	wyrg	14889	
+欣灵	rqvo	14889	
+新特	usrh	14889	
+许继	ytxo	14889	
+英杰	amso	14889	
+云意	fcuj	14889	
+正弦	ghxy	14889	
+智光	tdiq	14889	
+中能	khce	14889	
+中熔	khop	14889	
+祥龙	pydx	14889	
+深南	ipfm	14889	
+世运	anfc	14889	
+中富	khpg	14889	
+长源	taid	14889	
+桂东	sfai	14889	
+国电	lgjn	14889	
+海兴	itiw	14889	
+泓淋	ixis	14889	
+华银	wxqv	14889	
+闽东	ujai	14889	
+黔源	lfid	14889	
+皖能	rpce	14889	
+煜邦	ojdt	14889	
+浙能	irce	14889	
+奥马	tmcn	14889	
+飞科	nutu	14889	
+格力	stln	14889	
+鸣志	kqfn	14889	
+帅丰	jmdh	14889	
+小熊	ihce	14889	
+永贵	ynkh	14889	
+科泰	tudw	14889	
+茂硕	addd	14889	
+野马	jfcn	14889	
+共达	awdp	14889	
+苏文	alyy	14889	
+艾为	aqyl	14889	
+澳弘	itxc	14889	
+奥联	tmbu	14889	
+奥尼	tmnx	14889	
+奥拓	tmrd	14889	
+柏楚	srss	14889	
+博敏	fgtx	14889	
+达瑞	dpgm	14889	
+得润	tjiu	14889	
+东晶	aijj	14889	
+东尼	ainx	14889	
+法拉	ifru	14889	
+烽火	otoo	14889	
+福日	pyjj	14889	
+概伦	svww	14889	
+国博	lgfg	14889	
+弘信	xcwy	14889	
+鸿远	iafq	14889	
+华微	wxtm	14889	
+环旭	gdvj	14889	
+积成	tkdn	14889	
+江丰	iadh	14889	
+金禄	qqpy	14889	
+精测	ogim	14889	
+精伦	ogww	14889	
+景旺	jyjg	14889	
+均胜	fqet	14889	
+康强	yvxk	14889	
+科陆	tubf	14889	
+快可	nnsk	14889	
+利通	tjce	14889	
+联创	buwb	14889	
+隆扬	btrn	14889	
+盟升	jeta	14889	
+民德	natf	14889	
+明微	jetm	14889	
+日盈	jjec	14889	
+商络	umxt	14889	
+上声	hhfn	14889	
+神思	pyln	14889	
+顺络	kdxt	14889	
+四创	lhwb	14889	
+天奥	gdtm	14889	
+天微	gdtm	14889	
+铜峰	qmmt	14889	
+维峰	xwmt	14889	
+伟时	wfjf	14889	
+新联	usbu	14889	
+旭光	vjiq	14889	
+雅创	ahwb	14889	
+亚华	gowx	14889	
+奕东	yoai	14889	
+依顿	wygb	14889	
+甬矽	cedq	14889	
+瑜欣	gwrq	14889	
+证通	ygce	14889	
+中瓷	khuq	14889	
+中京	khyi	14889	
+中威	khdg	14889	
+中颖	khxt	14889	
+紫建	hxvf	14889	
+金杯	qqsd	14889	
+特变	rhyo	14889	
+惠伦	gjww	14889	
+国能	lgce	14889	
+容知	pwtd	14889	
+同力	mgln	14889	
+东易	aijq	14889	
+上工	hhaa	14889	
+国盾	lgrf	14889	
+东望	aiyn	14889	
+汇嘉	iafk	14889	
+八亿	wtwn	14889	
+安正	pvgh	14889	
+地素	fbgx	14889	
+华孚	wxeb	14889	
+日播	jjrt	14889	
+天创	gdwb	14889	
+中胤	khtx	14889	
+鸿达	iadp	14889	
+富春	pgdw	14889	
+恒天	nggd	14889	
+君亭	vtyp	14889	
+首旅	utot	14889	
+华致	wxgc	14889	
+金枫	qqsm	14889	
+舍得	wftj	14889	
+韩建	fjvf	14889	
+海马	itcn	14889	
+华域	wxfa	14889	
+江淮	iaiw	14889	
+江铃	iaqw	14889	
+泉峰	rimt	14889	
+英利	amtj	14889	
+众泰	wwdw	14889	
+德龙	tfdx	14889	
+帝尔	upqi	14889	
+联赢	buyn	14889	
+锐科	qutu	14889	
+英诺	amya	14889	
+长飞	tanu	14889	
+宸展	pdna	14889	
+东旭	aivj	14889	
+国星	lgjt	14889	
+和辉	tkiq	14889	
+亨通	ybce	14889	
+华灿	wxom	14889	
+聚灿	bcom	14889	
+聚飞	bcnu	14889	
+莱特	agrh	14889	
+蓝盾	ajrf	14889	
+雷曼	kljl	14889	
+力鼎	lnhn	14889	
+联建	buvf	14889	
+龙腾	dxeu	14889	
+路维	ltxw	14889	
+南大	fmdd	14889	
+乾照	fjjv	14889	
+清溢	igiu	14889	
+日久	jjqy	14889	
+三安	dgpv	14889	
+万隆	dnbt	14889	
+沃格	itst	14889	
+五方	ggoy	14889	
+新光	usiq	14889	
+信濠	wyiy	14889	
+亚世	goan	14889	
+亿晶	wnjj	14889	
+道明	utje	14889	
+蓝特	ajrh	14889	
+茂莱	adag	14889	
+宇瞳	pshu	14889	
+铭普	qquo	14889	
+天合	gdwg	14889	
+仕佳	wfwf	14889	
+浩瀚	irif	14889	
+中水	khii	14889	
+格灵	stvo	14889	
+宋城	psfd	14889	
+金马	qqcn	14889	
+谱尼	yunx	14889	
+西测	sgim	14889	
+中海	khit	14889	
+巴安	cnpv	14889	
+国中	lgkh	14889	
+绿城	xvfd	14889	
+华新	wxus	14889	
+上峰	hhmt	14889	
+青鸟	geqy	14889	
+中顺	khkd	14889	
+华兴	wxiw	14889	
+张家	xtpe	14889	
+退市	veym	14889	
+爱尔	epqi	14889	
+光正	iqgh	14889	
+何氏	wsqa	14889	
+华厦	wxdd	14889	
+普瑞	uogm	14889	
+兴齐	iwyj	14889	
+天宜	gdpe	14889	
+盛美	dnug	14889	
+兆龙	qidx	14889	
+金财	qqmf	14889	
+三五	dggg	14889	
+通鼎	cehn	14889	
+漱玉	iggy	14889	
+萃华	aywx	14889	
+明牌	jeth	14889	
+国药	lgax	14889	
+英科	amtu	14889	
+蒙娜	apvv	14889	
+香溢	tjiu	14889	
+福耀	pyiq	14889	
+耀皮	iqhc	14889	
+吉大	fkdd	14889	
+坚朗	jcyv	14889	
+群兴	vtiw	14889	
+奥福	tmpy	14889	
+德创	tfwb	14889	
+东江	aiia	14889	
+菲达	ajdp	14889	
+复洁	tjif	14889	
+恒誉	ngiw	14889	
+华骐	wxca	14889	
+惠城	gjfd	14889	
+嘉澳	fkit	14889	
+京源	yiid	14889	
+联泰	budw	14889	
+鹏鹞	eeer	14889	
+青达	gedp	14889	
+荣晟	apjd	14889	
+瑞晨	gmjd	14889	
+圣元	cffq	14889	
+同兴	mgiw	14889	
+伟明	wfje	14889	
+先河	rqis	14889	
+永清	ynig	14889	
+远达	fqdp	14889	
+中兰	khud	14889	
+津荣	ivap	14889	
+金自	qqth	14889	
+易点	jqhk	14889	
+苏宁	alps	14889	
+冰轮	uilw	14889	
+城发	fdnt	14889	
+盾安	rfpv	14889	
+高能	ymce	14889	
+瀚蓝	ifaj	14889	
+洪城	iafd	14889	
+金科	qqtu	14889	
+朗坤	yvfj	14889	
+路德	lttf	14889	
+农尚	peim	14889	
+清研	igdg	14889	
+三峰	dgmt	14889	
+申菱	jhaf	14889	
+盛剑	dnwg	14889	
+天壕	gdfy	14889	
+通源	ceid	14889	
+旺能	jgce	14889	
+兴蓉	iwap	14889	
+兴源	iwid	14889	
+雪浪	kviy	14889	
+盈峰	ecmt	14889	
+华胜	wxet	14889	
+潞安	ilpv	14889	
+山高	mmym	14889	
+中建	khvf	14889	
+永信	ynwy	14889	
+新农	uspe	14889	
+蕾奥	aktm	14889	
+三特	dgrh	14889	
+巨力	anln	14889	
+梅雁	stdw	14889	
+怡和	nctk	14889	
+德尔	tfqi	14889	
+雪天	kvgd	14889	
+骄成	ctdn	14889	
+老白	fxrr	14889	
+华创	wxwb	14889	
+川能	ktce	14889	
+东安	aipv	14889	
+华培	wxfu	14889	
+全柴	wghx	14889	
+软通	lqce	14889	
+陕鼓	bgfk	14889	
+西菱	sgaf	14889	
+云内	fcmw	14889	
+宗申	pfjh	14889	
+昂立	jquu	14889	
+传智	wftd	14889	
+佳发	wfnt	14889	
+凯文	mnyy	14889	
+全通	wgce	14889	
+学大	ipdd	14889	
+大龙	dddx	14889	
+华远	wxfq	14889	
+荣安	appv	14889	
+中交	khuq	14889	
+三博	dgfg	14889	
+齐翔	yjud	14889	
+莎普	aiuo	14889	
+爱克	epdq	14889	
+爱普	epuo	14889	
+爱旭	epvj	14889	
+鞍钢	akqm	14889	
+安利	pvtj	14889	
+安妮	pvvn	14889	
+鞍重	aktg	14889	
+奥克	tmdq	14889	
+奥雅	tmah	14889	
+八方	wtoy	14889	
+芭田	acll	14889	
+柏诚	sryd	14889	
+百联	djbu	14889	
+百润	djiu	14889	
+百亚	djgo	14889	
+百洋	djiu	14889	
+棒杰	sdso	14889	
+包钢	qnqm	14889	
+宝光	pgiq	14889	
+宝莫	pgaj	14889	
+宝色	pgqc	14889	
+宝胜	pget	14889	
+鲍斯	pqad	14889	
+宝钛	pgqd	14889	
+宝鹰	pgyw	14889	
+北玻	uxgh	14889	
+北鼎	uxhn	14889	
+北化	uxwx	14889	
+比依	xxwy	14889	
+滨化	ipwx	14889	
+波导	ihnf	14889	
+博杰	fgso	14889	
+博深	fgip	14889	
+博实	fgpu	14889	
+博腾	fgeu	14889	
+博信	fgwy	14889	
+步科	hitu	14889	
+菜百	aedj	14889	
+彩讯	esyn	14889	
+茶花	awaw	14889	
+常宝	ippg	14889	
+长海	tait	14889	
+畅联	jhbu	14889	
+常铝	ipqk	14889	
+长荣	taap	14889	
+常润	ipiu	14889	
+超捷	fhrg	14889	
+晨化	jdwx	14889	
+诚邦	yddt	14889	
+诚志	ydfn	14889	
+川恒	ktng	14889	
+川润	ktiu	14889	
+川仪	ktwy	14889	
+创源	wbid	14889	
+春兰	dwud	14889	
+慈星	uxjt	14889	
+醋化	sgwx	14889	
+翠微	nytm	14889	
+大港	ddia	14889	
+大湖	ddid	14889	
+大华	ddwx	14889	
+大商	ddum	14889	
+大为	ddyl	14889	
+达威	dpdg	14889	
+大业	ddog	14889	
+大叶	ddkf	14889	
+岱美	waug	14889	
+道恩	utld	14889	
+道森	utss	14889	
+德才	tfft	14889	
+德昌	tfjj	14889	
+德力	tfln	14889	
+德石	tfdg	14889	
+德业	tfog	14889	
+登云	ogfc	14889	
+迪阿	mpbs	14889	
+帝科	uptu	14889	
+迪马	mpcn	14889	
+迪森	mpss	14889	
+电声	jnfn	14889	
+鼎龙	hndx	14889	
+东港	aiia	14889	
+东宏	aipd	14889	
+东睦	aihf	14889	
+东瑞	aigm	14889	
+东芯	aian	14889	
+恩捷	ldrg	14889	
+钒钛	qmqd	14889	
+方邦	oydt	14889	
+芳源	aoid	14889	
+飞龙	nudx	14889	
+飞鹿	nuyn	14889	
+丰华	dhwx	14889	
+锋龙	qtdx	14889	
+风神	mqpy	14889	
+凤形	mcga	14889	
+丰元	dhfq	14889	
+福鞍	pyak	14889	
+富奥	pgtm	14889	
+富邦	pgdt	14889	
+福成	pydn	14889	
+福光	pyiq	14889	
+富佳	pgwf	14889	
+福能	pyce	14889	
+孚日	ebjj	14889	
+福瑞	pygm	14889	
+福星	pyjt	14889	
+赣能	ujce	14889	
+高测	ymim	14889	
+高鸿	ymia	14889	
+高澜	ymiu	14889	
+高乐	ymqi	14889	
+歌尔	skqi	14889	
+庚星	yvjt	14889	
+共进	awfj	14889	
+冠福	pfpy	14889	
+冠农	pfpe	14889	
+冠盛	pfdn	14889	
+广百	yydj	14889	
+广博	yyfg	14889	
+光莆	iqag	14889	
+广日	yyjj	14889	
+光洋	iqiu	14889	
+贵航	khte	14889	
+贵绳	khxk	14889	
+国恩	lgld	14889	
+国发	lgnt	14889	
+国力	lgln	14889	
+国茂	lgad	14889	
+国统	lgxy	14889	
+哈森	kwss	14889	
+哈投	kwrm	14889	
+哈药	kwax	14889	
+海晨	itjd	14889	
+海达	itdp	14889	
+海德	ittf	14889	
+海锅	itqk	14889	
+海看	itrh	14889	
+海立	ituu	14889	
+海亮	ityp	14889	
+海星	itjt	14889	
+海印	itqg	14889	
+汉缆	icxj	14889	
+瀚叶	ifkf	14889	
+汉仪	icwy	14889	
+杭电	syjn	14889	
+杭钢	syqm	14889	
+杭华	sywx	14889	
+航民	tena	14889	
+杭氧	syrn	14889	
+豪能	ypce	14889	
+豪森	ypss	14889	
+浩物	irrh	14889	
+浩洋	iriu	14889	
+禾丰	ttdh	14889	
+河化	iswx	14889	
+禾迈	ttdn	14889	
+和胜	tket	14889	
+黑猫	lfea	14889	
+恒邦	ngdt	14889	
+恒宝	ngpg	14889	
+恒勃	ngfp	14889	
+恒光	ngiq	14889	
+恒林	ngss	14889	
+恒润	ngiu	14889	
+恒帅	ngjm	14889	
+恒烁	ngoq	14889	
+恒通	ngce	14889	
+鸿博	iafg	14889	
+宏德	pdtf	14889	
+红豆	xagk	14889	
+宏发	pdnt	14889	
+鸿铭	iaqq	14889	
+红墙	xaff	14889	
+宏盛	pddn	14889	
+洪涛	iaid	14889	
+洪兴	iaiw	14889	
+弘业	xcog	14889	
+弘宇	xcps	14889	
+厚普	djuo	14889	
+沪电	iyjn	14889	
+沪光	iyiq	14889	
+壶化	fpwx	14889	
+沪宁	iyps	14889	
+华瓷	wxuq	14889	
+华帝	wxup	14889	
+华鼎	wxhn	14889	
+华发	wxnt	14889	
+华纺	wxxo	14889	
+华丰	wxdh	14889	
+华锋	wxqt	14889	
+华锦	wxqr	14889	
+华康	wxyv	14889	
+华茂	wxad	14889	
+华民	wxna	14889	
+华平	wxgu	14889	
+华荣	wxap	14889	
+华瑞	wxgm	14889	
+华升	wxta	14889	
+华斯	wxad	14889	
+华统	wxxy	14889	
+华伍	wxwg	14889	
+华翔	wxud	14889	
+华鑫	wxqq	14889	
+汇成	iadn	14889	
+辉丰	iqdh	14889	
+汇洁	iaif	14889	
+辉隆	iqbt	14889	
+会通	wfce	14889	
+汇中	iakh	14889	
+霍普	kwuo	14889	
+吉电	fkjn	14889	
+继峰	xomt	14889	
+吉宏	fkpd	14889	
+冀凯	uxmn	14889	
+集泰	wodw	14889	
+吉翔	fkud	14889	
+集友	wodc	14889	
+集智	wotd	14889	
+佳电	wfjn	14889	
+嘉华	fkwx	14889	
+佳隆	wfbt	14889	
+嘉益	fkuw	14889	
+嘉寓	fkpj	14889	
+建新	vfus	14889	
+建业	vfog	14889	
+健友	wvdc	14889	
+交建	uqvf	14889	
+交运	uqfc	14889	
+捷成	rgdn	14889	
+杰克	sodq	14889	
+杰瑞	sogm	14889	
+洁雅	ifah	14889	
+金博	qqfg	14889	
+金辰	qqdf	14889	
+金春	qqdw	14889	
+金盾	qqrf	14889	
+金固	qqld	14889	
+金花	qqaw	14889	
+金徽	qqtm	14889	
+锦鸡	qrcq	14889	
+劲嘉	cafk	14889	
+金雷	qqkl	14889	
+锦龙	qrdx	14889	
+金钼	qqqh	14889	
+金田	qqll	14889	
+劲拓	card	14889	
+晋拓	gord	14889	
+金沃	qqit	14889	
+金杨	qqsn	14889	
+金圆	qqlk	14889	
+金证	qqyg	14889	
+金钟	qqqk	14889	
+晶晨	jjjd	14889	
+精达	ogdp	14889	
+晶升	jjta	14889	
+京威	yidg	14889	
+精艺	ogan	14889	
+久量	qyjg	14889	
+久祺	qypy	14889	
+九阳	vtbj	14889	
+聚辰	bcdf	14889	
+巨化	anwx	14889	
+聚胶	bceu	14889	
+炬申	oajh	14889	
+钧达	qqdp	14889	
+君禾	vttt	14889	
+军信	plwy	14889	
+凯淳	mniy	14889	
+凯迪	mnmp	14889	
+凯恩	mnld	14889	
+开勒	gaak	14889	
+开滦	gaiy	14889	
+凯伦	mnww	14889	
+开润	gaiu	14889	
+开山	gamm	14889	
+凯众	mnww	14889	
+勘设	adym	14889	
+康盛	yvdn	14889	
+科恒	tung	14889	
+科汇	tuia	14889	
+科隆	tubt	14889	
+科顺	tukd	14889	
+科翔	tuud	14889	
+空港	pwia	14889	
+坤泰	fjdw	14889	
+徕木	tgss	14889	
+兰生	udtg	14889	
+浪莎	iyai	14889	
+朗威	yvdg	14889	
+朗源	yvid	14889	
+朗姿	yvuq	14889	
+乐通	qice	14889	
+立霸	uuka	14889	
+蠡湖	xeid	14889	
+立华	uuwx	14889	
+利君	tjvt	14889	
+利民	tjna	14889	
+利欧	tjaq	14889	
+利群	tjvt	14889	
+力星	lnjt	14889	
+利源	tjid	14889	
+联德	butf	14889	
+联发	bunt	14889	
+联明	buje	14889	
+联翔	buud	14889	
+良信	yvwy	14889	
+辽港	bpia	14889	
+林海	ssit	14889	
+聆达	bwdp	14889	
+凌钢	ufqm	14889	
+柳钢	sqqm	14889	
+柳化	sqwx	14889	
+隆达	btdp	14889	
+龙高	dxym	14889	
+龙建	dxvf	14889	
+龙溪	dxie	14889	
+龙迅	dxnf	14889	
+龙宇	dxps	14889	
+龙韵	dxuj	14889	
+龙洲	dxiy	14889	
+洛凯	itmn	14889	
+罗曼	lqjl	14889	
+马钢	cnqm	14889	
+迈赫	dnfo	14889	
+迈拓	dnrd	14889	
+迈为	dnyl	14889	
+美邦	ugdt	14889	
+美畅	ugjh	14889	
+美达	ugdp	14889	
+美芝	ugap	14889	
+梦洁	ssif	14889	
+敏芯	txan	14889	
+名雕	qkmf	14889	
+慕思	ajln	14889	
+牧原	rhdr	14889	
+纳川	xmkt	14889	
+纳尔	xmqi	14889	
+南纺	fmxo	14889	
+南风	fmmq	14889	
+南钢	fmqm	14889	
+南化	fmwx	14889	
+南兴	fmiw	14889	
+诺邦	yadt	14889	
+诺德	yatf	14889	
+诺力	yaln	14889	
+帕瓦	mhgn	14889	
+派瑞	irgm	14889	
+盘江	teia	14889	
+佩蒂	wmau	14889	
+鹏翎	eewy	14889	
+品高	kkym	14889	
+平煤	guoa	14889	
+普邦	uodt	14889	
+濮耐	iwdm	14889	
+普冉	uomf	14889	
+侨银	wtqv	14889	
+侨源	wtid	14889	
+秦安	dwpv	14889	
+秦港	dwia	14889	
+勤上	akhh	14889	
+青木	gess	14889	
+清源	igid	14889	
+全信	wgwy	14889	
+确成	dqdn	14889	
+仁智	wftd	14889	
+日辰	jjdf	14889	
+日丰	jjdh	14889	
+戎美	adug	14889	
+嵘泰	madw	14889	
+如通	vkce	14889	
+软控	lqrp	14889	
+瑞和	gmtk	14889	
+瑞凌	gmuf	14889	
+锐奇	quds	14889	
+润邦	iudt	14889	
+润都	iufj	14889	
+润丰	iudh	14889	
+润建	iuvf	14889	
+闰土	ugff	14889	
+三美	dgug	14889	
+森赫	ssfo	14889	
+森泰	ssdw	14889	
+森特	ssrh	14889	
+森远	ssfq	14889	
+沙钢	iiqm	14889	
+杉杉	sese	14889	
+山推	mmrw	14889	
+山子	mmbb	14889	
+尚纬	imxf	14889	
+韶能	ujce	14889	
+申达	jhdp	14889	
+神工	pyaa	14889	
+神火	pyoo	14889	
+神剑	pywg	14889	
+神开	pyga	14889	
+申科	jhtu	14889	
+神力	pyln	14889	
+申能	jhce	14889	
+神宇	pyps	14889	
+圣邦	cfdt	14889	
+盛帮	dndt	14889	
+盛航	dnte	14889	
+盛弘	dnxc	14889	
+胜蓝	etaj	14889	
+圣龙	cfdx	14889	
+盛通	dnce	14889	
+昇兴	jtiw	14889	
+声迅	fnnf	14889	
+圣阳	cfbj	14889	
+狮头	ejud	14889	
+石英	dgam	14889	
+视源	pyid	14889	
+首钢	utqm	14889	
+首开	utga	14889	
+双飞	ccnu	14889	
+双箭	cctu	14889	
+双乐	ccqi	14889	
+双林	ccss	14889	
+双象	ccqj	14889	
+水羊	iiud	14889	
+税友	tudc	14889	
+顺灏	kdij	14889	
+顺钠	kdqm	14889	
+顺威	kddg	14889	
+四通	lhce	14889	
+松发	swnt	14889	
+松井	swfj	14889	
+崧盛	msdn	14889	
+松原	swdr	14889	
+松芝	swap	14889	
+苏利	altj	14889	
+苏能	alce	14889	
+索菱	fpaf	14889	
+泰达	dwdp	14889	
+泰尔	dwqi	14889	
+台基	ckad	14889	
+泰嘉	dwfk	14889	
+太龙	dydx	14889	
+泰祥	dwpy	14889	
+腾龙	eudx	14889	
+天宸	gdpd	14889	
+天禾	gdtt	14889	
+天虹	gdja	14889	
+天际	gdbf	14889	
+天键	gdqv	14889	
+天普	gduo	14889	
+天奇	gdds	14889	
+天铁	gdqr	14889	
+天通	gdce	14889	
+天邑	gdkc	14889	
+天宇	gdps	14889	
+天原	gddr	14889	
+天振	gdrd	14889	
+铁流	qriy	14889	
+同大	mgdd	14889	
+同方	mgoy	14889	
+同飞	mgnu	14889	
+桐昆	smjx	14889	
+通灵	cevo	14889	
+同为	mgyl	14889	
+通威	cedg	14889	
+同益	mguw	14889	
+图南	ltfm	14889	
+拓邦	rddt	14889	
+丸美	vyug	14889	
+万盛	dndn	14889	
+万泽	dnic	14889	
+威奥	dgtm	14889	
+威创	dgwb	14889	
+威帝	dgup	14889	
+韦尔	fnqi	14889	
+微光	tmiq	14889	
+维宏	xwpd	14889	
+威领	dgwy	14889	
+伟隆	wfbt	14889	
+威龙	dgdx	14889	
+维维	xwxw	14889	
+维业	xwog	14889	
+维远	xwfq	14889	
+文灿	yyom	14889	
+文峰	yymt	14889	
+温氏	ijqa	14889	
+沃特	itrh	14889	
+锡业	qjog	14889	
+西仪	sgwy	14889	
+锡装	qjuf	14889	
+厦工	ddaa	14889	
+先达	rqdp	14889	
+仙鹤	wmpw	14889	
+仙坛	wmff	14889	
+湘财	ismf	14889	
+湘电	isjn	14889	
+湘佳	iswf	14889	
+香山	tjmm	14889	
+晓鸣	jakq	14889	
+小崧	ihms	14889	
+新奥	ustm	14889	
+新澳	usit	14889	
+新宝	uspg	14889	
+鑫铂	qqqr	14889	
+新柴	ushx	14889	
+新钢	usqm	14889	
+欣贺	rqlk	14889	
+新化	uswx	14889	
+鑫磊	qqdd	14889	
+新媒	usva	14889	
+新朋	usee	14889	
+新泉	usri	14889	
+新日	usjj	14889	
+新锐	usqu	14889	
+新赛	uspf	14889	
+锌业	quog	14889	
+芯原	andr	14889	
+新筑	usta	14889	
+兴化	iwwx	14889	
+星徽	jttm	14889	
+兴通	iwce	14889	
+星宇	jtps	14889	
+星云	jtfc	14889	
+雄韬	dcfn	14889	
+秀强	texk	14889	
+雪人	kvww	14889	
+浔兴	iviw	14889	
+亚邦	godt	14889	
+雅博	ahfg	14889	
+亚康	goyv	14889	
+亚普	gouo	14889	
+亚厦	godd	14889	
+亚威	godg	14889	
+亚香	gotj	14889	
+雅运	ahfc	14889	
+研奥	dgtm	14889	
+延江	thia	14889	
+严牌	goth	14889	
+洋河	iuis	14889	
+怡达	ncdp	14889	
+意华	ujwx	14889	
+伊利	wvtj	14889	
+益生	uwtg	14889	
+易天	jqgd	14889	
+一拖	ggrt	14889	
+依依	wywy	14889	
+银邦	qvdt	14889	
+银都	qvfj	14889	
+银龙	qvdx	14889	
+银轮	qvlw	14889	
+银座	qvyw	14889	
+迎丰	qbdh	14889	
+英力	amln	14889	
+英联	ambu	14889	
+应流	yiiy	14889	
+永鼎	ynhn	14889	
+永东	ynai	14889	
+永吉	ynfk	14889	
+甬金	ceqq	14889	
+永利	yntj	14889	
+永艺	ynan	14889	
+友阿	dcbs	14889	
+尤夫	dnfw	14889	
+宇晶	psjj	14889	
+玉龙	gydx	14889	
+宇新	psus	14889	
+裕兴	puiw	14889	
+御银	trqv	14889	
+豫园	cnlf	14889	
+元成	fqdn	14889	
+元力	fqln	14889	
+原尚	drim	14889	
+元祖	fqpy	14889	
+乐歌	qisk	14889	
+粤桂	tlsf	14889	
+跃岭	ltmw	14889	
+云路	fclt	14889	
+云铝	fcqk	14889	
+云维	fcxw	14889	
+兆驰	qicb	14889	
+兆丰	qidh	14889	
+兆新	qius	14889	
+浙矿	irdy	14889	
+浙农	irpe	14889	
+柘中	sdkh	14889	
+振江	rdia	14889	
+正川	ghkt	14889	
+正丹	ghmy	14889	
+正平	ghgu	14889	
+正强	ghxk	14889	
+正源	ghid	14889	
+智度	tdya	14889	
+智云	tdfc	14889	
+至正	gcgh	14889	
+中辰	khdf	14889	
+中成	khdn	14889	
+中持	khrf	14889	
+中宠	khpd	14889	
+中储	khwy	14889	
+中鼎	khhn	14889	
+中来	khgo	14889	
+中路	khlt	14889	
+中牧	khrh	14889	
+中葡	khaq	14889	
+中汽	khir	14889	
+中荣	khap	14889	
+中锐	khqu	14889	
+中色	khqc	14889	
+中设	khym	14889	
+中伟	khwf	14889	
+中元	khfq	14889	
+中直	khfh	14889	
+准油	uwim	14889	
+卓锦	hjqr	14889	
+卓然	hjqd	14889	
+综艺	xpan	14889	
+祖名	pyqk	14889	
+嘉曼	fkjl	14889	
+森马	sscn	14889	
+天润	gdiu	14889	
+燕塘	akfy	14889	
+耐普	dmuo	14889	
+藏格	adst	14889	
+大中	ddkh	14889	
+国城	lgfd	14889	
+华钰	wxqg	14889	
+金岭	qqmw	14889	
+金瑞	qqgm	14889	
+盛屯	dngb	14889	
+古越	dgfh	14889	
+川发	ktnt	14889	
+莱伯	agwr	14889	
+新能	usce	14889	
+海程	ittk	14889	
+贝仕	mhwf	14889	
+桃李	sqsb	14889	
+众望	wwyn	14889	
+大元	ddfq	14889	
+凌霄	ufki	14889	
+泰福	dwpy	14889	
+佰维	wdxw	14889	
+太钢	dyqm	14889	
+武进	gafj	14889	
+恒力	ngln	14889	
+恒逸	ngqk	14889	
+星球	jtgf	14889	
+容大	pwdd	14889	
+中曼	khjl	14889	
+合盛	wgdn	14889	
+歌华	skwx	14889	
+广晟	yyjd	14889	
+华锡	wxqj	14889	
+零点	kwhk	14889	
+中岩	khmd	14889	
+冠城	pffd	14889	
+大亚	ddgo	14889	
+鼎信	hnwy	14889	
+会畅	wfjh	14889	
+通宇	ceps	14889	
+瀛通	iyce	14889	
+奥维	tmxw	14889	
+超讯	fhyn	14889	
+广哈	yykw	14889	
+海格	itst	14889	
+汇源	iaid	14889	
+三旺	dgjg	14889	
+盛路	dnlt	14889	
+天孚	gdeb	14889	
+信维	wyxw	14889	
+移为	tqyl	14889	
+移远	tqfq	14889	
+元道	fqut	14889	
+中贝	khmh	14889	
+莱绅	agxj	14889	
+宝丰	pgdh	14889	
+宝新	pgus	14889	
+贝肯	mhhe	14889	
+川投	ktrm	14889	
+大全	ddwg	14889	
+佛燃	wxoq	14889	
+广聚	yybc	14889	
+恒盛	ngdn	14889	
+冀中	uxkh	14889	
+嘉化	fkwx	14889	
+建投	vfrm	14889	
+金房	qqyn	14889	
+九丰	vtdh	14889	
+立新	uuus	14889	
+林洋	ssiu	14889	
+美锦	ugqr	14889	
+美能	ugce	14889	
+鹏辉	eeiq	14889	
+胜通	etce	14889	
+世茂	anad	14889	
+天富	gdpg	14889	
+通宝	cepg	14889	
+新集	uswo	14889	
+兖矿	ucdy	14889	
+银星	qvjt	14889	
+永泰	yndw	14889	
+远兴	fqiw	14889	
+云煤	fcoa	14889	
+中煤	khoa	14889	
+中闽	khuj	14889	
+隆鑫	btqq	14889	
+捷昌	rgjj	14889	
+华扬	wxrn	14889	
+国旅	lgot	14889	
+宿迁	pwtf	14889	
+东阿	aibs	14889	
+观典	cmma	14889	
+雷科	kltu	14889	
+天海	gdit	14889	
+天和	gdtk	14889	
+中光	khiq	14889	
+惠达	gjdp	14889	
+益丰	uwdh	14889	
+奥翔	tmud	14889	
+贝达	mhdp	14889	
+北陆	uxbf	14889	
+辰欣	dfrq	14889	
+诚达	yddp	14889	
+东诚	aiyd	14889	
+恩华	ldwx	14889	
+丰原	dhdr	14889	
+富祥	pgpy	14889	
+甘李	afsb	14889	
+广济	yyiy	14889	
+海辰	itdf	14889	
+海创	itwb	14889	
+海森	itss	14889	
+海翔	itud	14889	
+翰宇	fjps	14889	
+亨迪	ybmp	14889	
+红日	xajj	14889	
+宏源	pdid	14889	
+华仁	wxwf	14889	
+济川	iykt	14889	
+江中	iakh	14889	
+津药	ivax	14889	
+京新	yius	14889	
+康辰	yvdf	14889	
+康弘	yvxc	14889	
+康缘	yvxx	14889	
+康芝	yvap	14889	
+科伦	tuww	14889	
+葵花	aoaw	14889	
+莱美	agug	14889	
+联环	bugd	14889	
+灵康	voyv	14889	
+龙津	dxiv	14889	
+罗欣	lqrq	14889	
+盟科	jetu	14889	
+盘龙	tedx	14889	
+普洛	uoit	14889	
+仁和	wftk	14889	
+赛隆	pfbt	14889	
+赛升	pfta	14889	
+双成	ccdn	14889	
+双鹭	cclt	14889	
+特一	rhgg	14889	
+天新	gdus	14889	
+同和	mgtk	14889	
+拓新	rdus	14889	
+威尔	dgqi	14889	
+维康	xwyv	14889	
+西点	sghk	14889	
+亚宝	gopg	14889	
+以岭	nymw	14889	
+益盛	uwdn	14889	
+誉衡	iwtq	14889	
+悦康	nuyv	14889	
+众生	wwtg	14889	
+佐力	wdln	14889	
+华纳	wxxm	14889	
+爱博	epfg	14889	
+爱朋	epee	14889	
+奥精	tmog	14889	
+奥美	tmug	14889	
+佰仁	wdwf	14889	
+春立	dwuu	14889	
+大博	ddfg	14889	
+戴维	faxw	14889	
+迪瑞	mpgm	14889	
+东星	aijt	14889	
+拱东	raai	14889	
+皓宸	rrpd	14889	
+惠泰	gjdw	14889	
+济民	iyna	14889	
+九安	vtpv	14889	
+开立	gauu	14889	
+康拓	yvrd	14889	
+康众	yvww	14889	
+可孚	skeb	14889	
+蓝帆	ajmh	14889	
+乐普	qiuo	14889	
+乐心	qiny	14889	
+联影	bujy	14889	
+迈得	dntj	14889	
+迈瑞	dngm	14889	
+润达	iudp	14889	
+塞力	pfln	14889	
+赛诺	pfya	14889	
+三鑫	dgqq	14889	
+尚荣	imap	14889	
+天臣	gdah	14889	
+天益	gduw	14889	
+通策	cetg	14889	
+万东	dnai	14889	
+维力	xwln	14889	
+伟思	wfln	14889	
+祥生	pytg	14889	
+翔宇	udps	14889	
+心脉	nyey	14889	
+阳普	bjuo	14889	
+鱼跃	ptlt	14889	
+振德	rdtf	14889	
+中红	khxa	14889	
+金域	qqfa	14889	
+兰卫	udbg	14889	
+迈普	dnuo	14889	
+南微	fmtm	14889	
+百诚	djyd	14889	
+百花	djaw	14889	
+毕得	xxtj	14889	
+博济	fgiy	14889	
+迪哲	mprr	14889	
+多瑞	qqgm	14889	
+恩威	lddg	14889	
+复星	tjjt	14889	
+福元	pyfq	14889	
+国邦	lgdt	14889	
+皓元	rrfq	14889	
+恒瑞	nggm	14889	
+泓博	ixfg	14889	
+金城	qqfd	14889	
+景峰	jymt	14889	
+鲁抗	pjry	14889	
+鹭燕	ltak	14889	
+仟源	wtid	14889	
+人福	wwpy	14889	
+瑞康	gmyv	14889	
+睿智	hptd	14889	
+泰格	dwst	14889	
+未名	fiqk	14889	
+沃华	itwx	14889	
+宣泰	pgdw	14889	
+亚虹	goja	14889	
+亿帆	wnmh	14889	
+易明	jqje	14889	
+恒泰	ngdw	14889	
+欢瑞	cqgm	14889	
+康为	yvyl	14889	
+信安	wypv	14889	
+宜通	pece	14889	
+利扬	tjrn	14889	
+银泰	qvdw	14889	
+古井	dgfj	14889	
+迎驾	qblk	14889	
+妙可	visk	14889	
+共创	awwb	14889	
+百隆	djbt	14889	
+恒信	ngwy	14889	
+元隆	fqbt	14889	
+瑞达	gmdp	14889	
+天保	gdwk	14889	
+曼恩	jlld	14889	
+贝瑞	mhgm	14889	
+达安	dppv	14889	
+睿昂	hpjq	14889	
+奇正	dsgh	14889	
+大禹	ddtk	14889	
+冠龙	pfdx	14889	
+恒尚	ngim	14889	
+晶雪	jjkv	14889	
+鲁阳	pjbj	14889	
+神雾	pykt	14889	
+双良	ccyv	14889	
+威唐	dgyv	14889	
+远信	fqwy	14889	
+征和	tgtk	14889	
+正裕	ghpu	14889	
+智电	tdjn	14889	
+锐视	qupy	14889	
+畅银	jhqv	14889	
+创园	wblf	14889	
+千成	tfdn	14889	
+湾港	iyia	14889	
+蓝谷	ajww	14889	
+勒芬	akaw	14889	
+华芯	wxan	14889	
+北明	uxje	14889	
+汽饰	irqn	14889	
+锂科	qjtu	14889	
+慧康	dhyv	14889	
+产融	utgk	14889	
+集创	wowb	14889	
+钽业	qjog	14889	
+半导	ufnf	14889	
+硅材	dfsf	14889	
+数创	ovwb	14889	
+微透	tmte	14889	
+蒽特	alrh	14889	
+运业	fcog	14889	
+科雅	tuah	14889	
+爱众	epww	14889	
+特材	rhsf	14889	
+复材	tjsf	14889	
+铂业	qrog	14889	
+智科	tdtu	14889	
+智家	tdpe	14889	
+住工	wyaa	14889	
+瑞声	gmfn	14889	
+味业	kfog	14889	
+生材	tgsf	14889	
+钴业	qdog	14889	
+智装	tduf	14889	
+汽电	irjn	14889	
+微纳	tmxm	14889	
+达鑫	dpqq	14889	
+醋业	sgog	14889	
+数科	ovtu	14889	
+智汇	tdia	14889	
+裕能	puce	14889	
+鑫创	qqwb	14889	
+诚科	ydtu	14889	
+创通	wbce	14889	
+山鼎	mmhn	14889	
+云通	fcce	14889	
+钛业	qdog	14889	
+合诚	wgyd	14889	
+奕帆	yomh	14889	
+金租	qqte	14889	
+银业	qvog	14889	
+明源	jeid	14889	
+智农	tdpe	14889	
+轻机	lcsm	14889	
+辉开	iqga	14889	
+一轨	gglv	14889	
+微纤	tmxt	14889	
+顺维	kdxw	14889	
+特玻	rhgh	14889	
+丽妆	gmuv	14889	
+戎发	adnt	14889	
+锌电	qujn	14889	
+斯金	adqq	14889	
+钼业	qhog	14889	
+慧充	dhyc	14889	
+超媒	fhva	14889	
+柏科	srtu	14889	
+克卫	dqbg	14889	
+精技	ogrf	14889	
+旭腾	vjeu	14889	
+路机	ltsm	14889	
+聚隆	bcbt	14889	
+智尚	tdim	14889	
+一机	ggsm	14889	
+韵升	ujta	14889	
+致源	gcid	14889	
+康视	yvpy	14889	
+惠成	gjdn	14889	
+精电	ogjn	14889	
+建化	vfwx	14889	
+闽光	ujiq	14889	
+虹普	jauo	14889	
+重能	tgce	14889	
+窗业	pwog	14889	
+地纬	fbxf	14889	
+赫达	fodp	14889	
+药玻	axgh	14889	
+章鼓	ujfk	14889	
+药辅	axlg	14889	
+网科	mqtu	14889	
+艾录	aqvi	14889	
+钢联	qmbu	14889	
+瀚讯	ifyn	14889	
+沪工	iyaa	14889	
+凯宝	mnpg	14889	
+莱士	agfg	14889	
+洗霸	irka	14889	
+沿浦	imig	14889	
+易连	jqlp	14889	
+谊众	ypww	14889	
+规院	fwbp	14889	
+锂能	qjce	14889	
+医惠	atgj	14889	
+富仕	pgwf	14889	
+井神	fjpy	14889	
+固锝	ldqj	14889	
+普林	uoss	14889	
+德酒	tfis	14889	
+迪科	mptu	14889	
+磁塑	duub	14889	
+创芯	wban	14889	
+锂芯	qjan	14889	
+核材	sysf	14889	
+凡谷	myww	14889	
+洁能	ifce	14889	
+芯创	anwb	14889	
+应材	yisf	14889	
+微装	tmuf	14889	
+然气	qdrn	14889	
+环材	gdsf	14889	
+银锡	qvqj	14889	
+卓镁	hjqu	14889	
+诺和	yatk	14889	
+富维	pgxw	14889	
+壹创	fpwb	14889	
+粉材	owsf	14889	
+金铅	qqqm	14889	
+林纸	ssxq	14889	
+励飞	ddnu	14889	
+电新	jnus	14889	
+网新	mqus	14889	
+交科	uqtu	14889	
+仙通	wmce	14889	
+震元	kdfq	14889	
+正特	ghrh	14889	
+众成	wwdn	14889	
+中拓	khrd	14889	
+力德	lntf	14889	
+洛耐	itdm	14889	
+核技	syrf	14889	
+电研	jndg	14889	
+核建	syvf	14889	
+科传	tuwf	14889	
+能建	cevf	14889	
+汽研	irdg	14889	
+天楹	gdse	14889	
+铁物	qrrh	14889	
+中免	khqk	14889	
+旭创	vjwb	14889	
+磁业	duog	14889	
+飞测	nuim	14889	
+海讯	ityn	14889	
+蓝讯	ajyn	14889	
+微至	tmgc	14889	
+特货	rhwx	14889	
+氟材	rnsf	14889	
+海直	itfh	14889	
+菌业	alog	14889	
+绒业	xaog	14889	
+海控	itrp	14889	
+国微	lgtm	14889	
+文创	yywb	14889	
+广核	yysy	14889	
+文轩	yylf	14889	
+广泰	yydw	14889	
+谐波	yxih	14889	
+诊断	ywon	14889	
+康德	yvtf	14889	
+永强	ynxk	14889	
+讯飞	ynnu	14889	
+永磁	yndu	14889	
+高纤	ymxt	14889	
+高纳	ymxm	14889	
+高科	ymtu	14889	
+高材	ymsf	14889	
+高发	ymnt	14889	
+遮阳	yabj	14889	
+比德	xxtf	14889	
+维格	xwst	14889	
+维尔	xwqi	14889	
+纸业	xqog	14889	
+纺织	xoxk	14889	
+纺机	xosm	14889	
+纳克	xmdq	14889	
+红箭	xatu	14889	
+信通	wyce	14889	
+储能	wyce	14889	
+华意	wxuj	14889	
+华科	wxtu	14889	
+华腾	wxeu	14889	
+华鹏	wxee	14889	
+化成	wxdn	14889	
+众和	wwtk	14889	
+人机	wwsm	14889	
+人寿	wwdt	14889	
+健华	wvwx	14889	
+倍健	wuwv	14889	
+焦化	wowx	14889	
+伟业	wfog	14889	
+创智	wbtd	14889	
+创投	wbrm	14889	
+创达	wbdp	14889	
+创能	wbce	14889	
+君安	vtpv	14889	
+九天	vtgd	14889	
+九百	vtdj	14889	
+北人	uxww	14889	
+冷链	uwql	14889	
+新科	ustu	14889	
+新材	ussf	14889	
+新网	usmq	14889	
+新星	usjt	14889	
+新源	usid	14889	
+新春	usdw	14889	
+新百	usdj	14889	
+新阳	usbj	14889	
+资环	uqgd	14889	
+商管	umtp	14889	
+商行	umtf	14889	
+总院	ukbp	14889	
+美家	ugpe	14889	
+美丰	ugdh	14889	
+美大	ugdd	14889	
+美菱	ugaf	14889	
+科工	tuaa	14889	
+稀土	tqff	14889	
+管桩	tpsy	14889	
+管业	tpog	14889	
+微力	tmln	14889	
+奥威	tmdg	14889	
+积余	tkws	14889	
+种业	tkog	14889	
+复华	tjwx	14889	
+香料	tjou	14889	
+重科	tgtu	14889	
+生科	tgtu	14889	
+重机	tgsm	14889	
+重汽	tgir	14889	
+重工	tgaa	14889	
+德农	tfpe	14889	
+德曼	tfjl	14889	
+航科	tetu	14889	
+船艇	tete	14889	
+智行	tdtf	14889	
+智控	tdrp	14889	
+智造	tdrk	14889	
+智胜	tdet	14889	
+智通	tdce	14889	
+智联	tdbu	14889	
+长峰	tamt	14889	
+长运	tafc	14889	
+长龙	tadx	14889	
+松鼠	swen	14889	
+梅林	stss	14889	
+柯林	ssss	14889	
+榨菜	spae	14889	
+酵母	sgxg	14889	
+西飞	sgnu	14889	
+西电	sgjn	14889	
+西威	sgdg	14889	
+极光	seiq	14889	
+椰岛	sbqy	14889	
+热力	rvln	14889	
+热电	rvjn	14889	
+拉比	ruxx	14889	
+白药	rrax	14889	
+制程	rmtk	14889	
+特纸	rhxq	14889	
+特装	rhuf	14889	
+特科	rhtu	14889	
+特气	rhrn	14889	
+物贸	rhqy	14889	
+特钢	rhqm	14889	
+牧业	rhog	14889	
+年青	rhge	14889	
+银海	qvit	14889	
+镜片	quth	14889	
+锆业	qrog	14889	
+铁汉	qric	14889	
+铁塔	qrfa	14889	
+金森	qqss	14889	
+金顶	qqsd	14889	
+金控	qqrp	14889	
+金泉	qqri	14889	
+钨业	qqog	14889	
+金轮	qqlw	14889	
+金叶	qqkf	14889	
+金汇	qqia	14889	
+金王	qqgg	14889	
+鑫泰	qqdw	14889	
+金泰	qqdw	14889	
+多斯	qqad	14889	
+饲料	qnou	14889	
+铜箔	qmti	14889	
+钢构	qmsq	14889	
+铜业	qmog	14889	
+铝业	qkog	14889	
+锂业	qjog	14889	
+象屿	qjmg	14889	
+锂电	qjjn	14889	
+外运	qhfc	14889	
+印务	qgtl	14889	
+铺子	qgbb	14889	
+锗业	qfog	14889	
+钱潮	qfif	14889	
+解百	qedj	14889	
+铸管	qdtp	14889	
+希德	qdtf	14889	
+钛白	qdrr	14889	
+色母	qcxg	14889	
+锚链	qaql	14889	
+神鹰	pyyw	14889	
+视讯	pyyn	14889	
+神华	pywx	14889	
+视像	pywq	14889	
+宅配	ptsg	14889	
+宇达	psdp	14889	
+军工	plaa	14889	
+富达	pgdp	14889	
+富联	pgbu	14889	
+赛格	pfst	14889	
+冠宇	pfps	14889	
+赛克	pfdq	14889	
+赛斯	pfad	14889	
+家纺	pexo	14889	
+宜化	pewx	14889	
+家化	pewx	14889	
+农牧	perh	14889	
+宏兴	pdiw	14889	
+宏丰	pddh	14889	
+米特	oyrh	14889	
+米业	oyog	14889	
+糖业	oyog	14889	
+数通	ovce	14889	
+火腿	ooev	14889	
+精创	ogwb	14889	
+精机	ogsm	14889	
+煤业	oaog	14889	
+煤电	oajn	14889	
+飞鸿	nuia	14889	
+恒升	ngta	14889	
+恒业	ngog	14889	
+恒威	ngdg	14889	
+民爆	naoj	14889	
+内配	mwsg	14889	
+网安	mqpv	14889	
+网架	mqlk	14889	
+风能	mqce	14889	
+凯鑫	mnqq	14889	
+凯达	mndp	14889	
+山新	mmus	14889	
+贝尔	mhqi	14889	
+贝岭	mhmw	14889	
+同创	mgwb	14889	
+同泰	mgdw	14889	
+炭素	mdgx	14889	
+岩土	mdff	14889	
+轮渡	lwiy	14889	
+图新	ltus	14889	
+思诺	lnya	14889	
+思壮	lnuf	14889	
+四五	lhgg	14889	
+国纪	lgxn	14889	
+国健	lgwv	14889	
+国航	lgte	14889	
+国贸	lgqy	14889	
+国祯	lgpy	14889	
+车业	lgog	14889	
+车轴	lglm	14889	
+辐照	lgjv	14889	
+国潮	lgif	14889	
+墨龙	lfdx	14889	
+雷利	kltj	14889	
+露露	klkl	14889	
+中冶	khuc	14889	
+中程	khtk	14889	
+中鲁	khpj	14889	
+中宝	khpg	14889	
+中车	khlg	14889	
+吴中	kgkh	14889	
+雨虹	kgja	14889	
+星图	jtlt	14889	
+临港	jtia	14889	
+星辰	jtdf	14889	
+星通	jtce	14889	
+果蔬	jsan	14889	
+易佰	jqwd	14889	
+蛇口	jpkk	14889	
+电化	jnwx	14889	
+电建	jnvf	14889	
+电瓷	jnuq	14889	
+电材	jnsf	14889	
+电热	jnrv	14889	
+电控	jnrp	14889	
+电业	jnog	14889	
+电测	jnim	14889	
+电驱	jnca	14889	
+晶体	jjws	14889	
+日新	jjus	14889	
+日升	jjta	14889	
+日盛	jjdn	14889	
+申贝	jhmh	14889	
+量子	jgbb	14889	
+浪奇	iyds	14889	
+兴长	iwta	14889	
+汾酒	iwis	14889	
+染织	ivxk	14889	
+海诚	ityd	14889	
+海纳	itxm	14889	
+海化	itwx	14889	
+海发	itnt	14889	
+海运	itfc	14889	
+海龙	itdx	14889	
+海防	itbo	14889	
+海药	itax	14889	
+酒行	istf	14889	
+酒业	isog	14889	
+光科	iqtu	14889	
+光标	iqsf	14889	
+光磁	iqdu	14889	
+光能	iqce	14889	
+光子	iqbb	14889	
+沈飞	ipnu	14889	
+深瞳	iphu	14889	
+演艺	ipan	14889	
+游乐	ioqi	14889	
+油服	imeb	14889	
+水务	iitl	14889	
+清科	igtu	14889	
+源创	idwb	14889	
+汉光	iciq	14889	
+港务	iatl	14889	
+港行	iatf	14889	
+鸿图	ialt	14889	
+汇能	iace	14889	
+紫晶	hxjj	14889	
+眼科	hvtu	14889	
+眼药	hvax	14889	
+鼎力	hnln	14889	
+上佳	hhwf	14889	
+皮城	hcfd	14889	
+互娱	gxvk	14889	
+互连	gxlp	14889	
+珠峰	grmt	14889	
+列控	gqrp	14889	
+敖东	gqai	14889	
+瑞捷	gmrg	14889	
+瑞尔	gmqi	14889	
+瑞泽	gmic	14889	
+丽莎	gmai	14889	
+融通	gkce	14889	
+玻纤	ghxt	14889	
+政通	ghce	14889	
+一重	ggtg	14889	
+一东	ggai	14889	
+天择	gdrc	14889	
+环宇	gdps	14889	
+天业	gdog	14889	
+天恒	gdng	14889	
+天鸿	gdia	14889	
+天雁	gddw	14889	
+环能	gdce	14889	
+至诚	gcyd	14889	
+武夷	gagx	14889	
+老窖	fxpw	14889	
+远洋	fqiu	14889	
+索道	fput	14889	
+索普	fpuo	14889	
+索具	fphw	14889	
+南自	fmth	14889	
+南油	fmim	14889	
+南瑞	fmgm	14889	
+嘉宝	fkpg	14889	
+嘉业	fkog	14889	
+嘉盛	fkdn	14889	
+超纤	fhxt	14889	
+盐业	fhog	14889	
+超导	fhnf	14889	
+干酒	fgis	14889	
+云信	fcwy	14889	
+云网	fcmq	14889	
+运通	fcce	14889	
+地信	fbwy	14889	
+载波	faih	14889	
+脑科	eytu	14889	
+胶片	euth	14889	
+爱思	epln	14889	
+舜天	epgd	14889	
+乳业	ebog	14889	
+乳品	ebkk	14889	
+太保	dywk	14889	
+龙杰	dxso	14889	
+龙蟒	dxja	14889	
+龙盛	dxdn	14889	
+泰科	dwtu	14889	
+泰岳	dwrg	14889	
+泰克	dwdq	14889	
+磁材	dusf	14889	
+邦达	dtdp	14889	
+达因	dpld	14889	
+达克	dpdq	14889	
+万维	dnxw	14889	
+万恒	dnng	14889	
+盛虹	dnja	14889	
+成渝	dniw	14889	
+布艺	dman	14889	
+百灵	djvo	14889	
+泵业	diog	14889	
+不锈	dhqt	14889	
+三九	dgvt	14889	
+三毛	dgtf	14889	
+厨柜	dgsa	14889	
+三金	dgqq	14889	
+威视	dgpy	14889	
+三力	dgln	14889	
+感光	dgiq	14889	
+威达	dgdp	14889	
+硅业	dfog	14889	
+有数	deov	14889	
+大通	ddce	14889	
+圣象	cfqj	14889	
+圣亚	cfgo	14889	
+能化	cewx	14889	
+能投	cerm	14889	
+通号	cekg	14889	
+双鹤	ccpw	14889	
+双马	cccn	14889	
+联众	buww	14889	
+阿胶	bseu	14889	
+防务	botl	14889	
+卫浴	bgiw	14889	
+卫通	bgce	14889	
+药房	axyn	14889	
+药业	axog	14889	
+药厂	axdg	14889	
+艾普	aquo	14889	
+世宝	anpg	14889	
+巨石	andg	14889	
+贡酒	amis	14889	
+英大	amdd	14889	
+蓝多	ajqq	14889	
+草坪	ajfg	14889	
+东谷	aiww	14889	
+东力	ailn	14889	
+东日	aijj	14889	
+东磁	aidu	14889	
+雅仕	ahwf	14889	
+雅图	ahlt	14889	
+斯特	adrh	14889	
+藏药	adax	14889	
+## -通用短语-			
+雷雳	klkd	50000	
+图床	ltys	50000	
+助记	egyn	50000	
+中国人	klww	48435	
+算了	thbn	46667	
+也就是	byjg	46620	
+学前班	iugy	46278	
+对你	cfwq	45262	
+看完	rhpf	45003	
+有可能	dsce	44937	
+帮你	dtwq	44858	
+对他	cfwb	44773	
+完完全全	ppww	44703	
+一副	gggk	44230	
+没钱	imqf	43855	
+对她	cfvb	43706	
+相当于	sisg	43655	
+老是	fxjg	43509	
+爸妈	wqvc	43069	
+女主角	vyqe	43057	
+一本	ggsg	43040	
+脑残	eygq	43033	
+大一	ddgg	43022	
+没必要	insv	42859	
+小狗	iheq	42631	
+赢了	ynbn	42520	
+二哥	fgsk	42378	
+出息	bmth	42203	
+男主角	lyqe	42199	
+谈恋爱	yyep	42045	
+取决于	busg	41904	
+房贷	ynwa	41862	
+像是	wqjg	41825	
+增速	fugk	41723	
+不明觉厉	djid	41602	
+国际化	lbwx	41518	
+可不可以	sdsn	41405	
+学到	ipgc	41383	
+好点	vbhk	41369	
+心存	nydh	41156	
+泡泡	iqiq	40811	
+神器	pykk	40798	
+社保卡	pwhh	40640	
+之多	ppqq	40547	
+车内	lgmw	40496	
+午觉	tfip	40476	
+金价	qqww	40464	
+行不行	tdtf	40450	
+相比之下	sxpg	40430	
+原来如此	dgvh	40390	
+个性化	wnwx	40328	
+瞧瞧	hwhw	40293	
+动不动	fdfc	40283	
+任一	wtgg	40235	
+面食	dmwy	40230	
+学学	ipip	40200	
+咪咪	koko	40199	
+紧接着	jrud	40147	
+下来了	ggbn	40022	
+方正	oygh	39824	
+不得不说	dtdy	39782	
+大美女	duvv	39653	
+逛逛	egeg	39576	
+搞不懂	rdna	39523	
+打你	rswq	39463	
+悄悄话	nnyt	39390	
+博主	fgyg	39370	
+羊毛	udtf	39366	
+买车	nulg	39350	
+车友	lgdc	39289	
+倒垃圾	wffe	39286	
+新家	uspe	39280	
+走走	fhfh	39242	
+无事	fqgk	39184	
+水泥地	iifb	39159	
+好长	vbta	39075	
+直辖市	flym	39075	
+交通工具	ucah	39051	
+大三	dddg	39026	
+奥特曼	trjl	39024	
+德行	tftf	39020	
+大二	ddfg	39020	
+意想不到	usdg	39016	
+进群	fjvt	38990	
+夜猫	ywea	38931	
+偷税漏税	wtit	38885	
+看出来	rbgo	38850	
+占比	hkxx	38841	
+礼盒	pywg	38838	
+复用	tjeh	38827	
+医保卡	awhh	38790	
+大图	ddlt	38739	
+离家出走	ypbf	38695	
+咔咔	khkh	38683	
+篮球鞋	tgak	38632	
+全键盘	wqte	38595	
+阅读器	uykk	38532	
+凑热闹	uruy	38514	
+来来来	gggo	38510	
+所处	rnth	38468	
+方方面面	oodd	38456	
+小爱	ihep	38396	
+干锅	fgqk	38392	
+惊悚	nyng	38380	
+心怀	nynd	38324	
+三合一	dwgg	38264	
+使然	wgqd	38247	
+老丈人	fdww	38236	
+生不如死	tdvg	38216	
+笑死	ttgq	38207	
+简简单单	ttuu	38190	
+爬楼	rhso	38169	
+靠前	rkue	38165	
+拿破仑	wdwx	38144	
+凉面	uydm	38118	
+年终奖	rxuq	38096	
+越来越多	fgfq	38067	
+大舌头	dtud	38003	
+尼玛	nxgc	38000	
+回购	lkmq	37865	
+蹊跷	lela	37861	
+标配	sfsg	37832	
+家门口	pukk	37789	
+下垂	ghtg	37776	
+包养	qnud	37761	
+片尾	thnt	37731	
+户口本	yksg	37723	
+洗面奶	idve	37717	
+两声	gmfn	37708	
+透明度	tjya	37606	
+一串	ggkk	37605	
+挺有	rtde	37592	
+领养	wyud	37523	
+仙人掌	wwip	37520	
+钉子户	qbyn	37509	
+小年	ihrh	37504	
+刚需	mqkd	37467	
+扬声器	rfkk	37426	
+逆天	ubgd	37369	
+伤情	wtng	37345	
+测点	imhk	37325	
+刚刚好	mmvb	37314	
+折纸	rrxq	37297	
+奇奇怪怪	ddnn	37214	
+感染力	diln	37179	
+山贼	mmma	37172	
+心结	nyxf	37143	
+常去	ipfc	37135	
+里外	jfqh	37129	
+楼道	sout	37099	
+飙车	ddlg	37072	
+牛肉干	rmfg	37069	
+全网	wgmq	37060	
+观战	cmhk	37055	
+一文不值	gydw	37008	
+耳坠	bgbw	36988	
+文艺复兴	yati	36939	
+内网	mwmq	36920	
+创作者	wwfj	36897	
+浓浓	ipip	36879	
+甚多	adqq	36862	
+私生子	ttbb	36862	
+里屋	jfng	36825	
+占有欲	hdww	36813	
+自理	thgj	36799	
+闲来无事	ugfg	36773	
+神通	pyce	36736	
+鼻血	thtl	36699	
+指手画脚	rrge	36670	
+猎杀	eaqs	36626	
+隐形眼镜	bghq	36625	
+有氧	dern	36615	
+榴莲	sqal	36598	
+水杯	iisd	36597	
+长毛	tatf	36586	
+蛋炒饭	noqn	36578	
+本地化	sfwx	36530	
+汉服	iceb	36514	
+单片机	utsm	36513	
+玻璃水	ggii	36493	
+可喜可贺	sfsl	36485	
+潘多拉	iqru	36448	
+洗发水	inii	36415	
+别客气	kprn	36393	
+正装	ghuf	36390	
+大宝	ddpg	36384	
+过山车	fmlg	36347	
+财宝	mfpg	36345	
+手机卡	rshh	36313	
+云图	fclt	36293	
+闪迪	uwmp	36276	
+值当	wfiv	36223	
+幸福感	fpdg	36139	
+黑丝	lfxx	36134	
+凉皮	uyhc	36088	
+看一下	rggh	36080	
+时好时坏	jvjf	36058	
+挺大	rtdd	36033	
+运存	fcdh	36028	
+转接头	lrud	35985	
+下架	ghlk	35963	
+快进	nnfj	35954	
+跨年	ldrh	35951	
+褪去	pufc	35880	
+知书达理	tndg	35880	
+高数	ymov	35873	
+补卡	puhh	35871	
+看车	rhlg	35855	
+裤裆	pupu	35835	
+闹别扭	ukrn	35828	
+请讲	ygyf	35812	
+停运	wyfc	35803	
+块钱	fnqf	35784	
+虚化	hawx	35769	
+纸杯	xqsd	35756	
+合二为一	wfyg	35687	
+直说	fhyu	35668	
+测速	imgk	35627	
+无码	fqdc	35619	
+白狐	rrer	35615	
+亲娘	usvy	35613	
+外链	qhql	35607	
+行李箱	tsts	35599	
+解闷	qeun	35588	
+涂装	iwuf	35548	
+两圈	gmlu	35528	
+表头	geud	35510	
+狗头	equd	35495	
+紧致	jcgc	35473	
+坏笑	fdtt	35393	
+先天性	rgnt	35370	
+进气	fjrn	35346	
+挨个	rcwh	35342	
+树洞	scim	35340	
+运动量	ffjg	35338	
+黑不溜秋	ldit	35316	
+段位	wdwu	35297	
+常开	ipga	35294	
+花海	awit	35294	
+一两个月	ggwe	35290	
+潜行	iftf	35286	
+事已至此	gngh	35286	
+头型	udga	35279	
+践行	lftf	35259	
+至亲	gcus	35160	
+卖车	fnlg	35157	
+甚少	adit	35144	
+已出	nnbm	35125	
+后盖	rgug	35118	
+再议	gmyy	35102	
+豆浆机	gusm	35099	
+写错	pgqa	35050	
+录音笔	vutt	35038	
+讲价	yfww	35002	
+闲来	usgo	34948	
+黑色素	lqgx	34943	
+储物	wyrh	34938	
+街巷	tfaw	34935	
+布娃娃	dvvf	34930	
+包夜	qnyw	34925	
+高光	ymiq	34920	
+龙葵	dxao	34910	
+入局	tynn	34908	
+房费	ynxj	34908	
+指套	rxdk	34880	
+开箱	gats	34870	
+毛绒	tfxa	34860	
+中转站	kluh	34742	
+家暴	peja	34732	
+垃圾场	fffn	34724	
+新买	usnu	34718	
+行政复议	tgty	34708	
+预判	cnud	34705	
+掌机	ipsm	34691	
+控制台	rrck	34689	
+肘子	efbb	34672	
+地形图	fglt	34672	
+人教版	wfth	34653	
+袭警	dxaq	34650	
+土豆丝	fgxx	34609	
+叫停	knwy	34598	
+恶补	gopu	34592	
+受得了	etbn	34581	
+取票	bcsf	34567	
+直射	fhtm	34564	
+归属感	jndg	34561	
+纯音乐	xuqi	34530	
+已读	nnyf	34510	
+如新	vkus	34504	
+遮风挡雨	ymrk	34501	
+烤串	ofkk	34492	
+顺风车	kmlg	34484	
+取用	bceh	34472	
+无人能敌	fwct	34472	
+刷到	nmgc	34460	
+安安静静	ppgg	34457	
+挂绳	rfxk	34451	
+双截棍	cfsj	34401	
+电竞	jnuk	34389	
+钻头	qhud	34368	
+小笼包	itqn	34349	
+蒜苗	afal	34334	
+先到先得	rgrt	34316	
+二货	fgwx	34285	
+法线	ifxf	34278	
+德华	tfwx	34278	
+困意	lsuj	34275	
+族谱	otyu	34266	
+调头	ymud	34263	
+双面胶	cdeu	34244	
+个例	whwg	34205	
+回滚	lkiu	34186	
+结痂	xful	34167	
+哦哟	ktkx	34160	
+追兵	wnrg	34137	
+面无表情	dfgn	34124	
+入坑	tyfy	34121	
+点餐	hkhq	34117	
+得亏	tjfn	34111	
+邀请码	rydc	34030	
+电锯	jnqn	33988	
+新生儿	utqt	33988	
+氢气	rnrn	33982	
+一股脑	geey	33975	
+点图	hklt	33950	
+借过	wafp	33947	
+沉底	ipyq	33940	
+改签	nttw	33929	
+唬人	khww	33915	
+登月	ogee	33900	
+鸡皮	cqhc	33875	
+折返	rrrc	33846	
+收件人	nwww	33846	
+垃圾袋	ffwa	33843	
+稀奇古怪	tddn	33835	
+大动脉	dfey	33824	
+刺挠	gmra	33821	
+闪屏	uwnu	33817	
+糟心	ogny	33791	
+别着急	kuqv	33787	
+蛋仔	nhwb	33776	
+虫洞	jhim	33761	
+福利院	ptbp	33761	
+磕磕碰碰	dddd	33754	
+圆心	lkny	33742	
+盘库	teyl	33720	
+全尸	wgnn	33716	
+火龙果	odjs	33670	
+毁天灭地	eggf	33662	
+浓稠	iptm	33638	
+单行道	utut	33635	
+过过瘾	ffub	33631	
+偏食	wywy	33619	
+梦醒	sssg	33615	
+肩带	yngk	33615	
+稍安勿躁	tpql	33611	
+晒伤	jswt	33599	
+还完	dppf	33595	
+远房	fqyn	33595	
+定睛一看	phgr	33595	
+沉得住气	itwr	33547	
+后视	rgpy	33527	
+烟味	olkf	33514	
+汗液	ifiy	33502	
+撞衫	rupu	33440	
+双节棍	casj	33431	
+慢动作	nfwt	33418	
+小脑	ihey	33401	
+凸起	hgfh	33401	
+三件套	dwdk	33376	
+机动车道	sflu	33372	
+未读	fiyf	33284	
+刷碗	nmdp	33284	
+菌群	alvt	33275	
+秋裤	topu	33239	
+不服不行	dedt	33217	
+一眼万年	ghdr	33212	
+冲锋衣	uqye	33208	
+糯米粉	ooow	33194	
+一泻千里	gitj	33189	
+声呐	fnkm	33185	
+倍率	wuyx	33185	
+换挡	rqri	33180	
+侧脸	wmew	33175	
+免签	qktw	33166	
+副驾	gklk	33148	
+十月怀胎	fene	33143	
+等不及了	tdeb	33124	
+永无	ynfq	33120	
+自愈	thwg	33105	
+电子表	jbge	33105	
+残影	gqjy	33091	
+团圆饭	llqn	33077	
+同款	mgff	33072	
+烤红薯	oxal	33058	
+把子肉	rbmw	33048	
+孰轻孰重	ylyt	33024	
+刺鼻	gmth	33004	
+好点儿	vhqt	33004	
+赛博	pffg	32970	
+嘶吼	kakb	32950	
+溜冰场	iufn	32945	
+年味	rhkf	32925	
+单人床	uwys	32910	
+武大郎	gdyv	32874	
+结构体	xsws	32869	
+淤青	ioge	32864	
+座充	ywyc	32864	
+浴火重生	iott	32838	
+积碳	tkdm	32828	
+微辣	tmud	32822	
+液位	iywu	32807	
+续期	xfad	32807	
+呲牙	khah	32748	
+自由落体	tmaw	32737	
+弟弟妹妹	uuvv	32727	
+防空警报	bpar	32721	
+劫机	fcsm	32710	
+灵魂出窍	vfbp	32678	
+码率	dcyx	32661	
+斗鸡眼	uchv	32650	
+甜甜圈	ttlu	32605	
+握持	rnrf	32600	
+金鸡奖	qcuq	32600	
+燃气灶	orof	32588	
+嫌累	vulx	32560	
+影厅	jyds	32537	
+续命	xfwg	32520	
+小拇指	irrx	32484	
+退朝	vefj	32473	
+童心未泯	unfi	32419	
+静置	gelf	32407	
+体感	wsdg	32395	
+内衬	mwpu	32389	
+比心	xxny	32358	
+最毒	jbgx	32346	
+三无	dgfq	32233	
+久病成医	quda	32233	
+迭代	rwwa	32213	
+老爽	fxdq	32181	
+沙棘	iigm	32154	
+武士刀	gfvn	32128	
+跑酷	lqsg	32114	
+从左到右	wdgd	32101	
+守岁	pfmq	32060	
+毫安时	ypjf	32060	
+回看	lkrh	32054	
+电商	jnum	32033	
+摆件	rlwr	32012	
+法器	ifkk	31998	
+常亮	ipyp	31991	
+雅黑	ahlf	31956	
+单页	ujdm	31920	
+指甲刀	rlvn	31913	
+烤肠	ofen	31906	
+房梁	yniv	31870	
+班得瑞	gtgm	31870	
+黑钻	lfqh	31863	
+岁月静好	megv	31841	
+波特率	iryx	31833	
+青青子衿	ggbp	31826	
+声线	fnxf	31818	
+鬼压床	rdys	31811	
+车重	lgtg	31796	
+彩蛋	esnh	31796	
+无穷大	fpdd	31743	
+脱敏	eutx	31735	
+街车	tflg	31728	
+日有所思	jdrl	31712	
+像极	wqse	31689	
+锐度	quya	31634	
+两截	gmfa	31602	
+匝道	amut	31602	
+看剧	rhnd	31594	
+盲道	ynut	31578	
+二合一	fwgg	31546	
+液面	iydm	31513	
+补胎	puec	31496	
+内镜	mwqu	31488	
+美音	uguj	31437	
+时间线	juxf	31437	
+疯跑	umlq	31429	
+翻找	tora	31420	
+快退	nnve	31386	
+野山	jfmm	31386	
+摆拍	rlrr	31377	
+口鼻	kkth	31377	
+无氧	fqrn	31368	
+轮滑鞋	liak	31351	
+续租	xfte	31342	
+静好	gevb	31298	
+杯垫	sdrv	31298	
+千牛	tfrh	31271	
+歌单	skuj	31262	
+总览	ukjt	31253	
+硬核	dgsy	31244	
+表情包	gnqn	31235	
+脑脊液	eiiy	31226	
+对我	cftr	31216	
+犄角旮旯	rqvj	31207	
+双缸	ccrm	31189	
+色阶	qcbw	31151	
+脑梗	eysg	31133	
+夜有所梦	ydrs	31133	
+出生率	btyx	31095	
+蜜瓜	pnrc	31046	
+线稿	xfty	31036	
+朗姆酒	yvis	31027	
+挡风遮雨	rmyk	31017	
+度蜜月	ypee	31007	
+搔首弄姿	rugu	30977	
+许愿池	ydib	30947	
+膈应	egyi	30906	
+挺香	rttj	30875	
+城东	fdai	30770	
+宝子	pgbb	30748	
+吃瓜	ktrc	30716	
+工位	aawu	30694	
+灯牌	osth	30661	
+储物箱	wrts	30661	
+夜黑风高	ylmy	30661	
+现学现卖	gigf	30593	
+凉白开	urga	30570	
+夹片	guth	30535	
+载具	fahw	30512	
+返厂	rcdg	30500	
+静息	geth	30476	
+空行	pwtf	30476	
+不拘小节	dria	30452	
+足金	lhqq	30392	
+四合一	lwgg	30379	
+奖池	uqib	30367	
+无以言表	fnyg	30367	
+添衣	igye	30317	
+折耳根	rbsv	30279	
+单缸	ujrm	30266	
+补漆	puis	30188	
+痛点	uchk	30175	
+随机数	bsov	30148	
+炸裂	otgq	30108	
+亮堂堂	yiip	30094	
+用户组	eyxe	30053	
+月抛	eerv	30025	
+测距仪	ilwy	30025	
+环形山	ggmm	30011	
+动效	fcuq	30000	
+字序	pbyc	30000	
+缓动	xefc	30000	
+软链接	lqru	30000	
+打赏	rsip	29955	
+鸡毛掸子	ctrb	29941	
+清漆	igis	29912	
+踏春	lidw	29912	
+贪吃蛇	wkjp	29882	
+床褥	yspu	29838	
+团建	lfvf	29838	
+握把	rnrc	29808	
+进气口	frkk	29808	
+床头灯	yuos	29793	
+炒鸡	oicq	29763	
+院区	bpaq	29732	
+木床	ssys	29716	
+泪点	ihhk	29685	
+抱死	rqgq	29637	
+直尺	fhny	29621	
+主路	yglt	29605	
+遮光罩	yilh	29589	
+尾椎	ntsw	29556	
+过够	fpqk	29540	
+后胎	rgec	29540	
+好骑	vbcd	29507	
+解绑	qexd	29490	
+童话镇	uyqf	29490	
+苍蝇拍	ajrr	29473	
+线框	xfsa	29456	
+返佣	rcwe	29422	
+站酷	uhsg	29387	
+辅助线	lexf	29369	
+秒数	tiov	29352	
+助眠	eghn	29244	
+金刚狼	qmey	29225	
+有氧运动	drff	29225	
+西蓝花	saaw	29150	
+除冰	bwui	29112	
+包租婆	qtih	29112	
+备用机	tesm	29093	
+异地恋	nfyo	29093	
+竖版	jcth	29034	
+备机	tlsm	28994	
+螺蛳粉	jjow	28994	
+后壳	rgfp	28974	
+速干	gkfg	28829	
+电蚊拍	jjrr	28808	
+抠鼻	rath	28699	
+电饼铛	jqqi	28699	
+磁吸	duke	28654	
+开胶	gaeu	28631	
+划动	ajfc	28631	
+带货	gkwx	28586	
+体重秤	wttg	28515	
+折叠椅	rcsd	28467	
+树莓	scat	28394	
+佛头	wxud	28394	
+采样率	esyx	28394	
+煎包	ueqn	28319	
+食草	wyaj	28268	
+地瓜干	frfg	28189	
+游泳圈	iilu	28135	
+前胎	ueec	28053	
+前照灯	ujos	28053	
+倒放	wgot	28025	
+剁手	msrt	28025	
+噢哟	ktkx	28025	
+拦截器	rfkk	28025	
+偏光镜	wiqu	27996	
+参考线	cfxf	27939	
+师出同门	jbmu	27939	
+广场舞	yfrl	27910	
+女孩纸	vbxq	27696	
+二回熟	flyb	27696	
+共情	awng	27665	
+日抛	jjrv	27632	
+尾流	ntiy	27632	
+氧气管	rrtp	27632	
+憋死	umgq	27600	
+旁通	upce	27534	
+常伴	ipwu	27500	
+旱厕	jfdm	27431	
+前叉	uecy	27361	
+顶格	sdst	27289	
+后槽牙	rsah	27252	
+角标	qesf	27215	
+亮屏	ypnu	27215	
+樟子松	sbsw	27215	
+低功耗	wadi	27215	
+云平台	fgck	27178	
+自造词	tryn	27139	
+嚼劲	keca	27061	
+夏初	dhpu	27022	
+无氧运动	frff	27022	
+炸毛	ottf	26940	
+爆表	ojge	26940	
+娘炮	vyoq	26940	
+实话说	pyyu	26899	
+充电线	yjxf	26770	
+小红书	ixnn	26770	
+排气孔	rrbn	26770	
+炸串	otkk	26542	
+补铁	puqr	26542	
+蒜苔	afac	26446	
+骨传导	mwnf	26446	
+白噪音	rkuj	26396	
+短链	tdql	26295	
+普票	uosf	26243	
+研磨剂	dyyj	26189	
+色彩平衡	qegt	26189	
+短视频	tphi	26135	
+甘蓝菜	aaae	26080	
+吃土	ktff	26024	
+拼单	ruuj	26024	
+备付金	twqq	25966	
+湿滑	ijim	25907	
+划走	ajfh	25724	
+墨水屏	linu	25724	
+阶乘	bwtu	25594	
+心眼子	nhbb	25594	
+调校	ymsu	25459	
+无穷小	fpih	25242	
+米粉节	ooab	25089	
+掉渣饼	riqn	24926	
+虚头巴脑	huce	24926	
+尿点	nihk	24663	
+清码	igdc	24373	
+灯珠	osgr	24162	
+雨加雪	klkv	24162	
+饼状图	qult	24162	
+砂轮片	dlth	24051	
+隔夜菜	byae	24051	
+撬棒	rtsd	23935	
+着急忙慌	uqnn	23935	
+微商	tmum	23813	
+网贷	mqwa	23687	
+一回生	gltg	23687	
+鹿皮巾	yhmh	23554	
+董监高	ajym	23554	
+下播	ghrt	23270	
+愁死	togq	22953	
+宅家	ptpe	22953	
+半年抛	urrv	22781	
+示廓灯	fyos	22781	
+电镐	jnqy	22597	
+陪跑	bulq	22190	
+抠搜	rare	22190	
+瀑布流	idiy	21714	
+脑回路	ellt	21143	
+吱嘎	kfkd	20428	
+呆萌	ksaj	19989	
+红轴	xalm	18835	
+狼人杀	ewqs	18835	
+熨烫机	nism	18835	
+碎屏	dynu	18016	
+把件	rcwr	18016	
+专票	fnsf	16862	
+热力图	rllt	16862	
+群文件	vywr	16862	
+横纵比	sxxx	16862	
+懵逼	nagk	14889	
+啫喱	kfkd	14889	
+丑萌	nfaj	14889	
+电竞椅	jusd	14889	
+啫喱水	kkii	14889	
+破壁机	dnsm	14889	
+树莓派	sair	14889	
+付款码	wfdc	14889	
+收款码	nfdc	14889	
+单身狗	uteq	14889	
+钢化膜	qwea	14889	
+平衡车	gtlg	14889	
+一带一路	gggl	14889	
+底库	yqyl	12000	
+绿幕	xvaj	12000	
+炸货	otwx	12000	
+落格	aist	12000	
+虾线	jgxf	12000	
+个自	whth	12000	
+甲抗	lhry	12000	
+笼布	tddm	12000	
+束口	gkkk	12000	
+分瓶	wvua	12000	
+准新	uwus	12000	
+倍焦	wuwo	12000	
+回关	lkud	12000	
+互关	gxud	12000	
+莓粉	atow	12000	
+忙慌	nyna	12000	
+除噪	bwkk	12000	
+补帧	pumh	12000	
+万险	dnbw	12000	
+千险	tfbw	12000	
+网抑云	mrfc	12000	
+操控台	rrck	12000	
+候选框	wrsa	12000	
+十月一	fegg	12000	
+宝子们	pbwu	12000	
+蹭流量	lijg	12000	
+不负此行	dqht	12000	
+非死即残	jgvg	12000	
+心怀坦荡	nnfa	12000	
+天人两隔	gwgb	12000	
+减速慢行	ugnt	12000	
+奇痒无比	dufx	12000	
+自研	thdg	1801	
+社恐	pyam	1669	
+拉胯	rued	1546	
+口嗨	kkki	636	
+王炸	ggot	469	
+飚车	mqlg	265	
+白叫	rrkn	179	
+母胎	xgec	154	
+水豚	iiee	144	
+藤壶	aefp	121	
+置物	lfrh	120	
+弧角	xrqe	99	
+表显	gejo	99	
+之少	ppit	99	
+博眼球	fhgf	99	
+诚不欺我	ydat	99	
+察颜观色	pucq	99	
+苹方	agoy	82	
+懂哥	nask	53	
+悉知	totd	37	
+借还	wadp	29	
+叉号	cykg	23	
+小狼毫	ieyp	30000	
+## -社会事件-			
+新冠	uspf	4239	
+汶川	iykt	42265	
+小汤山	iimm	31368	
+新型冠状病毒	ugpg	12000	
+火神山	opmm	12000	
+雷神山	kpmm	12000	
+时空伴随者	jpwf	12000	
+提灯定损	ropr	12000	
+封控	ffrp	340	
+健康码	wydc	99	
+## -工程名词-			
+土质	ffrf	33579	
+高程	ymtk	47607	
+接头	ruud	46373	
+接口	rukk	44253	
+工程量	atjg	44002	
+图号	ltkg	43832	
+垫层	rvnf	39312	
+边坡	lpfh	39079	
+暖气片	jrth	38352	
+物联	rhbu	38333	
+砂浆	diuq	38236	
+一体机	gwsm	37477	
+支护	fcry	37322	
+风机	mqsm	36845	
+安防	pvbo	36660	
+磨砂	ysdi	36659	
+物业费	roxj	36572	
+排线	rjxf	36445	
+灭火器	gokk	35940	
+垃圾箱	ffts	35775	
+地暖	fbje	35532	
+延长线	ttxf	35514	
+美工刀	uavn	35221	
+红砖	xadf	35045	
+机柜	smsa	35011	
+围堰	lffa	34857	
+双模	ccsa	34769	
+碾压	dndf	34334	
+回款	lkff	34319	
+维保	xwwk	34101	
+聚氨酯	brsg	33832	
+逆变器	uykk	33828	
+切割机	apsm	33802	
+挡土墙	rfff	33646	
+暖通	jece	33575	
+出风口	bmkk	33547	
+防锈漆	bqis	33547	
+子网掩码	bmrd	33162	
+氮气	rnrn	32859	
+声光	fniq	32759	
+蓄水池	aiib	32667	
+回填	lkff	32583	
+坝基	fmad	32554	
+薄壁	aink	32141	
+砌块	dafn	31855	
+青砖	gedf	31479	
+角磨机	qysm	31262	
+面层	dmnf	31170	
+挂网	rfmq	31104	
+聚氯乙烯	brno	31036	
+蒸发器	ankk	30997	
+腻子粉	ebow	30987	
+环氧树脂	grse	30694	
+预埋件	cfwr	30452	
+立面图	udlt	30404	
+加筋	lkte	30330	
+电焊机	josm	30175	
+砖混	dfij	30108	
+聚酰胺	bsep	29897	
+天诚	gdyd	29747	
+聚苯乙烯	bano	29732	
+承插	bdrt	29621	
+图名	ltqk	29507	
+聚力	bcln	29387	
+承台	bdck	29188	
+灯带	osgk	29131	
+易燃物	jorh	29093	
+防水层	binf	29054	
+陀螺仪	bjwy	28994	
+水泥砂浆	iidu	28934	
+桩号	sykg	28829	
+电焊条	jots	28743	
+布置图	dllt	28721	
+陶粒	bqou	28539	
+潜水泵	iidi	28515	
+游标卡尺	ishn	28443	
+圈梁	luiv	28369	
+自建房	tvyn	28108	
+攻丝机	axsm	27996	
+烟感	oldg	27880	
+彩钢瓦	eqgn	27820	
+工字钢	apqm	27759	
+挡墙	riff	27728	
+塔架	falk	27500	
+砌体	daws	27397	
+预制件	crwr	27325	
+阳角	bjqe	27178	
+构造柱	srsy	26856	
+剖面图	udlt	26814	
+音柱	ujsy	26636	
+坝塘	fmfy	26495	
+隔热层	brnf	26346	
+悬挑	egrq	26295	
+防火漆	bois	25724	
+密集架	pwlk	25660	
+漏项	inad	25459	
+土工膜	faea	25316	
+涵管	ibtp	25167	
+素土	gxff	25008	
+十字镐	fpqy	24373	
+大样图	dslt	24051	
+浆砌石	uddg	23813	
+防滑条	bits	23813	
+新风机	umsm	23687	
+勒脚	akef	23116	
+封端	ffum	23116	
+芯柱	ansy	22953	
+声光报警器	firk	22781	
+取芯	bcan	22781	
+防潮层	binf	22190	
+除湿剂	biyj	21962	
+三线表	dxge	21714	
+生产路	tult	21443	
+拦污栅	rism	20428	
+阀门井	uufj	18835	
+微模块	tsfn	16862	
+镇墩	qffy	16862	
+田间道	luut	16862	
+列头柜	gusa	14889	
+美缝	ugxt	141	
+砖砌	dfda	90	
+通断	ceon	43	
+## -造价术语-			
+分包	wvqn	40548	
+单价	ujww	39708	
+片区	thaq	38992	
+泵房	diyn	37406	
+管径	tptc	31735	
+栽秧	fatm	31429	
+离心泵	yndi	31056	
+石方	dgoy	30317	
+配合比	swxx	29225	
+无缝钢管	fxqt	29131	
+细砂	xldi	28394	
+免烧砖	qodf	28394	
+台班	ckgy	27252	
+土工布	fadm	27215	
+抹面	rgdm	26940	
+热镀锌	rqqu	26856	
+镀锌钢管	qqqt	25316	
+粗砂	oedi	25008	
+中砂	khdi	24570	
+级配碎石	xsdd	24570	
+螺旋钢管	joqt	23687	
+止水带	higk	23687	
+伸缩节	wxab	23416	
+见证取样	mybs	20808	
+农渠	peia	16862	
+## -口语-			
+姐们	vewu	36718	
+爷们儿	wwqt	34481	
+爷们	wqwu	40434	
+姐们儿	vwqt	34460	
+装逼	ufgk	37251	
+老哥	fxsk	40600	
+## -汽车-			
+汽修	irwh	35417	
+挂挡	rfri	29621	
+准驾	uwlk	27665	
+增驾	fulk	25907	
+准新车	uulg	24162	
+定速巡航	pgvt	18016	
+网约车	mxlg	14889	
+货拉拉	wrru	14889	
+燃油车	oilg	12000	
+共享单车	ayul	12000	
+验车	cwlg	33750	
+一汽	ggir	39993	
+一汽大众	gidw	35538	
+科三	tudg	36498	
+科二	tufg	26446	
+科一	tugg	33646	
+科四	tulh	27361	
+自驾	thlk	38683	
+自驾游	tlio	38455	
+手动挡	rfri	34561	
+新能源	ucid	41387	
+插电	rtjn	29298	
+混动	ijfc	25907	
+插混	rtij	12000	
+记录仪	yvwy	31594	
+纯电	xgjn	925	
+改款	ntff	30661	
+高配	ymsg	34410	
+低配	wqsg	34343	
+车商	lgum	33115	
+三厢	dgds	36816	
+行车记录仪	tlyw	20428	
+挡位	riwu	33547	
+自动挡	tfri	35578	
+防滑链	biql	29316	
+临牌	jtth	30240	
+加满	lkia	36152	
+内饰	mwqn	40128	
+车损	lgrk	30547	
+授理	regj	12000	
+三者	dgfj	38507	
+三者险	dfbw	26295	
+车标	lgsf	35286	
+全合成	wwdn	29387	
+底壳	yqfp	28892	
+点烟器	hokk	32264	
+区间测速	auig	12000	
+静电贴	gjmh	36747	
+高速费	ygxj	30011	
+过路费	flxj	36475	
+后备箱	rtts	36250	
+烧胎	oaec	12000	
+前刹	ueqs	24373	
+后刹	rgqs	25242	
+车展	lgna	40654	
+火花塞	oapf	37168	
+滤芯	ihan	36356	
+车缝	lgxt	31289	
+车机	lgsm	30802	
+断轴	onlm	26189	
+挪车	rvlg	27139	
+加油卡	lihh	34893	
+审车	pjlg	30330	
+侧方位	wowu	28699	
+倒车入库	wlty	24663	
+皮卡	hchh	35979	
+后驱	rgca	30727	
+炸街	ottf	96	
+四驱	lhca	35886	
+两驱	gmca	30616	
+两驱车	gclg	12000	
+四驱车	lclg	30535	
+小齿	ihhw	12000	
+乘联会	tbwf	12000	
+主驾	yglk	26080	
+副驾驶	glck	35691	
+主驾驶	ylck	27061	
+安全带	pwgk	37272	
+日系	jjtx	38078	
+德系	tftx	29701	
+## -摩托车-			
+挡风被	rmpu	20808	
+胎压	ecdf	33968	
+排量	rjjg	42331	
+护杠	rysa	24570	
+降挡	btri	116	
+挡把	rirc	27061	
+四缸	lhrm	24473	
+禁摩	ssys	34331	
+酒驾	islk	34380	
+醉驾	sglk	36544	
+高架桥	ylst	35040	
+## -品牌-			
+广发	yynt	36103	
+金士顿	qfgb	34661	
+绿牌	xvth	27325	
+老毛桃	ftsq	25786	
+优衣酷	wysg	12000	
+小爱同学	iemi	12000	
+天猫精灵	geov	12000	
+拉不拉多	rdrq	12000	
+绿联	xvbu	155	
+云闪付	fuwf	99	
+朗逸	yvqk	35861	
+速腾	gkeu	37895	
+上汽	hhir	36143	
+上汽大众	hidw	12000	
+凌渡	ufiy	24373	
+迈腾	dneu	37414	
+宝来	pggo	38970	
+荣威	apdg	35607	
+哈弗	kwxj	37008	
+埃安	fcpv	12000	
+好猫	vbea	33166	
+欧拉	aqru	34002	
+帝豪	upyp	34761	
+名爵	qkel	33346	
+零跑	kwlq	12000	
+奥特能	trce	12000	
+朗行	yvtf	14889	
+途观	wscm	34724	
+易捷	jqrg	37008	
+福特	pyrh	40975	
+斯巴鲁	acpj	35973	
+马自达	ctdp	39607	
+比亚迪	xgmp	40530	
+凯美瑞	mugm	38585	
+兰博基尼	ufan	32759	
+赛力斯	plad	30000	
+美特斯邦威	urad	34645	
+薛记炒货	ayow	12000	
+泰迅	dwnf	12000	
+五菱	ggaf	33452	
+小鹏汽车	ieil	12000	
+小鹏	ihee	34930	
+江小白	iirr	14889	
+果唯依	jkwy	12000	
+凯迪拉克	mmrd	37307	
+迪卡侬	mhwp	30727	
+超意兴	fuiw	14889	
+迈森兰	dsud	12000	
+恒源祥	nipy	34278	
+赛羽	pfnn	12000	
+捷酷	rgsg	12000	
+海澜之家	iipp	33217	
+海澜	itiu	35301	
+千图	tflt	19989	
+华莱士	wafg	36518	
+舒尔	wfqi	31095	
+维迈通	xdce	12000	
+戴森	fass	809	
+科大讯飞	tdyn	31841	
+圣豪	cfyp	21143	
+良品	yvkk	33082	
+罗德	lqtf	27850	
+满香都	itfj	12000	
+喜家德	fptf	18835	
+徐志馍	tfqn	12000	
+海康	ityv	32101	
+安踏	pvli	39201	
+塔斯汀	fais	12000	
+高驰	ymcb	12000	
+绿杰	xvso	12000	
+高通	ymce	36210	
+汉堡王	iwgg	28419	
+杜卡迪	shmp	26396	
+九牧王	vrgg	31216	
+薛记	awyn	12000	
+沁牧园	irlf	12000	
+丹尼斯	mnad	35611	
+贝尔金	mqqq	31095	
+华强北	wxux	37276	
+安慕希	paqd	14889	
+拓竹	rdtt	12000	
+卡赫	hhfo	12000	
+赛腾	pfeu	12000	
+云腾	fceu	29150	
+斯莫格	aast	12000	
+玛赤佩	gfwm	12000	
+斯缇诗	axyf	12000	
+喵喵机	kksm	12000	
+奥洛菲	tiaj	35854	
+欧莱雅	aaah	36756	
+韩芬娜	favv	12000	
+春纪	dwxn	24051	
+碧思泉	glri	12000	
+魅力可诗	rlsy	12000	
+美肌颜	ueut	14889	
+西数	sgov	31884	
+七牛云	arfc	12000	
+阿里云盘	bjft	12000	
+百度云	dyfc	31529	
+百度网盘	dymt	22190	
+欧路	aqlt	23813	
+滴嗒	iuka	30987	
+## emoji			
+😂	ddtt	4999	大笑
+❤️	epny	4998	爱心
+😍	awut	4997	花痴
+🤣	rsiu	4996	打滚
+😊	ewxa	4995	脸红
+🙏	bxbw	4994	阿弥陀佛
+💕	love	4993	love
+😭	ddkk	4992	大哭
+😘	kqgw	4991	啵儿一个
+👍	sdw	4990	棒
+😅	dndn	4989	尴尬
+👏	fkip	4988	鼓掌
+😁	klkl	4987	嘿嘿
+♥️	love	4986	love
+🔥	hkoq	4985	点燃
+💔	wtny	4984	伤心
+💖	epny	4983	爱心
+💙	aqrn	4982	蓝色的心
+😢	kkd	4981	哭
+🤔	dgqe	4980	不理解
+😆	vbbb	4979	好耶
+🙄	rrhv	4978	白眼
+💪	fuem	4977	二头肌
+😉	vnhv	4976	媚眼
+☺️	tmtt	4975	微笑
+👌	ok	4974	OK
+🤗	rqrq	4973	抱抱
+💜	hqrn	4972	紫色的心
+😔	wunw	4971	低头忧伤
+😎	lfqu	4970	墨镜
+😇	iqgd	4969	光环
+🌹	xggr	4968	红玫瑰
+🤦	rgew	4967	捂脸
+🎉	awfk	4966	恭喜
+‼️	wkkg	4965	俩叹号
+💞	rfrn	4964	舞动的心
+✌️	dnal	4963	成功
+✨	qiuu	4962	金光闪闪
+🤷	wwyn	4961	耸肩
+😱	pdnr	4960	害怕
+😌	vttq	4959	如释重负
+🌸	smaw	4958	樱花
+🙌	icrt	4957	举双手
+😋	vbkt	4956	好吃
+💗	rfrn	4955	搏动的心
+💚	xqrn	4954	绿色的心
+😏	tjuj	4953	得意
+💛	aqrn	4952	黄色的心
+🙂	ksks	4951	呵呵
+💓	love	4950	love
+🤩	mprd	4949	崇拜
+😄	ymiw	4948	高兴
+😀	ttew	4947	笑脸
+🖤	lqrn	4946	黑色的心
+😃	khtt	4945	露齿笑
+💯	iawv	4944	满分
+🙈	dhrh	4943	不看
+👇	rrwr	4942	反手食指向下指
+🎶	ujtw	4941	音符
+😒	kfpy	4940	鄙视
+🤭	vbtt	4939	好笑
+❣️	nkkg	4938	心叹号
+❗	dkkg	4937	感叹号
+😜	uhkt	4936	单眼吐舌
+💋	kiss	4935	kiss
+👀	cmpw	4934	观察
+😪	rhht	4933	打瞌睡
+😑	dfgn	4932	面无表情
+💥	ojot	4931	爆炸
+🙋	iwrt	4930	举手
+😞	cwfp	4929	难过
+😩	woha	4928	焦虑
+😡	angy	4927	angry
+🤪	wtrc	4926	傻瓜
+👊	bmud	4925	出拳
+☀️	jggd	4924	晴天
+😥	cfwq	4923	难过但释然
+🤤	tidn	4922	垂涎三尺
+👉	rrwr	4921	反手食指向右指
+💃	lqrl	4920	跳舞
+😳	pdud	4919	害羞
+✋	fmip	4918	击掌
+😚	uiuu	4917	羞涩亲亲
+😝	kftt	4916	嘲笑
+😴	htip	4915	睡觉
+🌟	uyrj	4914	闪亮的星星
+😬	kuah	4913	咬牙
+🙃	wgew	4912	倒脸
+🍀	lkaj	4911	四叶草
+🌷	awx	4910	花
+😻	aure	4909	花痴的猫
+😓	wgkt	4908	倒霉
+⭐	gqjt	4907	五角星
+✅	twcf	4906	答对
+🌈	esja	4905	彩虹
+😈	goys	4904	恶魔
+🤘	qnpy	4903	金属礼
+💦	iiiu	4902	水滴
+✔️	cf	4901	对
+😣	vydm	4900	忍耐
+🏃	lhfj	4899	跑步者
+💐	awgk	4898	花束
+☹️	dhia	4897	不满
+🎊	eqdx	4896	彩色碎纸
+💘	rxrh	4895	丘比特
+😠	angy	4894	angry
+☝️	txgg	4893	第一
+😕	dhni	4892	不屑
+🌺	afap	4891	芙蓉
+🎂	nhou	4890	蛋糕
+🌻	dbaw	4889	太阳花
+😐	guge	4888	平静
+🖕	xkrx	4887	比中指
+💝	erpr	4886	爱的礼物
+🙊	dhyu	4885	不说
+😹	fsdi	4884	喜极而泣
+🗣️	uejy	4883	剪影
+💫	ujhh	4882	头晕目眩
+💀	meme	4881	骷髅
+👑	rgpf	4880	皇冠
+🎵	ujtw	4879	音符
+🤞	ucrr	4878	交叉的手指
+😛	lllt	4877	略略略
+🔴	xaqc	4876	红色
+😤	wgnj	4875	傲慢
+🌼	iaaq	4874	波斯菊
+😫	rreg	4873	抓狂
+⚽	sdgf	4872	棒球
+🤙	rjyt	4871	打电话
+☕	kkkj	4870	喝咖啡
+🏆	pfpl	4869	冠军
+🧡	sqrn	4868	橙色的心
+🎁	qnuf	4867	包装
+⚡	ydjn	4866	高压电
+🌞	dybj	4865	太阳
+🎈	rngf	4864	气球
+❌	cy	4863	叉
+✊	ifru	4862	举起的拳头
+👋	rlrt	4861	摆手
+😲	kb	4860	啊
+🌿	assr	4859	草本植物
+🤫	pvge	4858	安静
+👈	rrwr	4857	反手食指向左指
+😮	ktny	4856	吃惊
+🙆	ok	4855	OK手势
+🍻	fgsd	4854	干杯
+🍃	sckf	4853	树叶
+🐶	doge	4852	Doge
+💁	ueck	4851	前台
+😰	dndn	4850	尴尬
+🤨	nthr	4849	眉毛上挑
+😶	iplf	4848	沉默
+🤝	rypg	4847	搞定
+🚶	tfww	4846	行人
+💰	mony	4845	money
+🍓	ajat	4844	草莓
+💢	angy	4843	angry
+🇺🇸	uglg	4842	美国
+🤟	epwq	4841	爱你
+🙁	dyiw	4840	不高兴
+🚨	raos	4839	报警灯
+💨	blmq	4838	阵风
+🤬	nmsl	4837	NMSL
+✈️	nusm	4836	飞机
+🎀	jjxf	4835	蝴蝶结
+🍺	kris	4834	啤酒
+🤓	nkbb	4833	书呆子
+😙	ttuu	4832	微笑亲亲
+💟	nyga	4831	心形
+🌱	ntaa	4830	发芽
+😖	wuop	4829	焦头烂额
+👶	baby	4828	baby
+▶️	rtot	4827	播放
+➡️	tdtu	4826	向右箭头
+❓	ukkg	4825	问号
+💎	pgdg	4824	宝石
+💸	feqf	4823	翅膀钱
+⬇️	gh	4822	下
+😨	pdnr	4821	害怕
+🌚	ubee	4820	朔月
+🦋	mnja	4819	凤尾蝶
+😷	fklh	4818	戴口罩
+🕺	lqrl	4817	跳舞
+⚠️	aqrk	4816	警告
+🙅	shrr	4815	禁止手势
+😟	rjny	4814	担心
+😵	udjp	4813	头晕
+👎	dhsd	4812	不棒
+🤲	rdud	4811	捧着
+🤠	rhwb	4810	牛仔
+🤧	thiu	4809	鼻涕
+📌	ltqs	4808	图钉
+🔵	ajqc	4807	蓝色
+💅	uglh	4806	美甲
+🧐	gute	4805	带单片眼镜的脸
+🐾	freq	4804	动物脚印
+🍒	smsq	4803	樱桃
+😗	kdkh	4802	噘嘴
+🤑	rdqq	4801	拜金
+🚀	roct	4800	rocket
+🌊	ihiy	4799	波浪
+🤯	ojud	4798	爆头
+🐷	ngef	4797	懒猪
+☎️	jnyt	4796	电话
+💧	ifiu	4795	汗滴
+😯	ktny	4794	吃惊
+💆	rpys	4793	按摩
+👆	rrwr	4792	反手食指向上指
+🎤	gdmq	4791	麦克风
+🙇	aktm	4790	鞠躬
+🍑	sqi	4789	桃
+❄️	ghkv	4788	下雪
+🌴	spsu	4787	棕榈
+💣	boom	4785	boom
+🐸	jw	4784	蛤
+💌	ngnn	4783	情书
+📍	duqf	4782	大头针
+🥀	umyt	4781	凋谢
+🤢	gony	4780	恶心
+👅	td	4779	舌
+💡	roos	4778	白炽灯
+💩	ococ	4777	粑粑
+⁉️	dkkk	4776	感叹号问号
+👐	crxg	4775	双手张开
+📸	guis	4774	开闪光灯的相机
+👻	rqc	4773	鬼
+🤐	wkpn	4772	保密
+🤮	kakf	4771	呕吐
+🎼	qiyu	4770	乐谱
+✍️	rtpg	4769	手写
+🚩	xqom	4768	红色旗帜
+🍎	xajs	4767	红苹果
+🍊	sasc	4766	柑橘
+👼	gdwg	4765	天使
+💍	yvaa	4764	订婚戒
+📣	dkkw	4763	大喇叭
+🥂	fgsd	4762	干杯
+⤵️	dgyu	4761	右下弯箭头
+📱	rtsm	4760	手机
+☔	riwu	4759	撑伞
+🌙	yoee	4758	弯月
+🍾	gtsp	4757	开香槟
+🎧	bgsm	4756	耳机
+🍁	sskf	4755	枫树叶
+⭕	twcf	4754	答对
+🏀	tjgf	4753	篮球
+☠️	meme	4752	骷髅
+⚫	lrsa	4751	黑白棋
+🖐️	rrxg	4750	手指张开
+😧	kb	4749	啊
+🎯	akny	4748	靶心
+📲	gojn	4747	来电
+☘️	dkaj	4746	三叶草
+👁️	ujhv	4745	单眼
+🍷	isgg	4744	酒
+👄	dfek	4743	唇
+🐟	ihpt	4742	小鱼
+🍰	nhou	4741	蛋糕
+💤	zzz	4740	ZZZ
+🕊️	wgbb	4739	鸽子
+📺	tv	4738	TV
+💭	cysa	4737	对话框
+🐱	eal	4736	猫
+🐝	pnjt	4735	蜜蜂
+🇲🇽	lssk	4734	墨西哥
+🧚	ogvo	4733	精灵
+🔝	top	4732	top
+📢	wayr	4731	公共广播
+📷	htss	4730	卡片相机
+🐕	eqk	4729	狗
+🎸	jfwb	4728	电吉他
+🔫	iisw	4727	水枪
+🤚	rtux	4726	手背
+🍭	ssoy	4725	棒棒糖
+🍆	albb	4724	茄子
+💉	rsqf	4723	打针
+🌎	fbgf	4722	地球
+😦	kb	4721	啊
+🌀	mqmq	4720	飓风
+👿	goys	4719	恶魔
+☑️	rpqn	4718	按钮
+🎥	jjrs	4717	电影摄影机
+🌧️	ghkg	4716	下雨
+👽	qjww	4715	外星人
+🍋	spsa	4714	柠檬
+🤒	ntoa	4713	发烧
+🤡	ihnf	4712	小丑
+🍫	adln	4711	巧克力
+📚	nn	4710	书
+🏁	sbot	4709	格子旗
+🤕	xegk	4708	绷带
+🦄	equl	4707	独角兽
+🍅	toal	4706	番茄
+🚗	lg	4705	车
+🚫	dhyt	4704	不许
+💵	qisf	4703	钞票
+⚾	sdgf	4702	棒球
+🔪	aevn	4701	菜刀
+🔔	qwqi	4700	铃铛
+♨️	ijri	4699	温泉
+🌳	ddsc	4698	大树
+🔊	dujg	4697	大音量
+🍬	ktoy	4696	吃糖
+💏	uskq	4695	亲吻
+🍼	kjve	4694	喝奶
+🍜	ktdm	4693	吃面
+🐼	pana	4692	panda
+🙉	dhkr	4691	不听
+🐈	scea	4690	橘猫
+🐻	ihce	4689	小熊
+🤸	wrto	4688	侧手翻
+🌝	iaee	4687	满月
+👸	wcyg	4686	公主
+🍕	xxab	4685	比萨
+🍌	tjaw	4684	香蕉
+🍦	uiuf	4683	冰激凌
+⚪	rrhk	4682	白点
+👩	drvw	4681	成年女人
+😿	kire	4680	哭泣的猫
+🍂	aikf	4679	落叶
+📞	jykt	4678	电话听筒
+⏰	uyge	4677	闹表
+🔞	dnww	4676	成人
+🌍	fbgf	4675	地球
+🌠	iyjt	4674	流星
+🙀	pnre	4673	害怕的猫
+▪️	rqif	4672	白色小方块
+☁️	clod	4671	cloud
+👹	ncrh	4670	怪物
+🍉	ktrc	4669	吃瓜
+🐥	ihcq	4668	小鸡
+🌶️	xush	4667	红辣椒
+1️⃣	g	4666	一
+🌵	wwip	4665	仙人掌
+👧	vvqt	4663	女儿
+🍄	ayav	4662	蘑菇
+👮	aqpw	4661	警察
+💮	rraw	4660	白花
+🐰	qkqy	4659	兔
+🔷	daga	4658	大菱形
+🌾	tetg	4657	稻穗
+🔹	aqig	4656	蓝色小菱形
+🥇	qqth	4654	金牌
+🍪	cooe	4652	cookie
+🛑	wlga	4650	八边形
+🐍	pytn	4649	Python
+🎓	xomh	4648	毕业帽
+🇨🇦	lwdd	4647	加拿大
+🍏	xajs	4646	绿苹果
+🦁	ejgh	4645	狮
+😽	uure	4644	亲亲的猫
+🚬	rmol	4643	抽烟
+🍖	ktmw	4642	吃肉
+🍴	vncy	4641	刀叉
+🆘	sos	4640	SOS
+🤜	fdru	4639	朝右的拳头
+🍿	ooaw	4638	爆米花
+🍔	icwk	4637	汉堡
+📝	tlyn	4636	备忘
+🇯🇵	jjsg	4635	日本
+🍮	dmsg	4634	布丁
+🍇	aqaq	4633	葡萄
+2️⃣	fg	4632	二
+🏠	ynng	4631	房屋
+🤰	debb	4630	大肚子
+🐣	bmtg	4629	出生
+🐒	ewn	4628	猴
+👦	qtbb	4627	儿子
+🍩	ttlu	4626	甜甜圈
+🍣	dtng	4625	寿司
+🤛	fdru	4624	朝左的拳头
+👯	fqbw	4623	戴兔耳朵的人
+🏳️‍🌈	ejot	4622	彩虹旗
+♠️	lfsq	4621	黑桃
+🌲	igsc	4620	常青树
+🐴	cn	4619	马
+🍛	klkd	4618	咖喱
+🎆	pyaw	4617	礼花
+💑	ngwk	4616	情侣
+🍞	dmqn	4615	面包
+🍯	jtpn	4614	蜂蜜
+☄️	kwkl	4613	哈雷
+😸	ttre	4612	微笑的猫
+🍚	ddoy	4611	大米
+🎬	actn	4610	action
+🎙️	vugm	4609	录音麦克风
+🐳	pypt	4607	鲸鱼
+🦀	juqe	4606	螃蟹
+🥃	ggsd	4605	玻璃杯
+🔸	sqig	4604	橙色小菱形
+💊	eufk	4603	胶囊
+🐎	cccn	4602	骏马
+🍹	jsqn	4601	果饮
+♦️	oysr	4600	方板
+🔮	ijgf	4599	水晶球
+👨	wqwq	4598	爸爸
+🍸	cnis	4597	鸡尾酒
+🌏	igfw	4596	澳亚地球仪
+👴	fxww	4595	老人
+🧢	sgmh	4594	棒球帽
+🐽	efth	4593	猪鼻
+🐔	cqy	4592	鸡
+🎻	rjgg	4591	提琴
+⬆️	h	4590	上
+✂️	uevn	4589	剪刀
+👫	drrw	4588	牵手的情侣
+👣	efqg	4587	脚印
+🐯	ham	4586	虎
+🎮	jbis	4585	电子游戏手柄
+🍵	aws	4584	茶
+🐦	qyn	4583	鸟
+〰️	iixf	4581	波浪线
+👭	ufpn	4580	闺蜜
+🐬	itee	4579	海豚
+🍟	alts	4578	薯条
+👙	xanx	4577	比基尼
+✖️	tux	4576	乘
+📩	nmwr	4575	收邮件
+👵	fvve	4574	老奶奶
+🍨	uiuf	4573	冰激凌
+🐖	efj	4571	猪
+✝️	adhi	4570	基督
+♻️	gdwk	4569	环保
+🥊	ufrd	4568	拳击手套
+🦅	fxyw	4567	老鹰
+💬	cysa	4566	对话框
+🐢	qjn	4564	龟
+🔰	jspf	4563	日本初学者标志
+🔶	sqdg	4562	橙色大菱形
+🎗️	axgk	4561	黄丝带
+💄	dfyp	4560	唇膏
+👠	ylqt	4559	高跟儿
+🥕	xahh	4558	红萝卜
+➖	sdgf	4557	棒球
+🐺	eyv	4556	狼
+📖	rgrn	4555	打开的书
+🍍	aial	4554	菠萝
+🌃	ufyw	4553	半夜
+✴️	wqjt	4552	八角星
+🌌	jtpw	4551	星空
+🐓	dwcq	4550	大公鸡
+👂	bgh	4549	耳
+🍤	gvlq	4548	天妇罗
+🐐	mmud	4547	山羊
+🔻	wdqe	4546	倒三角
+💻	ttjn	4545	笔电
+🦐	ddjg	4544	大虾
+🇩🇪	tflg	4543	德国
+🌛	hxee	4542	上弦月
+↘️	dkgh	4541	右下
+✏️	qmtt	4540	铅笔
+🧘	terw	4539	盘腿的人
+🥁	rsfk	4538	打鼓
+🏖️	yawn	4537	度假
+⚜️	dwaw	4536	百合花
+❕	rdkk	4535	白感叹号
+🅰️	aaaa	4534	A
+🚴	cttl	4533	骑自行车
+💠	glhg	4532	带圆点的菱形
+㊗️	pyk	4531	祝
+🐙	ujpt	4530	章鱼
+♣️	ajaw	4529	草花
+🍡	oolf	4528	糯米团
+⏩	nnfj	4527	快进
+🎨	yqsr	4526	调色板
+🐠	rgpt	4525	热带鱼
+🇰🇷	fjlg	4524	韩国
+🍗	cqev	4523	鸡腿
+🚮	wffe	4522	倒垃圾
+▫️	lqif	4521	黑色小方块
+🌪️	dumq	4520	龙卷风
+😼	ture	4519	得意的猫
+👤	utwq	4518	半身像
+🏊	ioiy	4517	游泳
+🌽	aqoy	4516	苞米
+🎩	ymmh	4515	高帽
+🎹	qmgg	4513	钢琴
+🍈	kprc	4512	哈密瓜
+◀️	wgve	4511	倒退
+↔️	dadk	4510	左右
+🏡	kljf	4509	别墅
+🇵🇰	caaf	4508	巴基斯坦
+🎇	pyaw	4507	礼花
+🥩	rhrj	4506	牛排
+🐞	sfjh	4505	瓢虫
+3️⃣	dg	4504	三
+⬅️	tdtu	4503	向左箭头
+🌐	fbgf	4502	地球
+↗️	dkhh	4501	右上
+🍽️	hqhw	4500	餐具
+🧀	vesg	4499	奶酪
+🥦	asae	4498	花椰菜
+🐜	jcjy	4497	蚂蚁
+⚔️	figt	4496	fight
+😺	gnre	4495	开心的猫
+🥞	auqn	4494	薄煎饼
+🏄	ukiy	4493	冲浪
+🔨	qtbb	4492	锤子
+🏝️	ayqy	4491	荒岛
+🔆	yyya	4490	高亮度
+👥	utwq	4489	半身像
+👓	rppy	4488	近视
+🥒	amrc	4487	黄瓜
+🏈	ssgf	4486	橄榄球
+🇵🇭	atpr	4485	菲律宾
+🏋️	iwtg	4484	举重
+0️⃣	kwy	4483	零
+🚘	ltlg	4482	轿车
+🦖	kgdx	4481	霸王龙
+🌕	iaee	4480	满月
+🎭	gias	4479	表演艺术
+👾	ncul	4478	怪兽
+🍳	uenh	4477	煎蛋
+🏵️	awxf	4476	花结
+🍧	uiii	4475	冰沙
+🔗	link	4474	link
+🕋	dqrr	4473	克尔白
+☃️	kgkw	4472	雪与雪人
+🌅	jjbm	4471	日出
+🤴	lggg	4470	国王
+🖖	aidq	4469	斯波克
+🐊	pkpt	4468	鳄鱼
+🐘	ddqj	4467	大象
+🌤️	rjif	4466	白日小云
+🥑	pktj	4465	鳄梨
+🥚	nhj	4464	蛋
+⛈️	ddkg	4463	大雨
+🐵	ewn	4462	猴
+🔜	soon	4461	soon
+🍶	igis	4460	清酒
+🐄	verh	4459	奶牛
+🇻🇪	tmgr	4458	委内瑞拉
+🐮	rhk	4457	牛
+🦈	rrii	4456	白鲨
+🚲	ujlg	4455	单车
+⛔	shct	4454	禁止驶入
+🕯️	jaoj	4453	蜡烛
+➕	sdgf	4452	棒球
+🔺	xqgq	4451	红色正三角
+💇	gjnt	4450	理发
+🧠	ddey	4449	大脑
+📻	jnck	4448	电台
+🥤	gkts	4447	带吸管杯
+🍝	udtd	4446	意大利面
+🍥	txjq	4445	盘绕是炸鱼饼
+💴	jjfq	4444	日元
+🌬️	kqmq	4443	吹风
+🥓	fusv	4442	培根
+🙍	qvnh	4441	皱眉
+⚓	teqa	4440	船锚
+👰	fuxw	4439	戴头纱的人
+🐂	wcrh	4438	公牛
+📽️	jjos	4437	电影放映机
+🏅	uqth	4436	奖牌
+⛅	qqfc	4435	多云
+🧜	wwpt	4432	人鱼
+📮	mbtm	4431	邮筒
+⛳	yqfw	4430	高尔夫
+🔽	ymwq	4429	调低
+🚂	aiol	4428	蒸汽火车
+🏌️	ryqw	4427	打高尔夫的人
+🐇	drqk	4426	大白兔
+🏍️	ysrt	4425	摩托
+🎲	mffg	4424	赌博
+🥛	sdbb	4423	杯子
+🎣	qqtf	4422	钓竿
+👱	qqnt	4421	金发
+🎏	ppot	4420	鲤鱼旗
+🕷️	jtjr	4419	蜘蛛
+🦍	deej	4418	大猩猩
+🔘	rpqn	4417	按钮
+🐅	fxha	4416	老虎
+🏇	cdcn	4415	骑马
+🔐	qeqi	4414	解锁
+🏩	enpq	4413	爱情宾馆
+👺	vtnc	4412	妖怪
+🅱️	BBBB	4411	B
+🚙	suv	4410	SUV
+🐧	whtr	4409	企鹅
+⚖️	gdgu	4408	天平
+🎃	fros	4407	南瓜灯
+🌄	dmjb	4406	大山日出
+🎾	mqgf	4405	网球
+🐚	mhfp	4404	贝壳
+🎺	ihkg	4403	小号
+❇️	ooaw	4402	火花
+🎫	uysf	4401	门票
+⌚	jfuj	4400	时间
+🌋	oomm	4399	火山
+💒	vqpy	4398	婚礼
+👳	fumw	4397	戴头巾的人
+❎	cy	4396	叉
+👟	sqak	4395	板儿鞋
+👃	thl	4394	鼻
+🛌	yhwt	4393	床上休息
+🚓	aqlg	4392	警车
+⏬	nngh	4391	快下
+📈	jaix	4390	暴涨
+⛄	fkww	4389	堆雪人
+⏱️	yjkk	4388	计时器
+😾	kkre	4387	噘嘴的猫
+🛫	nsfn	4386	飞机起飞
+🤱	kgeb	4385	哺乳
+🍐	tjs	4384	梨
+☮️	peae	4383	peace
+🚃	lulg	4382	轨道车
+⏳	iiin	4381	沙漏
+🌜	ttre	4380	微笑的下弦月
+📹	rwsm	4379	摄像机
+🐛	bug	4378	bug
+👔	ppwg	4377	衬衫领带
+👗	lypu	4376	连衣裙
+🐌	jkrh	4375	蜗牛
+🎱	lfwt	4374	黑八
+🌰	ssbb	4373	栗子
+🌮	udqn	4372	卷饼
+🕵️	whrp	4371	侦探
+🔅	wyya	4370	低亮度
+✉️	pgwy	4369	写信
+🚑	qflg	4367	急救车
+📦	qnyj	4366	包裹
+🤥	deyu	4365	胡说
+🔄	ujqf	4364	逆时针
+🤳	thrr	4363	自拍
+💲	oufk	4362	粗美元符号
+🎋	agqt	4361	七夕
+🗓️	xljd	4360	线圈日历
+🤖	skww	4359	机器人
+🥔	cqal	4358	马铃薯
+🆗	ok	4357	OK
+🔑	qejg	4356	钥匙
+🇨🇳	xaot	4355	红旗
+🐤	ihcq	4354	小鸡
+4️⃣	lh	4353	四
+🐑	xrud	4352	绵羊
+➰	sdgf	4351	棒球
+👩‍🎓	sttg	4350	本科生
+☂️	riwu	4349	撑伞
+🦆	kdkd	4347	嘎嘎
+🚌	cnfg	4346	巴士
+💿	cd	4345	CD
+🏥	atbp	4344	医院
+🐋	pypt	4343	鲸鱼
+🚒	folg	4342	救火车
+🏐	rjgf	4341	排球
+🇪🇨	drqq	4340	厄瓜多尔
+🥐	rqdq	4339	牛角面包
+🎷	txqk	4338	管弦乐器
+🗽	tmvp	4337	自由女神
+🗡️	xtut	4336	匕首
+🏏	srgf	4335	板球
+🐭	dibb	4334	耗子
+🙎	rdkh	4333	撅嘴
+🌑	ubee	4332	朔月
+🚔	rbaq	4331	报警
+🚿	isiw	4329	淋浴
+🥝	eesq	4328	猕猴桃
+🕌	igfh	4327	清真
+🐀	dibb	4326	耗子
+🛡️	rfth	4325	盾牌
+🔒	whrq	4324	合上的锁
+✳️	wllk	4323	八轮辐星号
+🕶️	lfqu	4322	墨镜
+🎟️	tfud	4320	入场券
+🐉	andx	4319	巨龙
+🔱	dcfj	4318	三叉戟
+🔎	odqu	4317	放大镜
+⚰️	spsf	4315	棺材
+🐩	kpdg	4314	贵宾犬
+🦑	lfpt	4313	墨鱼
+🧟	wgnn	4312	僵尸
+🆕	new	4311	new
+🦊	erej	4310	狐狸
+👕	tntl	4309	T恤
+🏹	xttu	4308	弓和箭
+👬	vadc	4306	好基友
+🍱	wgiv	4305	便当
+📰	rbxq	4304	报纸
+🥋	prue	4303	空手道服
+🚤	nnte	4302	快艇
+🏰	fdwk	4301	城堡
+5️⃣	gg	4300	五
+🦉	euyw	4299	猫头鹰
+🚢	temk	4298	船
+🌨️	ghkv	4297	下雪
+📆	rrjd	4296	手撕日历
+🗝️	tdqj	4295	复古钥匙
+🎌	ucot	4294	交叉旗
+🧔	ddhi	4293	大叔
+💳	wyhh	4292	贷记卡
+🇺🇾	qrff	4291	乌拉圭
+🥗	xqir	4290	绿色沙拉
+☯️	dyse	4289	太极
+⚙️	hwlw	4288	齿轮
+💶	aqfq	4287	欧元
+⛩️	jspp	4286	日本神社
+🗻	pfmm	4285	富士山
+✒️	qmtt	4284	钢笔
+🍠	fbrc	4281	地瓜
+👷	vtaw	4280	建筑工人
+🛍️	mrwa	4279	购物袋
+🏎️	otal	4278	方程式赛车
+🔛	on	4277	on
+🔙	back	4276	back
+🗼	ayfa	4275	东京塔
+🎖️	atku	4274	鞠躬勋章
+🚺	vvdm	4273	女厕
+🐹	wben	4272	仓鼠
+🥖	iatq	4271	法式长棍面包
+🎡	yglw	4269	摩天轮
+🔍	odqu	4268	放大镜
+🏟️	wyfn	4267	体育场
+🖥️	jney	4266	电脑
+🌭	rveq	4265	热狗
+✡️	dbpj	4263	大卫之星
+🏒	uigf	4262	冰球
+🛀	iqik	4261	泡澡
+📅	jjdl	4260	日历
+🖋️	qmtt	4259	钢笔
+🎞️	jnjy	4257	电影
+🎪	cnca	4256	马戏
+🍙	qnlf	4255	饭团
+🛁	iwrm	4254	浴缸
+📕	tgud	4253	第一卷
+👒	gjjb	4252	带蝴蝶结的帽子
+🖇️	lgqf	4251	回形针
+❔	rquk	4250	白色问号
+🎄	cysc	4249	圣诞树
+🕸️	jjmq	4248	蜘蛛网
+🥜	awtg	4247	花生
+🕴️	idfl	4246	浮在地面上的西装男
+🥟	qnbb	4245	饺子
+↙️	dagh	4244	左下
+◾	rqdf	4243	白色大方块
+🐲	dx	4242	龙
+🏴	lfot	4241	黑旗
+🦌	ynj	4240	鹿
+🆔	id	4239	ID
+👛	kqqn	4238	零钱包
+🚚	wxlg	4237	货车
+↪️	dlyu	4236	左转弯箭头
+📿	wygr	4234	念珠
+🌫️	kee	4233	霾
+🌂	nfrw	4232	收起的伞
+🕉️	tmvx	4231	奥姆
+🆚	vshk	4230	Vs.
+📉	jalr	4229	暴跌
+🗨️	fdri	4228	朝左的对话气泡
+🛒	mrlg	4227	购物车
+📛	vqth	4226	姓名牌
+🐿️	asen	4224	花栗鼠
+🅾️	OOOO	4223	O
+☢️	otnt	4222	放射性
+🐃	iirh	4220	水牛
+⛽	lkim	4219	加油
+🅿️	parg	4218	parking
+🦇	jyjg	4217	蝙蝠
+⤴️	dhyu	4216	右上弯箭头
+⛵	mhte	4215	帆船
+👞	llak	4214	男鞋
+🔓	rgrq	4213	打开的锁
+🧞	vtnc	4212	妖怪
+⛰️	m	4211	山
+📎	lgqf	4210	回形针
+🦎	nkha	4209	壁虎
+🔌	rtud	4208	插头
+🏳️	rrot	4207	白旗
+🚽	cnsc	4206	马桶
+🍲	ooqk	4205	火锅
+⚒️	qbtq	4204	锤子和镐
+♊	cbyw	4203	双子座
+👢	ylqa	4202	高跟儿靴
+🧙	ifjg	4201	法师
+⛪	fbip	4199	教堂
+🎎	jsww	4197	日本人偶
+🔖	nntw	4196	书签
+🔋	jnib	4195	电池
+📡	rngx	4194	接收天线
+🌇	ddqb	4193	大厦夕阳
+🏉	ssgf	4192	橄榄球
+👪	peyt	4191	家庭
+👖	pubb	4190	裤子
+📊	tglt	4189	条形图
+🐆	eeq	4188	豹
+🔁	tgro	4187	循环播放
+🛩️	igns	4186	小型飞机
+🐡	isee	4185	河豚
+🃏	jokr	4184	joker
+👩‍💻	tykm	4183	程序员
+🌩️	rskl	4182	打雷
+🐏	wcud	4180	公羊
+6️⃣	uy	4179	六
+⛹️	gfgf	4178	玩球
+🗯️	cysa	4177	对话框
+🍢	kkkk	4175	串串
+🗺️	alfl	4174	世界地图
+🚕	btlg	4173	出租车
+🇷🇺	wtlg	4172	俄国
+Ⓜ️	fbqr	4171	地铁
+⛱️	iiwu	4170	沙滩伞
+🏫	fiso	4169	教学楼
+📀	dvd	4168	DVD
+🆙	upo	4167	up
+🤼	rlrr	4166	摔跤选手
+🐨	fgru	4165	考拉
+🦂	jjbb	4164	蝎子
+💷	amqu	4163	英镑
+🥈	qvth	4162	银牌
+👨‍💻	tykm	4161	程序员
+🛏️	ysi	4160	床
+◼️	rqkf	4159	白色中等方块
+🚄	fclg	4158	动车
+🧖	ayjw	4157	蒸房里的人
+🎠	olsc	4156	旋转木马
+🐁	rren	4155	白鼠
+🗳️	rmsf	4154	投票
+🏮	dxot	4153	大红灯笼
+🥪	djic	4152	三明治
+🌥️	qqfc	4151	多云
+🚪	ynuy	4150	房门
+㊙️	tn	4149	秘
+🗞️	rxud	4148	报纸卷
+👨‍⚕️	ddfw	4147	大夫
+🖊️	lgtt	4146	圆珠笔
+⬛	oyfn	4145	方块
+🆒	cool	4144	cool
+🥧	hkny	4142	点心
+👩‍⚕️	ddfw	4141	大夫
+👨‍🎓	sttg	4139	本科生
+🚧	ltbu	4138	路障
+⛓️	qlts	4137	链条
+🛵	jflg	4136	电动车
+🥅	gfuy	4135	球门
+🚅	fclg	4134	动车
+🖼️	ggst	4133	带画框的图片
+♿	lwsd	4132	轮椅
+📏	nybb	4131	尺子
+🀄	xakh	4130	红中
+🖌️	gltt	4129	画笔
+🉐	tj	4128	得
+📬	duww	4127	有新信件
+🚁	ftns	4126	直升飞机
+🗑️	yxto	4125	废纸篓
+🤵	panw	4124	穿燕尾服的人
+🏷️	sftw	4123	标签
+🌡️	iyyf	4122	温度计
+🎐	mqqw	4121	风铃
+🦒	yyyn	4119	麒麟鹿
+🎒	uxqn	4118	背包
+🥉	qmth	4114	铜牌
+7️⃣	ag	4113	七
+⌛	iiin	4112	沙漏
+🌒	gqee	4111	残月
+🥥	sbbb	4110	椰子
+🎅	cyfw	4109	圣诞老人
+🧕	tass	4108	穆斯林
+🛐	pyrk	4107	祷告
+♋	aqyw	4106	巨蟹座
+🧑	dnww	4105	成人
+🛸	upo	4102	UFO
+🧒	qtuj	4101	儿童
+📧	emal	4100	email
+🥢	tnbb	4099	筷子
+🎢	fmlg	4098	过山车
+🐪	umcc	4097	单峰骆驼
+👨‍🍳	dgjg	4095	厨师
+🚛	dhlg	4094	大卡车
+🥄	qybb	4093	勺子
+🤹	rrvd	4092	抛接杂耍
+🏢	lwso	4091	办公楼
+💈	gnyh	4090	理发店
+👘	tkeb	4089	和服
+🏔️	ymmm	4086	高山
+〽️	sykg	4085	歌记号
+🚦	xxos	4084	红绿灯
+💼	aawt	4081	工作
+♈	ruyw	4080	白羊座
+🦓	gycn	4079	斑马
+🚻	dmrn	4078	厕所
+🎰	mffg	4077	赌博
+◽	dofn	4076	大方块
+🦗	jmjm	4075	蛐蛐
+🤾	rtgf	4074	手球
+👚	vppu	4073	女衬衫
+👡	ylqa	4072	高跟儿凉鞋
+⛏️	qeud	4071	锄头
+9️⃣	vt	4070	九
+🛎️	etqw	4069	服务铃
+🐗	jfef	4068	野猪
+🌦️	jlkg	4067	晴转雨
+🚹	lldm	4065	男厕
+☪️	jtee	4063	星月
+🤺	fmwg	4062	击剑
+🚣	ajte	4061	划艇
+🗿	tiqy	4060	复活岛
+🥘	ooqk	4059	火锅
+🦕	amdx	4057	恐龙
+🏕️	klap	4055	露营
+☣️	twqs	4054	生化危机
+🌆	wujq	4053	傍晚
+↕️	hhgh	4052	上下
+📨	gowy	4051	来信
+🏨	prqn	4050	宾馆
+🕹️	rrsf	4049	操控杆
+👩‍🍳	dgjg	4048	厨师
+📯	mgkk	4046	邮政喇叭
+👜	qnqn	4045	包包
+🏘️	ynvt	4044	房屋群
+🐫	ctcp	4043	骆驼
+⛺	mhtt	4042	帐篷
+👩‍🏫	fbjg	4041	教师
+🕳️	img	4040	洞
+🏯	fdwk	4039	城堡
+🌓	hxee	4038	上弦月
+🌉	ddst	4037	大桥
+8️⃣	w	4036	八
+💂	bgrg	4035	卫兵
+🔉	rfkk	4034	扬声器
+👨‍👩‍👧‍👦	lkpp	4033	四口之家
+🇪🇺	aqje	4032	欧盟
+🚜	rrsm	4031	拖拉机
+🔕	shkq	4030	禁止响铃
+📥	ngmw	4029	收到邮件
+🌔	ehee	4028	盈凸月
+🏙️	fdym	4027	城市
+🥨	sfuq	4026	椒盐卷饼
+🇲🇾	cgsg	4025	马来西亚
+📘	tdud	4024	第三卷
+📗	tfud	4023	第二卷
+📜	udlm	4022	卷轴
+♏	gjyw	4021	天蝎座
+🏜️	ayia	4019	荒漠
+🍘	oyqn	4018	米饼
+🛬	nsub	4017	飞机着陆
+🌯	ueqn	4016	煎饼
+🏗️	vtoa	4015	建筑施工
+🏴󠁧󠁢󠁥󠁮󠁧󠁿	asud	4014	英格兰
+🚼	baby	4013	baby
+🏞️	lpwl	4012	国家公园
+🔈	rfkk	4011	扬声器
+🕰️	noqk	4010	壁炉钟
+🏓	rrgf	4009	乒乓球
+👨‍🌾	pefw	4007	农夫
+🦃	oocq	4006	火鸡
+🔦	jntm	4005	电筒
+🔃	kjqf	4004	顺时针
+🛳️	ptte	4002	客船
+🌘	gqee	4001	残月
+🧛	ktrq	3999	吸血鬼
+👩‍❤️‍👩	ruru	3998	拉拉
+🔚	end	3997	end
+🔟	fgh	3996	十
+ℹ️	info	3995	info
+🛢️	imsc	3994	油桶
+🏴󠁧󠁢󠁳󠁣󠁴󠁿	asud	3993	苏格兰
+🔭	yfqu	3991	望远镜
+🎍	uysw	3989	门松
+🥣	ouqd	3988	放着勺的碗
+🌗	gxee	3987	下弦月
+↖️	dahh	3986	左上
+🎳	whgf	3985	保龄球
+👨‍🏫	fbjg	3983	教师
+📄	yywr	3982	文件
+👨‍👩‍👧	dkpp	3980	三口之家
+🎚️	jgif	3979	电平滑块
+🛠️	qbrr	3978	锤子扳手
+🆓	free	3977	free
+🏛️	frqn	3975	博物馆
+♐	tryw	3974	射手座
+🧦	tdpu	3973	短袜
+🗾	jsfl	3972	日本地图
+👩‍🌾	pevv	3971	农妇
+🎑	cmee	3970	观月
+🧤	rtdk	3968	手套
+🧝	iovo	3967	小精灵
+➿	sdgf	3966	棒球
+🇻🇳	fhfm	3965	越南
+📒	tysg	3964	笔记本
+♉	qryw	3963	金牛座
+♓	cpyw	3962	双鱼座
+🚭	ssol	3961	禁烟
+🔧	rrrt	3960	扳手
+♌	ebyw	3959	狮子座
+↩️	lklg	3958	回车
+♒	iuyw	3957	水瓶座
+🏦	qvtf	3956	银行
+🈵	iag	3955	满
+🥫	rmud	3954	罐头
+🌖	fhee	3953	亏凸月
+🛴	islg	3952	滑板车
+🚖	btlg	3951	出租车
+🥙	hfdi	3950	皮塔三明治
+🛰️	bgjt	3949	卫星
+🦏	nirh	3948	犀牛
+🇸🇬	ulfh	3947	新加坡
+⏺️	sdgf	3946	棒球
+🖍️	jatt	3945	蜡笔
+⛸️	imui	3944	滑冰
+📙	sqrn	3943	橙色的书
+👲	fbyg	3942	地主
+🏂	usik	3941	单板滑雪
+*️⃣	jtkg	3940	星号
+🔲	ogrq	3939	方形按钮
+🚐	dqlg	3937	面包车
+👨‍❤️‍👨	ghgy	3936	玻璃
+🔇	geuj	3935	静音
+🦔	gmel	3934	刺猬
+🔯	uqjt	3933	六角星
+🚵	cmfl	3932	骑山地车
+🚯	stff	3931	禁丢垃圾
+🕛	ffhk	3930	十二点
+📼	dugk	3929	磁带
+🧓	frww	3928	老年人
+🎛️	rroq	3927	控制旋钮
+🇭🇰	tjia	3925	香港
+💺	ywwu	3924	座位
+👩‍🎤	skrt	3923	歌手
+⛲	wclf	3922	公园
+⚛️	atom	3921	atom
+🕒	dghk	3920	三点
+📶	rswk	3919	手机信号
+🚋	dljl	3918	有轨电车
+📠	wffh	3916	传真
+🚇	fbqr	3915	地铁
+⏲️	pjkk	3914	定时器
+⏪	nnve	3913	快退
+🛃	itud	3911	海关
+👨‍✈️	ntkm	3909	飞行员
+📓	tysg	3908	笔记本
+👩‍👧	xgvv	3907	母女
+♎	gtyw	3906	天秤座
+🏑	msgf	3905	曲棍球
+📋	umsr	3904	剪贴板
+🔼	ymym	3903	调高
+📃	gulx	3900	带卷边的纸
+🔬	jtqu	3899	显微镜
+🚥	xxos	3897	红绿灯
+♍	tvyw	3895	处女座
+🚾	wc	3892	WC
+🚍	cnfg	3889	巴士
+🏸	gfrr	3888	球拍
+🔳	rlxq	3887	白边线方形按钮
+🛂	pvsw	3886	安检
+📵	shry	3885	禁止打电话
+⛑️	pwmh	3884	安全帽
+🏚️	yyrn	3883	废弃的房屋
+🎽	ffun	3882	运动背心
+🚰	idud	3881	水龙头
+🏪	wtyh	3880	便利店
+⛷️	imkv	3879	滑雪
+👩‍💼	rrwy	3878	白领
+♑	yuyw	3877	摩羯座
+⏫	nnhh	3874	快上
+🏣	jsmn	3873	日本邮局
+🚉	lguh	3872	车站
+🛅	pdts	3871	寄存行李
+⚕️	bada	3870	阿斯克勒庇俄斯
+⛴️	iyte	3869	渡船
+👁️‍🗨️	tjyw	3868	我是证人
+🏧	atm	3867	ATM
+◻️	lqkf	3866	黑色中等方块
+👩‍🔬	wipe	3865	化学家
+⏹️	sdgf	3864	棒球
+👩‍👦	xgbb	3862	母子
+⬜	rrsa	3861	白框
+#️⃣	fjkg	3860	井号
+🇹🇼	ckiy	3858	台湾
+🛣️	ymgk	3857	高速
+🏤	aimn	3856	欧洲邮局
+🛄	wbts	3855	领取行李
+🏬	dwuy	3853	百货商店
+👨‍🎤	skrt	3852	歌手
+🕐	gghk	3851	一点
+🎦	jjbp	3850	电影院
+👨‍💼	rrwy	3849	白领
+💹	frtg	3848	趋势向上且带有日元符号的图表
+☸️	iflw	3847	法轮
+📴	uurs	3846	关闭手机
+📐	dqsr	3845	三角板
+🖱️	jees	3844	电脑鼠标
+🔩	jxts	3841	螺母和螺栓
+🈲	ssf	3840	禁
+🎴	ardt	3839	花扑克牌
+📳	rfsa	3838	振动模式
+☦️	agfb	3837	东正教
+🚆	oolg	3836	火车
+📁	ywgu	3835	文件夹
+📔	tysg	3834	笔记本
+👩‍🎨	glpe	3832	画家
+🕑	gmhk	3831	两点
+🚸	inqu	3830	当心儿童
+🧣	lfmh	3829	围巾
+👨‍🚀	lptk	3828	男宇航员
+🏭	aadg	3826	工厂
+🏺	cbua	3825	双耳瓶
+🤽	iigf	3823	水球
+🛥️	yrte	3822	摩托艇
+🌁	ktfj	3820	雾都
+🤶	cyfw	3819	圣诞夫人
+💽	jeit	3817	电脑光盘
+🚎	jnlg	3815	电车
+🗒️	xlsg	3812	线圈本
+🛋️	iint	3810	沙发
+⌨️	jeqt	3809	电脑键盘
+🆎	ab	3808	AB
+🧗	srrw	3807	攀爬的人
+🧥	gudq	3806	夹克
+🛶	este	3804	独木舟
+📑	stdm	3803	标签页
+👝	awqn	3802	荷包
+⏯️	rolw	3800	播放暂停
+💱	bmlg	3798	出国
+👨‍🎨	glpe	3797	画家
+👩‍⚖️	ifph	3794	法官
+🕓	lhhk	3793	四点
+👩‍🚀	vptk	3792	女宇航员
+🚞	maql	3791	山区铁路
+👨‍🚒	libk	3790	男消防员
+🆖	ng	3789	NG
+🔀	uctu	3788	交叉箭头
+👨‍🔬	wipe	3787	化学家
+👨‍⚖️	ifph	3786	法官
+👨‍👩‍👦‍👦	lkpp	3785	四口之家
+🏴󠁧󠁢󠁷󠁬󠁳󠁿	dqfg	3784	威尔士
+🥠	ffqf	3783	幸运饼干
+🚳	shcl	3782	禁止骑车
+⏭️	ggut	3778	下一首
+🕎	ijab	3777	光明节
+🈚	imde	3776	没有
+🚡	pkxl	3775	空中缆车
+🕕	uyhk	3774	六点
+🉑	sk	3772	可
+📂	ywgu	3771	文件夹
+📫	dtnw	3769	有待收信件
+🕘	vthk	3768	九点
+🚊	ldjl	3767	路面电车
+🚈	lclv	3766	轻轨
+🔂	umtg	3765	单曲循环
+➗	sdgf	3764	棒球
+🕗	wthk	3763	八点
+👨‍👩‍👧‍👧	lkpp	3762	四口之家
+🈹	rsrr	3761	打折
+🛤️	qrlv	3759	铁轨
+🕖	aghk	3757	七点
+🈴	wgk	3756	合
+👨‍🔧	jnaa	3755	电工
+🔏	gliq	3754	带墨水笔的锁
+🚷	shtw	3752	禁止行人
+🕙	fghk	3749	十点
+👨‍👧	wqvv	3745	父女
+📟	wksm	3744	传呼机
+👩‍✈️	ntkm	3743	飞行员
+⏸️	sdgf	3742	棒球
+👩‍🚒	vibk	3741	女消防员
+🥡	qhfn	3739	外卖
+🕔	gghk	3737	五点
+💾	lqte	3735	软盘
+📤	ntwr	3734	发件
+⚗️	aqkk	3733	蒸馏器
+🔠	abcd	3732	ABCD
+🚝	ujlv	3731	单轨
+🆑	cler	3730	clear
+👨‍👦	wqbb	3728	父子
+🕚	fghk	3726	十一点
+🎿	ikst	3723	滑雪橇
+🔤	abcd	3722	abc
+🈶	nhxj	3721	收费
+🚱	jqei	3720	非饮用水
+🚏	waiu	3719	公共汽车站
+👩‍🔧	jnaa	3717	电工
+🕍	edfi	3715	犹太教会堂
+🔢	ovpb	3713	数字
+📭	fuww	3711	无新信件
+📪	wyts	3710	信箱
+🈳	pw	3709	空
+👩‍❤️‍👨	love	3707	love
+🖨️	rqsm	3704	打印机
+⏮️	hgut	3703	上一首
+🕠	ghuf	3698	五点半
+🖲️	lygf	3696	轨迹球
+⚱️	dqwc	3695	奉金瓮
+🚟	ylql	3686	高架铁路
+👨‍🏭	adaw	3679	工厂工人
+🈯	rx	3676	指
+🚠	ymfu	3675	高山索道
+🕟	lhuf	3674	四点半
+🥌	uifp	3667	冰壶
+🗂️	htfh	3660	卡片索引分隔卡
+👩‍🏭	adaw	3658	工厂工人
+🕝	ghuf	3657	两点半
+🕦	fghu	3656	十一点半
+🕢	ahuf	3655	七点半
+🕜	ghuf	3654	一点半
+🕤	vhuf	3651	九点半
+🈂️	etxj	3648	服务费
+🕧	ffhu	3644	十二点半
+🕡	uhuf	3642	六点半
+⛎	jfyw	3641	蛇夫座
+🕣	whuf	3639	八点半
+🕥	fhuf	3629	十点半
+📇	htfx	3621	卡牌索引
+🈺	guao	3620	开门营业
+🛷	tkst	3618	乘雪橇
+🕞	dhuf	3617	三点半
+🈷️	e	3613	月
+🇺🇳	bwlg	3611	联合国
+🗃️	htdw	3610	卡片存档盒
+🗜️	guqa	3608	夹钳
+🔡	abcd	3605	abcd
+🈁	ypjf	3599	这里
+🔣	twkg	3598	符号
+🗄️	ywsa	3593	文件柜
+🈸	jh	3589	申
