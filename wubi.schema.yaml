@@ -1,0 +1,250 @@
+# Rime schema settings
+# encoding: utf-8
+# 
+# 参考
+# [beavailable](https://github.com/beavailable/better-wubi)——采用字根编码
+# [在线配色方案](https://fxliang.github.io/RimeSeeMe/)
+# [雾淞拼音](https://github.com/iDvel/rime-ice)——采用拼音反查
+# [四叶草拼音方案](https://github.com/fkxxyz/rime-cloverpinyin)
+# [极点五笔方案](https://github.com/KyleBing/rime-wubi86-jidian)
+# [空山明月方案](http://98wb.ysepan.com/)——采用主动加词代码
+# [新世纪词库集成](https://06wb.github.io/Tables/index.html)——里面收集了很多资源
+# [白霜拼音](https://github.com/gaboolic/rime-frost)
+# [小鹤双拼](https://github.com/boomker/rime-fast-xhup)——参考加词代码
+# [输入方案排名](https://github.com/ayaka14732/awesome-rime)——好久也不更新了
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# 已实现的功能
+# 1. 可快速输入Markdown主要代码。如标题、代码、引用……，若要调整，在wubi.user.yaml文件里，当然，一些快捷的符号，都在这里，可翻看翻看，很好用。这项在wubi86.user里面修改。
+# 2. 可快速输入财务用数字，按住“Shift+任一字母”，然后输入数字，即可转换为大写财务数字，如壹、贰…………
+# 3. 使用“;”、“'”，即封号、引号，可快速选择第二、三项候选项。
+# 4. 使用“Tab”可快速向下翻页。
+# 5. 五笔和拼音，启动时，全部改为了英文状态。
+# 6. 输入riqi、sjian、week可快速输入当前日期和时间。
+# 7. 可实现五笔连打，以及同英语混输。
+# 8. 基本上，我想要的功能都整合到里面了。
+
+schema:
+  schema_id: wubi
+  name: "五笔"
+  version: "2024-12-19"
+#  icon: "wubi86.ico"    # string 方案图标，格式： .ico
+#  ascii_icon:                         # string
+  author:
+    - Alamo
+  description: |
+    基于【 beavailable 】编码修改
+    外挂非常用字及词组   
+    以86五笔编码为基础，个别码位进行了调整
+    敲 / 鍵進入拼音反查
+    大写字母+数字，输入大写数字
+  dependencies:
+    - rime_ice
+    - melt_eng  # 英文输入，作为次翻译器挂载到拼音方案
+
+switches:
+  - name: ascii_mode
+    states: [ 中, Ａ ]
+    reset: 0
+  - name: ascii_punct # 中英标点
+    states: [ 。, .  ]
+    reset: 0
+  - name: traditionalize
+    states: [ 简, 繁 ]
+    reset: 0
+  - name: emoji
+    states: [ 💀, 😄 ]
+    reset: 1
+  - name: full_shape  #  全角符号／半角符号开关。注意，开启全角时英文字母亦为全角。`0`为半角，`1`为全角
+    states: [ 半, 全 ]
+    reset: 0
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - "affix_segmentor@mkst"
+    - "affix_segmentor@rvlk1"
+    - "affix_segmentor@zhuyin_fix"
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - "table_translator@rvlk1"
+    - table_translator
+    - lua_translator@*date_translator
+    - "table_translator@fixed"
+    - "table_translator@mkst"
+    - "history_translator@history"
+    - lua_translator@*number_translator
+    - table_translator@melt_eng
+    - lua_translator@*long_phrase_first
+  filters:
+    - simplifier
+    - "reverse_lookup_filter@ci_reverse_lookup"
+    - lua_filter@*reduce_english_filter
+    - lua_filter@*autocap_filter
+    - lua_filter@*en_spacer
+    - lua_filter@*long_word_filter
+#    - lua_filter@*single_char_first_filter
+#    - lua_filter@*single_char_only
+    - uniquifier
+
+speller:
+  auto_select: true
+  auto_clear: max_length
+  delimiter: "`"
+#  max_code_length: 4
+  
+translator:
+  dictionary: wubi
+  db_class: tabledb
+  initial_quality: 5
+  enable_charset_filter: false
+  enable_sentence: true
+  enable_encoder: false
+  encode_commit_history: false
+  max_phrase_length: 2
+  enable_completion: true
+  enable_user_dict: false
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+
+fixed:
+  __include: /translator
+  initial_quality: 3
+  enable_encoder: true
+  enable_user_dict: true
+  
+mkst:
+  __include: /translator
+  initial_quality: 2
+  enable_sentence: true
+  prefix: '`'
+  tips: "〔精准造词〕"
+  tag: mkst
+
+reverse_lookup:
+  __include: /translator
+  dictionary: rime_ice
+  tips: "〔拼音反查〕"
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  tag: rvlk2
+
+rvlk1:
+  __include: /reverse_lookup
+  prefix: "/"
+  tag: rvlk1
+  extra_tags:
+    - rvlk2
+
+ci_reverse_lookup:
+  dictionary: wubi
+  tips: "〔五笔滤镜〕"
+  tags:
+    - rvlk2
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+    mkst: "^[a-y]*`[a-y`]*$"
+#    punct: "^/([0-9]0?|[A-Za-z]+)$"
+    rvlk1: "^/[a-z]*'?$"
+    rvlk2: "^/[a-z]*'?$"
+    uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
+
+history:
+  input: z
+  size: 1
+  initial_quality: 3
+
+punctuator:
+  import_preset: default
+  
+menu:
+  page_size: 5  
+
+# Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
+date_translator:
+  date: rq       # 日期： 2022-11-29
+  time: sj       # 时间： 18:13
+  week: xq       # 星期： 星期二
+  datetime: dt   # ISO 8601： 2022-11-29T18:13:11+08:00
+  timestamp: ts  # 时间戳： 1669716794
+
+# 次翻译器，英文
+melt_eng:
+  dictionary: melt_eng     # 挂载词库 melt_eng.dict.yaml
+  enable_sentence: false   # 禁止造句
+  enable_user_dict: false  # 禁用用户词典
+  initial_quality: 1.0     # 初始权重
+  comment_format:          # 自定义提示码
+    - xform/.*//           # 清空提示码
+
+# Lua 配置: 降低部分英语单词在候选项的位置。
+# 详细介绍 https://dvel.me/posts/make-rime-en-better/#短单词置顶的问题
+# 正常情况： 输入 rug 得到 「1.rug 2.如果 …… 」
+# 降低之后： 输入 rug 得到 「1.如果 2.rug …… 」
+# 几种模式：
+# all     降低所有 3~4 位长度、前 2~3 位是完整拼音、最后一位是声母的单词
+# none    不降低任何单词，相当于没有启用这个 Lua
+# custom  自定义，只降低 custom 里的
+# （匹配的是编码，不是单词）
+reduce_english_filter:
+  mode: all  # all | none | custom
+  idx: 2        # 降低到第 idx 个位置
+  # 自定义的单词列表，示例列表没有降低部分常用单词，如 and cat mail Mac but bad shit ……
+  words: [aid, ann,
+  bail, bait, bam, band, bans, bat, bay, bend, bent, benz, bib, bid, bien, biz, boc, bop, bos, bud, buf,
+  cab, cad, cain, cam, cans, cap, cas, cef, chad, chan, chap, chef, cher, chew, chic, chin, chip, chit, coup, cum, cunt, cur,
+  dab, dag, dal, dam, dent, dew, dial, diet, dim, din, dip, dis, dit, doug, dub, dug, dunn,
+  fab, fax, fob, fog, foul, fur,
+  gag, gail, gain, gal, gam, gaol, ged, gel, ger, guam, gus, gut,
+  hail, ham, hank, hans, hat, hay, heil, heir, hem, hep, hud, hum, hung, hunk, hut,
+  jim, jug,
+  kat,
+  lab, lad, lag, laid, lam, laos, lap, lat, lax, lay, led, leg, lex, liam, lib, lid, lied, lien, lies, linn, lip, lit, liz, lob, lug, lund, lung, lux,
+  mag, maid, mann, mar, mat, med, mel, mend, mens, ment, mil, mins, mint, mob, moc, mod, mop, mos, mot, mud, mug, mum, nail,
+  nap, nat, nay, neil, nib, nip, noun, nous, nun, nut,
+  pac, paid, pail, pain, pair, pak, pal, pam, pans, pant, pap, par, pat, paw, pax, pens, pic, pier, pies, pins, pint, pit, pix, pod, pop, pos, pot, pour, pow, pub,
+  rand, rant, rent, rep, res, ret, rex, rib, rid, rig, rim, rub, rug, rum, runs,
+  sac, sail, sal, sam, sans, sap, saw, sax, sew, sham, shaw, shin, sig, sin, sip, sis, suit, sung, suns, sup, sur, sus,
+  tad, tail, taj, tar, tax, tec, ted, tel, ter, tex, tic, tied, tier, ties, tim, tin, tit, tour, tout, tum,
+  wag, wand, wap, wax, weir, won,
+  yan, yen]
+
+# 简入繁出 通过 OpenCC 支持 github地址：https://github.com/BYVoid/OpenCC
+# 已集成在输入法程序中，在输入法程序目录的 opencc 目录下
+# 输入法程序中使用 OpenCC 简转繁的过程是这样：
+# 1. 先从简转繁体
+# 2. 如果配置了台湾繁体，就会将上一步生成的繁体进一步处理
+# 3. 根据这个文件：https://github.com/BYVoid/OpenCC/blob/master/data/dictionary/TWVariants.txt 把台湾与正常繁体不同的地方转成台湾版本的字，比如 “床”
+
+# 简体转繁体
+tradition:
+  #  opencc_config: s2t.json  # 简 -> 繁
+  opencc_config: s2hk.json  # 繁 -> 香港
+  #  opencc_config: t2s.json   # 繁 -> 简
+  #  opencc_config: t2tw.json  # 繁 -> 台湾
+  #  opencc_config: t2hk.json  # 繁 -> 香港
+  #  opencc_config: s2tw.json  # 簡 -> 臺灣標準
+  #  opencc_config: s2twp.json  # 簡 -> 臺灣片語
+  option_name: traditionalize
