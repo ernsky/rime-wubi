@@ -3,7 +3,7 @@
 ---
 name: wubi.user    # 用户词库
 version: "2024-12-19"
-sort: by_weight    # original原始词序，by_weight按字重
+sort: by_weight    # original原始词序，by_weight按字重。
 dict_grouped: true # 词库管理应用识别：标记该码表为分组模式
 columns:
   - text
