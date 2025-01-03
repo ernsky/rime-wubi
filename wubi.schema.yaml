@@ -1,27 +1,33 @@
 # Rime schema settings
 # encoding: utf-8
 # 
-# 参考
-# [beavailable](https://github.com/beavailable/better-wubi)——采用字根编码
+# 有用的参考
+# [beavailable](https://github.com/beavailable/better-wubi)
 # [在线配色方案](https://fxliang.github.io/RimeSeeMe/)
-# [雾淞拼音](https://github.com/iDvel/rime-ice)——采用拼音反查
+# [雾淞拼音](https://github.com/iDvel/rime-ice)
 # [四叶草拼音方案](https://github.com/fkxxyz/rime-cloverpinyin)
 # [极点五笔方案](https://github.com/KyleBing/rime-wubi86-jidian)
-# [空山明月方案](http://98wb.ysepan.com/)——采用主动加词代码
+# [空山明月方案](http://98wb.ysepan.com/)
 # [新世纪词库集成](https://06wb.github.io/Tables/index.html)——里面收集了很多资源
 # [白霜拼音](https://github.com/gaboolic/rime-frost)
-# [小鹤双拼](https://github.com/boomker/rime-fast-xhup)——参考加词代码
-# [输入方案排名](https://github.com/ayaka14732/awesome-rime)——好久也不更新了
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# 已实现的功能
-# 1. 可快速输入Markdown主要代码。如标题、代码、引用……，若要调整，在wubi.user.yaml文件里，当然，一些快捷的符号，都在这里，可翻看翻看，很好用。这项在wubi86.user里面修改。
+# [小鹤双拼](https://github.com/boomker/rime-fast-xhup)——这个里面有手动加词语法
+# [输入方案排名](https://github.com/ayaka14732/awesome-rime)
+
+
+# ------- 单字码表采用《通用规范汉字表》8105 字字表 -------
+# 单字：86五笔编码，加入一、二、三级简码。个别单字进行了调序，额外增加了雾凇常用生僻字。
+# 使用的字频：微软字频
+# 词组：采用两级词库，一级常用词，二级一码词，常用词量18000，以微软词频排序构成。词组优先，其次单字。
+# 自我修改之前，已经上传到空间。
+# 用法
+# 1. 可快速输入Markdown主要代码。如标题、代码、引用……，若要调整，在symbols.yaml文件里，当然，一些快捷的符号，都在这里，可翻看翻看，很好用。这项在wubi86.user里面修改。
 # 2. 可快速输入财务用数字，按住“Shift+任一字母”，然后输入数字，即可转换为大写财务数字，如壹、贰…………
 # 3. 使用“;”、“'”，即封号、引号，可快速选择第二、三项候选项。
 # 4. 使用“Tab”可快速向下翻页。
 # 5. 五笔和拼音，启动时，全部改为了英文状态。
 # 6. 输入riqi、sjian、week可快速输入当前日期和时间。
 # 7. 可实现五笔连打，以及同英语混输。
-# 8. 基本上，我想要的功能都整合到里面了。
+
 
 schema:
   schema_id: wubi
@@ -60,127 +66,80 @@ switches:
 
 engine:
   processors:
-    - ascii_composer
-    - recognizer
-    - key_binder
-    - speller
-    - punctuator
-    - selector
-    - navigator
-    - express_editor
+    - ascii_composer                             #  处理西文模式及中西文切
+    - recognizer                                 #  与`matcher`搭配，处理符合特定规则的输入码，如网址、反查等`tags`
+    - key_binder                                 #  在特定条件下将按键绑定到其他按键，如重定义逗号、句号为候选翻页、开关快捷键等
+    - speller                                    #  拼写处理器，接受字符按键，编辑输入
+    - punctuator                                 #  句读处理器，将单个字符按键直接映射为标点符号或文字
+    - selector                                   #  选字处理器，处理数字选字键〔可以换成别的哦〕、上、下候选定位、换页
+    - navigator                                  #  处理输入栏内的光标移动
+    - express_editor                             #  编辑器，处理空格、回车上屏、回退键
   segmentors:
-    - ascii_segmentor
-    - matcher
-    - "affix_segmentor@mkst"
-    - "affix_segmentor@rvlk1"
-    - "affix_segmentor@zhuyin_fix"
-    - abc_segmentor
-    - punct_segmentor
-    - fallback_segmentor
+    - ascii_segmentor                            #  标识西文段落〔譬如在西文模式下〕字母直接上屛
+    - matcher                                    #  配合`recognizer`标识符合特定规则的段落，如网址、反查等，加上特定`tag`
+    - abc_segmentor                              #  标识常规的文字段落，加上`abc`这个`tag`
+    - punct_segmentor                            #  标识句读段落〔键入标点符号用〕加上`punct`这个`tag`
+    - fallback_segmentor                         #  标识其他未标识段落
   translators:
-    - punct_translator
+    - punct_translator                           #  配合`punct_segmentor`转换标点符号
     - reverse_lookup_translator
-    - "table_translator@rvlk1"
-    - table_translator
-    - lua_translator@*date_translator
-    - "table_translator@fixed"
-    - "table_translator@mkst"
-    - "history_translator@history"
-    - lua_translator@*number_translator
-    - table_translator@melt_eng
-    - lua_translator@*long_phrase_first
+    - table_translator                           #  码表翻译器，用于仓颉、五笔等基于码表的输入方案
+    - lua_translator@*date_translator     # 日期、时间、星期
+    - lua_translator@*number_translator   # 大写字母
+    - history_translator@repeat_last_input       # 重复上一次输入，对应下面的 repeat_last_input
+    - table_translator@melt_eng                  # 英文输入
+    - lua_translator@*long_phrase_first          # 长词优先
   filters:
-    - simplifier
-    - "reverse_lookup_filter@ci_reverse_lookup"
-    - lua_filter@*reduce_english_filter
-    - lua_filter@*autocap_filter
-    - lua_filter@*en_spacer
-    - lua_filter@*long_word_filter
-#    - lua_filter@*single_char_first_filter
-#    - lua_filter@*single_char_only
-    - uniquifier
+    - simplifier@tradition                       # 简繁切换
+    - simplifier@emoji
+    - lua_filter@*reduce_english_filter          # 英文降频
+    - lua_filter@*autocap_filter                 # 英文自动大写
+    - lua_filter@*en_spacer                      # 启用时中文状态下输入英文单词后面自动追加空格
+    - lua_filter@*long_word_filter               # 长词优先
+#    - lua_filter@*single_char_first_filter  # 单字优先
+#    - lua_filter@*single_char_only        # 纯单字
 
 speller:
-  auto_select: true
-  auto_clear: max_length
-  delimiter: "`"
-#  max_code_length: 4
-  
+  auto_select: true             #  自動上屛
+  delimiter: "`"               #上屏时的音节间分音符
+  alphabet: "qwertasdfgzxcvbyuiophjklnm/"
+#  max_code_length: 4            #  四码上屏
+#  auto_clear: max_length     #自动清码参数：manual空码按下一键确认清屏、auto空码自动清、max_length达最长码时后码顶上清屏
+  auto_clear: max_length        #  自動清屛（四碼以內空碼不自動清屛；四碼空碼時，第五碼清空前四碼）
+  algebra:  # 万能z键拼写处理，z符号匹配任意字符
+    - derive/^(...).$/$1z/
+    - derive/^(..).(.*)$/$1z$2/
+    - derive/^(.).(.*)$/$1z$2/
+    # - derive/^.(.*)$/z$1/  # 开启本行将与z键重复上屏冲突
+
 translator:
-  dictionary: wubi
-  db_class: tabledb
-  initial_quality: 5
-  enable_charset_filter: false
-  enable_sentence: true
-  enable_encoder: false
-  encode_commit_history: false
-  max_phrase_length: 2
-  enable_completion: true
-  enable_user_dict: false
-  disable_user_dict_for_patterns:
+  dictionary: wubi              #  翻译器将调取此字典文件
+  db_class: tabledb             #  设置用户词典类型，可设`tabledb`〔文本〕或`userdb`〔二进制〕
+  initial_quality: 2            #  设置此翻译器出字优先级
+  enable_charset_filter: false  #  是否开启字符集过滤〔仅`table_translator`有效。启用`cjk_minifier`后可适用于`script_translator`〕
+  enable_sentence: true         #  是否开启自动造句
+  enable_encoder: false         #  是否开启自动造词〔仅`table_translator`有效〕
+  encode_commit_history: false  #  是否对已上屛词自动成词〔仅`table_translator`有效〕
+  max_phrase_length: 4          #  最大自动成词词长〔仅`table_translator`有效〕
+  enable_completion: true       #  提前显示尚未输入完整码的字〔仅`table_translator`有效〕
+#  sentence_over_completion:    #  在无全码对应字而仅有逐键提示时也开启智能组句〔仅`table_translator`有效〕
+#  strict_spelling:             #  配合`speller`中的`fuzz`规则，仅以畧拼码组词〔仅`table_translator`有效〕
+#  preedit_format:              #  上屛码自定义
+#  comment_format:              #  提示码自定义
+#  spelling_hints:              #  设置多少字以内候选标注完整带调拼音〔仅`script_translator`有效〕
+#  tag:                         #  设置此翻译器针对的`tag`。可不塡，不塡则仅针对`abc`
+#  prefix:                      #  设置此翻译器的前缀标识，可不塡，不塡则无前缀
+#  suffix:                      #  设置此翻译器的尾缀标识，可不塡，不塡则无尾缀
+#  tips:                        #  设置此翻译器的输入前提示符，可不塡，不塡则无提示符
+#  closing_tips:                #  设置此翻译器的结束输入提示符，可不塡，不塡则无提示符
+#  contextual_suggestions:      #  是否使用语言模型优化输出结果〔需配合`grammar`使用〕
+#  max_homophones:              #  最大同音簇长度〔需配合`grammar`使用〕
+#  max_homographs:              #  最大同形簇长度〔需配合`grammar`使用〕
+  enable_user_dict: false        #  是否开启用户词典〔用户词典记录动态字词频、用户词〕使用段时间，词库优化好后，把这项关掉。
+#  prioritize_quality: true          # 启用优先质量选项
+  disable_user_dict_for_patterns:  #  禁止某些編碼錄入用戶詞典
     - "^z.*$"
-
-fixed:
-  __include: /translator
-  initial_quality: 3
-  enable_encoder: true
-  enable_user_dict: true
-  
-mkst:
-  __include: /translator
-  initial_quality: 2
-  enable_sentence: true
-  prefix: '`'
-  tips: "〔精准造词〕"
-  tag: mkst
-
-reverse_lookup:
-  __include: /translator
-  dictionary: rime_ice
-  tips: "〔拼音反查〕"
-  preedit_format:
-    - xform/([nl])v/$1ü/
-    - xform/([nl])ue/$1üe/
-    - xform/([jqxy])v/$1u/
-  tag: rvlk2
-
-rvlk1:
-  __include: /reverse_lookup
-  prefix: "/"
-  tag: rvlk1
-  extra_tags:
-    - rvlk2
-
-ci_reverse_lookup:
-  dictionary: wubi
-  tips: "〔五笔滤镜〕"
-  tags:
-    - rvlk2
-
-key_binder:
-  import_preset: default
-
-recognizer:
-  import_preset: default
-  patterns:
-    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
-    mkst: "^[a-y]*`[a-y`]*$"
-#    punct: "^/([0-9]0?|[A-Za-z]+)$"
-    rvlk1: "^/[a-z]*'?$"
-    rvlk2: "^/[a-z]*'?$"
-    uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
-    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
-
-history:
-  input: z
-  size: 1
-  initial_quality: 3
-
-punctuator:
-  import_preset: default
-  
-menu:
-  page_size: 5  
+    - "^[a-y]{1,3}$"              # 四码调频，一 二 三 简字不调频
 
 # Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
 date_translator:
@@ -248,3 +207,34 @@ tradition:
   #  opencc_config: s2tw.json  # 簡 -> 臺灣標準
   #  opencc_config: s2twp.json  # 簡 -> 臺灣片語
   option_name: traditionalize
+
+reverse_lookup:
+  dictionary: rime_ice  # 反查使用的拼音词库
+  prefix: "/"              # 反查前缀，以它为起点
+  suffix: "'"              # 反查后缀，以它为结点
+  tips: [拼音]              # 反查时的提示信息
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: default
+#  import_preset: symbols
+# 开始快捷输入符号功能，前面留两个空格
+# 对应需要将下面 recognizer -> patterns 下面的 punct 字段的注释去掉
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+#    punct: "^/([0-9]+[a-z]*|[a-z]+)$" # 注意前方需要有4个空格，跟下面对齐
+    reverse_lookup: "^/[a-z]*'?$" # 反查词条的正则
+
+# 重复上一次输入
+repeat_last_input:
+  input: z
+  size: 1
+  initial_quality: 1.5
