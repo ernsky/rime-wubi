@@ -2,7 +2,7 @@
 # encoding: utf-8
 # 本五笔编码采用的是beavailable，具体的调整，可以参看此地址：【https://github.com/beavailable/better-wubi】
 ---
-name: wubi.phrase              # 8105字集
+name: wubi.phrase              # 固定词组
 version: "2024-12-19"
 sort: by_weight                # 可选original
 # use_preset_vocabulary: true  # 是否引入「八股文」〔含字词频、词库〕
