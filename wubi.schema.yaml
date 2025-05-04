@@ -12,6 +12,7 @@
 # [白霜拼音](https://github.com/gaboolic/rime-frost)
 # [小鹤双拼](https://github.com/boomker/rime-fast-xhup)——这个里面有手动加词语法
 # [输入方案排名](https://github.com/ayaka14732/awesome-rime)
+# [输入方案列表](https://github.com/hantang/rime-list)
 
 
 # ------- 单字码表采用《通用规范汉字表》8105 字字表 -------
@@ -50,7 +51,7 @@ schema:
 switches:
   - name: ascii_mode
     states: [ 中, Ａ ]
-    reset: 0
+    reset: 1
   - name: ascii_punct # 中英标点
     states: [ 。, .  ]
     reset: 0
@@ -84,8 +85,8 @@ engine:
     - punct_translator                           #  配合`punct_segmentor`转换标点符号
     - reverse_lookup_translator
     - table_translator                           #  码表翻译器，用于仓颉、五笔等基于码表的输入方案
-    - lua_translator@*date_translator     # 日期、时间、星期
-    - lua_translator@*number_translator   # 大写字母
+    - lua_translator@*date_translator            # 日期、时间、星期
+    - lua_translator@*number_translator          # 大写字母
     - history_translator@repeat_last_input       # 重复上一次输入，对应下面的 repeat_last_input
     - table_translator@melt_eng                  # 英文输入
     - lua_translator@*long_phrase_first          # 长词优先
@@ -93,24 +94,24 @@ engine:
     - simplifier@tradition                       # 简繁切换
     - simplifier@emoji
     - lua_filter@*reduce_english_filter          # 英文降频
-    - lua_filter@*autocap_filter                 # 英文自动大写
+#    - lua_filter@*autocap_filter                 # 英文自动大写
     - lua_filter@*en_spacer                      # 启用时中文状态下输入英文单词后面自动追加空格
     - lua_filter@*long_word_filter               # 长词优先
-#    - lua_filter@*single_char_first_filter  # 单字优先
-#    - lua_filter@*single_char_only        # 纯单字
+#    - lua_filter@*single_char_first_filter      # 单字优先
+#    - lua_filter@*single_char_only              # 纯单字
 
 speller:
-  auto_select: true             #  自動上屛
-  delimiter: "`"               #上屏时的音节间分音符
-  alphabet: "qwertasdfgzxcvbyuiophjklnm/"
-#  max_code_length: 4            #  四码上屏
-#  auto_clear: max_length     #自动清码参数：manual空码按下一键确认清屏、auto空码自动清、max_length达最长码时后码顶上清屏
+  auto_select: true             #  自动上屏
+  delimiter: "`"                #上屏时的音节间分音符
+  alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA/"
+#  max_code_length: 4           #  四码上屏
+  auto_clear: max_length       #自动清码参数：manual空码按下一键确认清屏、auto空码自动清、max_length达最长码时后码顶上清屏
   auto_clear: max_length        #  自動清屛（四碼以內空碼不自動清屛；四碼空碼時，第五碼清空前四碼）
   algebra:  # 万能z键拼写处理，z符号匹配任意字符
     - derive/^(...).$/$1z/
     - derive/^(..).(.*)$/$1z$2/
     - derive/^(.).(.*)$/$1z$2/
-    # - derive/^.(.*)$/z$1/  # 开启本行将与z键重复上屏冲突
+    # - derive/^.(.*)$/z$1/     # 开启本行将与z键重复上屏冲突
 
 translator:
   dictionary: wubi              #  翻译器将调取此字典文件
@@ -135,7 +136,7 @@ translator:
 #  contextual_suggestions:      #  是否使用语言模型优化输出结果〔需配合`grammar`使用〕
 #  max_homophones:              #  最大同音簇长度〔需配合`grammar`使用〕
 #  max_homographs:              #  最大同形簇长度〔需配合`grammar`使用〕
-  enable_user_dict: false        #  是否开启用户词典〔用户词典记录动态字词频、用户词〕使用段时间，词库优化好后，把这项关掉。
+  enable_user_dict: false       #  是否开启用户词典〔用户词典记录动态字词频、用户词〕使用段时间，词库优化好后，把这项关掉。
 #  prioritize_quality: true          # 启用优先质量选项
   disable_user_dict_for_patterns:  #  禁止某些編碼錄入用戶詞典
     - "^z.*$"
@@ -168,7 +169,7 @@ melt_eng:
 # custom  自定义，只降低 custom 里的
 # （匹配的是编码，不是单词）
 reduce_english_filter:
-  mode: all  # all | none | custom
+  mode: custom  # all | none | custom
   idx: 2        # 降低到第 idx 个位置
   # 自定义的单词列表，示例列表没有降低部分常用单词，如 and cat mail Mac but bad shit ……
   words: [aid, ann,
@@ -188,7 +189,8 @@ reduce_english_filter:
   sac, sail, sal, sam, sans, sap, saw, sax, sew, sham, shaw, shin, sig, sin, sip, sis, suit, sung, suns, sup, sur, sus,
   tad, tail, taj, tar, tax, tec, ted, tel, ter, tex, tic, tied, tier, ties, tim, tin, tit, tour, tout, tum,
   wag, wand, wap, wax, weir, won,
-  yan, yen]
+  yan, yen,
+  zach]
 
 # 简入繁出 通过 OpenCC 支持 github地址：https://github.com/BYVoid/OpenCC
 # 已集成在输入法程序中，在输入法程序目录的 opencc 目录下
@@ -227,14 +229,11 @@ punctuator:
 key_binder:
   import_preset: default
 
-recognizer:
-  import_preset: default
-  patterns:
-#    punct: "^/([0-9]+[a-z]*|[a-z]+)$" # 注意前方需要有4个空格，跟下面对齐
-    reverse_lookup: "^/[a-z]*'?$" # 反查词条的正则
-
 # 重复上一次输入
 repeat_last_input:
   input: z
   size: 1
-  initial_quality: 1.5
+  initial_quality: 5
+
+menu:
+  page_size: 5 # 每页候选项显示5个
