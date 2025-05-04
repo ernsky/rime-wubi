@@ -11,6 +11,7 @@ import_tables:
   - cn_dicts/ext      # 扩展词库
   - cn_dicts/tencent  # 腾讯词向量（大词库，部署时间较长）
   - cn_dicts/others   # 一些杂项
+  - cn_dicts/wubi.user         # 自用词、不规定造词
   # 细胞词库
 #  - cn_dicts/medication
 #  - cn_dicts/industry_product
