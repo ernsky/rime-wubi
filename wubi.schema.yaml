@@ -229,6 +229,12 @@ punctuator:
 key_binder:
   import_preset: default
 
+recognizer:
+  import_preset: default
+  patterns:
+#    punct: "^/([0-9]+[a-z]*|[a-z]+)$" # 注意前方需要有4个空格，跟下面对齐
+    reverse_lookup: "^/[a-z]*'?$" # 反查词条的正则
+
 # 重复上一次输入
 repeat_last_input:
   input: z
